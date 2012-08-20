@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The Second System Effect - Thunderbird Woes - BlindFolded Archer</title>
+  <title>Android-and-QT - BlindFolded Archer</title>
   <meta name="author" content="Don">
 
   
-  <meta name="description" content="My anecdotal evidence - Since 2005, there have been issues with Thunderbird speaking to IMAP servers, specifically saving messages to the sent folder &hellip;">
+  <meta name="description" content="What is QT on Android? Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes">
+  <link rel="canonical" href="http://teopeurt.github.com/blog/2012/08/16/android-and-qt">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">The Second System Effect - Thunderbird Woes</h1>
+      <h1 class="entry-title">Android-and-QT</h1>
     
     
       <p class="meta">
@@ -98,41 +98,33 @@
   
 
 
-<time datetime="2011-11-09T00:00:00+00:00" pubdate data-updated="true">Nov 9<span>th</span>, 2011</time>
+<time datetime="2012-08-16T12:22:00+01:00" pubdate data-updated="true">Aug 16<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>My anecdotal evidence - Since 2005, there have been issues with Thunderbird speaking to IMAP servers, specifically saving messages to the sent folder. I assume there have been a bug filed for this but we are now in 2011 and this issue still exists in Thunderbird 7 - So much for progress.</p>
+<div class="entry-content"><h2>What is QT on Android?</h2>
 
-<p><a title="Thunderbird Issue" href="http://forums.mozillazine.org/viewtopic.php?t=218625&amp;start=0." target="_blank">Issue Discussion Here:</a></p>
+<p>Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.</p>
 
-<p>I really hate it when people point me to forums, as a source of a solution - especially ones that are 12 pages long! If you do not want to help, then don&#8217;t reply! You do have a choice.</p>
+<p>Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.</p>
 
-<p>Anyway this reminds me of the highly charged jwz, who says it much better than me - even gave it a cool name -  <a title="CADT" href="http://www.jwz.org/doc/cadt.html">CADT</a>.</p>
+<p>Look <a href="http://necessitas.kde.org/">here</a> for good introduction and the <a href="http://community.kde.org/Necessitas">community</a> if you want to tinker.</p>
 
-<p>Note that he was referring to Gnome 1 -&gt; 2, and now we have the monstrosity that is Gnome 3! So much for progress!</p>
+<blockquote><p>Necessitas is a KDE community project aimed to provide an easy way to develop Qt apps on Android platform.
+Necessitas comes from the need of exploiting the power and the multi-platform capabilities of the Qt  framework on the Android world. It was born as a concept work which demonstrates the flexibility of Qt and, today, strives to become a fully  working development solution for Android.</p></blockquote>
 
-<p>To al who says Google is your friend - the account settings are no longer under &#8216;Tools&#8217;
-they are now under &#8216;Edit&#8217;.</p>
+<p>It was the brainchild of 31 year old Romanian Bogdan Vatra. He did an interview with <a href="http://www.behindkde.org/node/925">Behind KDE</a>. His introduction to the Android platform SDK was similar to mine - doing custom Android builds on embedded devices, though mine was at TomTom and Renault. Here is an excerpt of how he started work on Necessitas.</p>
 
-<p>Basically there are 2 things to do -</p>
+<blockquote><p><strong>How old is the Qt on Android project?  Who started it?</strong></p>
 
-<ul>
-    <li>Reduce server connections cache to 1.</li>
-</ul>
+<p>I started to port Qt to Android at the end of 2009. When I started it the name was android-lighthouse but I had to change the name to &#8220;Necessitas&#8221; just before the SDK release because Nokia and Google didn&#8217;t allow me to use Qt and/or Android words.</p>
 
+<p><a href="http://labs.qt.nokia.com/">Lighthouse</a>, a research project started by Nokia, helped me a lot. This project made my life very easy, the changes I had to make were only a small set of changes into the Qt tree. The &#8220;biggest change&#8221; was to add another shared memory implementation based on ashmem.</p></blockquote>
 
-<ul>
-    <li>In &#8216;copies and folders&#8217; under &#8216;Account Settings&#8217;, uncheck the box to automatically place copies in &#8216;local&#8217; folders, rather have them stored in the server. The way IMAP works, you will still get these in your folders - go figure. Until they fix this issue, we will still have this problem!</li>
-</ul>
-
-
-<p>Only link I found that gave me an idea on the folder thingy was by <a title="Dr Nabeel" href="http://nabtron.com/thunderbird-stuck-on-copying-message-to-sent-folder-solved-on-mac-osx/2909/" target="_blank">Dr Nabeel</a></p>
-
-<p>The reason for this post title? <a title="second system effect" href="The second-system effect refers to the tendency of small, elegant, and successful systems to have elephantine, feature-laden monstrosities as their successors. ">Wikipedia</a> is your friend!</p>
+<p>This post is part of a series of post on QT. I will actually go through the steps for creating an android application using the brilliant QT Quick and <a href="http://qt.nokia.com/qtquick/">QML</a>.</p>
 </div>
 
 
@@ -155,7 +147,7 @@ they are now under &#8216;Edit&#8217;.</p>
   
 
 
-<time datetime="2011-11-09T00:00:00+00:00" pubdate data-updated="true">Nov 9<span>th</span>, 2011</time>
+<time datetime="2012-08-16T12:22:00+01:00" pubdate data-updated="true">Aug 16<span>th</span>, 2012</time>
       
 
 
@@ -163,7 +155,7 @@ they are now under &#8216;Edit&#8217;.</p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes/" data-via="teopeurt" data-counturl="http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://teopeurt.github.com/blog/2012/08/16/android-and-qt/" data-via="teopeurt" data-counturl="http://teopeurt.github.com/blog/2012/08/16/android-and-qt/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -174,10 +166,10 @@ they are now under &#8216;Edit&#8217;.</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/" title="Previous Post: Do Not Equate To Skill, What Can Easily Be Attributed To Luck">&laquo; Do Not Equate To Skill, What Can Easily Be Attributed To Luck</a>
+        <a class="basic-alignment left" href="/blog/2012/08/16/using-ninja/" title="Previous Post: Using-Ninja">&laquo; Using-Ninja</a>
       
       
-        <a class="basic-alignment right" href="/blog/2012/06/16/syntax/" title="Next Post: syntax heaven">syntax heaven &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2012/08/16/rben-keeping-things-local/" title="Next Post: RBEN Keeping Things Local">RBEN Keeping Things Local &raquo;</a>
       
     </p>
   </footer>

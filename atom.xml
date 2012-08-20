@@ -2,22 +2,152 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[BlindFolded Archer]]></title>
-  <link href="http://blindfoldedarcher.com/atom.xml" rel="self"/>
-  <link href="http://blindfoldedarcher.com/"/>
-  <updated>2012-05-25T15:54:29+01:00</updated>
-  <id>http://blindfoldedarcher.com/</id>
+  <link href="http://teopeurt.github.com/atom.xml" rel="self"/>
+  <link href="http://teopeurt.github.com/"/>
+  <updated>2012-08-20T13:34:23+01:00</updated>
+  <id>http://teopeurt.github.com/</id>
   <author>
-    <name><![CDATA[Don Hackuma]]></name>
+    <name><![CDATA[Don]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[Never Buy non GED Android]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/never-buy-non-ged-android/"/>
+    <updated>2012-08-16T16:47:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/never-buy-non-ged-android</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MapBox - Mapping Tech]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/mapbox-mapping-tech/"/>
+    <updated>2012-08-16T16:04:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/mapbox-mapping-tech</id>
+    <content type="html"><![CDATA[<p>Mapbox, Open Mapping Platform and Tile Mill.</p>
+
+<p>Only an IOS SDK, but Javascript API is okay I suppose.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Barefoot Running]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/barefoot-running/"/>
+    <updated>2012-08-16T16:02:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/barefoot-running</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RBEN Keeping Things Local]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/rben-keeping-things-local/"/>
+    <updated>2012-08-16T15:56:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/rben-keeping-things-local</id>
+    <content type="html"><![CDATA[<p>The benefits of keeping thing local,</p>
+
+<p>working across machines- I have 3 physical machines I use daily and countless servers dotted around the world, I can never remember the shell commands for any particular project so I created build scripts. I always hated having to rebuild dev environments hence I loved RVM. The RBENV came along and I fell in love. Used in conjuction with a Bundler and &#8211;path option, one can get a pretty awesome build going that is isolated and local just to that directory!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android-and-QT]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/android-and-qt/"/>
+    <updated>2012-08-16T12:22:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/android-and-qt</id>
+    <content type="html"><![CDATA[<h2>What is QT on Android?</h2>
+
+<p>Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.</p>
+
+<p>Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.</p>
+
+<p>Look <a href="http://necessitas.kde.org/">here</a> for good introduction and the <a href="http://community.kde.org/Necessitas">community</a> if you want to tinker.</p>
+
+<blockquote><p>Necessitas is a KDE community project aimed to provide an easy way to develop Qt apps on Android platform.
+Necessitas comes from the need of exploiting the power and the multi-platform capabilities of the Qt  framework on the Android world. It was born as a concept work which demonstrates the flexibility of Qt and, today, strives to become a fully  working development solution for Android.</p></blockquote>
+
+<p>It was the brainchild of 31 year old Romanian Bogdan Vatra. He did an interview with <a href="http://www.behindkde.org/node/925">Behind KDE</a>. His introduction to the Android platform SDK was similar to mine - doing custom Android builds on embedded devices, though mine was at TomTom and Renault. Here is an excerpt of how he started work on Necessitas.</p>
+
+<blockquote><p><strong>How old is the Qt on Android project?  Who started it?</strong></p>
+
+<p>I started to port Qt to Android at the end of 2009. When I started it the name was android-lighthouse but I had to change the name to &#8220;Necessitas&#8221; just before the SDK release because Nokia and Google didn&#8217;t allow me to use Qt and/or Android words.</p>
+
+<p><a href="http://labs.qt.nokia.com/">Lighthouse</a>, a research project started by Nokia, helped me a lot. This project made my life very easy, the changes I had to make were only a small set of changes into the Qt tree. The &#8220;biggest change&#8221; was to add another shared memory implementation based on ashmem.</p></blockquote>
+
+<p>This post is part of a series of post on QT. I will actually go through the steps for creating an android application using the brilliant QT Quick and <a href="http://qt.nokia.com/qtquick/">QML</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using-Ninja]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/using-ninja/"/>
+    <updated>2012-08-16T12:21:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/using-ninja</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[syntax heaven]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/06/16/syntax/"/>
+    <updated>2012-06-16T11:36:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/06/16/syntax</id>
+    <content type="html"><![CDATA[<h2>A Second Level Header</h2>
+
+<p>Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.</p>
+
+<h3>Header 3</h3>
+
+<blockquote><p>This is a blockquote.</p>
+
+<p>This is the second paragraph in the blockquote.</p>
+
+<h2>This is an H2 in a blockquote</h2></blockquote>
+
+<p>This is an <a href="http://example.com/" title="With a Title">example link</a>.</p>
+
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from
+<a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+
+<p><img src="http://teopeurt.github.com/path/to/img.jpg" title="Title" alt="alt text" /></p>
+
+<p>Some of these words <em>are emphasized</em>.
+Some of these words <em>are emphasized also</em>.</p>
+
+<p>Use two asterisks for <strong>strong emphasis</strong>.
+Or, if you prefer, <strong>use two underscores instead</strong>.</p>
+
+<p>Pygments supports many languages, but doesn’t recognize some file extensions. Add lang:your_language to force highlighting if the filename doesn’t work.</p>
+
+<figure class='code'><figcaption><span>Here&#8217;s an example .rvmrc file.  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">rvm</span> <span class="n">ruby</span><span class="o">-</span><span class="mi">1</span><span class="o">.</span><span class="mi">8</span><span class="o">.</span><span class="mi">6</span> <span class="c1"># ZOMG, seriously? We still use this version?</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Add an optional URL to enable downloading or linking to source.</p>
+
+<figure class='code'><figcaption><span>Javascript Array Syntax </span><a href='http://j.mp/pPUUmW'>MDN Documentation </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">var</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">arrayLength</span><span class="p">);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">element0</span><span class="p">,</span> <span class="nx">element1</span><span class="p">,</span> <span class="p">...,</span> <span class="nx">elementN</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Second System Effect - Thunderbird Woes]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes/"/>
+    <link href="http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes/"/>
     <updated>2011-11-09T00:00:00+00:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes</id>
+    <id>http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes</id>
     <content type="html"><![CDATA[<p>My anecdotal evidence - Since 2005, there have been issues with Thunderbird speaking to IMAP servers, specifically saving messages to the sent folder. I assume there have been a bug filed for this but we are now in 2011 and this issue still exists in Thunderbird 7 - So much for progress.</p>
 
 <p><a title="Thunderbird Issue" href="http://forums.mozillazine.org/viewtopic.php?t=218625&amp;start=0." target="_blank">Issue Discussion Here:</a></p>
@@ -51,9 +181,9 @@ they are now under &#8216;Edit&#8217;.</p>
   
   <entry>
     <title type="html"><![CDATA[Do Not Equate To Skill, What Can Easily Be Attributed To Luck]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/"/>
+    <link href="http://teopeurt.github.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/"/>
     <updated>2011-11-07T00:00:00+00:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck</id>
+    <id>http://teopeurt.github.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck</id>
     <content type="html"><![CDATA[<p>A post on a post about a post. How many layers of abstraction? Reminds me of paper money!</p>
 
 <p>Do not really like linking to other posts - but this hits the nail on the head. The so called masters of the universe have no idea luck and serendipity plays such an important role in their &#8216;achievements&#8217;. Much better analysis than can be done by me.</p>
@@ -64,9 +194,9 @@ they are now under &#8216;Edit&#8217;.</p>
   
   <entry>
     <title type="html"><![CDATA[RIP Dennis..]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/10/13/rip-dennis/"/>
+    <link href="http://teopeurt.github.com/blog/2011/10/13/rip-dennis/"/>
     <updated>2011-10-13T00:00:00+01:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/10/13/rip-dennis</id>
+    <id>http://teopeurt.github.com/blog/2011/10/13/rip-dennis</id>
     <content type="html"><![CDATA[<p>A great <a title="Dennis" href="http://en.wikipedia.org/wiki/Dennis_Ritchie" target="_blank">man</a> passed today. Unassuming and truly a legend, at least in my eyes.</p>
 
 <p>If you haven&#8217;t read it - go buy it now! Once you can program in C - you can do anything.</p>
@@ -79,9 +209,9 @@ they are now under &#8216;Edit&#8217;.</p>
   
   <entry>
     <title type="html"><![CDATA[How to BackUp]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/09/15/how-to-backup/"/>
+    <link href="http://teopeurt.github.com/blog/2011/09/15/how-to-backup/"/>
     <updated>2011-09-15T00:00:00+01:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/09/15/how-to-backup</id>
+    <id>http://teopeurt.github.com/blog/2011/09/15/how-to-backup</id>
     <content type="html"><![CDATA[<p>Don&#8217;t break what works - this constant to re-invent the wheel! sheesh</p>
 
 <p>is Emacs broken, is Gnutils?</p>
@@ -115,9 +245,9 @@ If you have a laptop, do that before you go to bed. Really. Every night when you
   
   <entry>
     <title type="html"><![CDATA[Unix Help For Users]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/07/03/unix-help-for-users/"/>
+    <link href="http://teopeurt.github.com/blog/2011/07/03/unix-help-for-users/"/>
     <updated>2011-07-03T00:00:00+01:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/07/03/unix-help-for-users</id>
+    <id>http://teopeurt.github.com/blog/2011/07/03/unix-help-for-users</id>
     <content type="html"><![CDATA[<p><a href="http://unixhelp.ed.ac.uk/">http://unixhelp.ed.ac.uk/</a>
 Nuff Said.</p>
 ]]></content>
@@ -125,9 +255,9 @@ Nuff Said.</p>
   
   <entry>
     <title type="html"><![CDATA[How Not to Hack the Android Framework]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/06/22/Hacking-Android-FrameWork/"/>
+    <link href="http://teopeurt.github.com/blog/2011/06/22/Hacking-Android-FrameWork/"/>
     <updated>2011-06-22T00:00:00+01:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/06/22/Hacking-Android-FrameWork</id>
+    <id>http://teopeurt.github.com/blog/2011/06/22/Hacking-Android-FrameWork</id>
     <content type="html"><![CDATA[<p class="meta">22 June 2011 - Amsterdam</p>
 
 
@@ -148,9 +278,9 @@ the quantity/frequencty was sufficiently low.</p>
   
   <entry>
     <title type="html"><![CDATA[Chronos and BeagleBoard/Pandaboard]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/06/01/Chronos-BeagleBoard/"/>
+    <link href="http://teopeurt.github.com/blog/2011/06/01/Chronos-BeagleBoard/"/>
     <updated>2011-06-01T00:00:00+01:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/06/01/Chronos-BeagleBoard</id>
+    <id>http://teopeurt.github.com/blog/2011/06/01/Chronos-BeagleBoard</id>
     <content type="html"><![CDATA[<p class="meta">1 June 2011 - London</p>
 
 
@@ -164,9 +294,9 @@ the quantity/frequencty was sufficiently low.</p>
   
   <entry>
     <title type="html"><![CDATA[LLVM - What is it?]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/03/07/llvm-compiler-infrastructure/"/>
+    <link href="http://teopeurt.github.com/blog/2011/03/07/llvm-compiler-infrastructure/"/>
     <updated>2011-03-07T00:00:00+00:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/03/07/llvm-compiler-infrastructure</id>
+    <id>http://teopeurt.github.com/blog/2011/03/07/llvm-compiler-infrastructure</id>
     <content type="html"><![CDATA[<p>What is LLVM? It&#8217;s homepage is somewhat cryptic - spends the first paragraph telling people what it is NOT!</p>
 
 <p><a title="LLVM" href="http://www.llvm.org/">llvm</a></p>
@@ -212,9 +342,9 @@ compiler problems.</pre>
   
   <entry>
     <title type="html"><![CDATA[The McDonalds Model]]></title>
-    <link href="http://blindfoldedarcher.com/blog/2011/02/01/the-mcdonalds-model/"/>
+    <link href="http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model/"/>
     <updated>2011-02-01T00:00:00+00:00</updated>
-    <id>http://blindfoldedarcher.com/blog/2011/02/01/the-mcdonalds-model</id>
+    <id>http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model</id>
     <content type="html"><![CDATA[<p>My talk at this year&#8217;s FOSDEM. Explaining the soon-to-be world changing Village Telco Mesh Potato!</p>
 
 <div id="__ss_6830334" style="width: 425px;">
