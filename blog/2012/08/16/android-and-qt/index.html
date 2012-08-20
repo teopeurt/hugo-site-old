@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The McDonalds Model - BlindFolded Archer</title>
+  <title>Android-and-QT - BlindFolded Archer</title>
   <meta name="author" content="Don">
 
   
-  <meta name="description" content="My talk at this year&#8217;s FOSDEM. Explaining the soon-to-be world changing Village Telco Mesh Potato! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; & &hellip;">
+  <meta name="description" content="What is QT on Android? Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model">
+  <link rel="canonical" href="http://teopeurt.github.com/blog/2012/08/16/android-and-qt">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">The McDonalds Model</h1>
+      <h1 class="entry-title">Android-and-QT</h1>
     
     
       <p class="meta">
@@ -98,37 +98,33 @@
   
 
 
-<time datetime="2011-02-01T00:00:00+00:00" pubdate data-updated="true">Feb 1<span>st</span>, 2011</time>
+<time datetime="2012-08-16T12:22:00+01:00" pubdate data-updated="true">Aug 16<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>My talk at this year&#8217;s FOSDEM. Explaining the soon-to-be world changing Village Telco Mesh Potato!</p>
+<div class="entry-content"><h2>What is QT on Android?</h2>
 
-<div id="__ss_6830334" style="width: 425px;">
+<p>Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.</p>
 
-&nbsp;
+<p>Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.</p>
 
-&nbsp;
+<p>Look <a href="http://necessitas.kde.org/">here</a> for good introduction and the <a href="http://community.kde.org/Necessitas">community</a> if you want to tinker.</p>
 
-&nbsp;
+<blockquote><p>Necessitas is a KDE community project aimed to provide an easy way to develop Qt apps on Android platform.
+Necessitas comes from the need of exploiting the power and the multi-platform capabilities of the Qt  framework on the Android world. It was born as a concept work which demonstrates the flexibility of Qt and, today, strives to become a fully  working development solution for Android.</p></blockquote>
 
-&nbsp;
+<p>It was the brainchild of 31 year old Romanian Bogdan Vatra. He did an interview with <a href="http://www.behindkde.org/node/925">Behind KDE</a>. His introduction to the Android platform SDK was similar to mine - doing custom Android builds on embedded devices, though mine was at TomTom and Renault. Here is an excerpt of how he started work on Necessitas.</p>
 
-&nbsp;
+<blockquote><p><strong>How old is the Qt on Android project?  Who started it?</strong></p>
 
-&nbsp;
+<p>I started to port Qt to Android at the end of 2009. When I started it the name was android-lighthouse but I had to change the name to &#8220;Necessitas&#8221; just before the SDK release because Nokia and Google didn&#8217;t allow me to use Qt and/or Android words.</p>
 
-&nbsp;
+<p><a href="http://labs.qt.nokia.com/">Lighthouse</a>, a research project started by Nokia, helped me a lot. This project made my life very easy, the changes I had to make were only a small set of changes into the Qt tree. The &#8220;biggest change&#8221; was to add another shared memory implementation based on ashmem.</p></blockquote>
 
-<strong style="display: block; margin: 12px 0 4px;"><a title="VillageTelco FOSDEM WirelessDialog" href="http://www.slideshare.net/teopeurt/villagetelcofinal">VillageTelco FOSDEM WirelessDialog</a></strong>
-<div style="padding: 5px 0 12px;">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/teopeurt">teopeurt</a></div>
-&nbsp;
-
-</div>
-
+<p>This post is part of a series of post on QT. I will actually go through the steps for creating an android application using the brilliant QT Quick and <a href="http://qt.nokia.com/qtquick/">QML</a>.</p>
 </div>
 
 
@@ -151,7 +147,7 @@
   
 
 
-<time datetime="2011-02-01T00:00:00+00:00" pubdate data-updated="true">Feb 1<span>st</span>, 2011</time>
+<time datetime="2012-08-16T12:22:00+01:00" pubdate data-updated="true">Aug 16<span>th</span>, 2012</time>
       
 
 
@@ -159,7 +155,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model/" data-via="teopeurt" data-counturl="http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://teopeurt.github.com/blog/2012/08/16/android-and-qt/" data-via="teopeurt" data-counturl="http://teopeurt.github.com/blog/2012/08/16/android-and-qt/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -170,8 +166,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2011/11/09/the-second-system-effect-thunderbird-woes/" title="Previous Post: The Second System Effect - Thunderbird Woes">&laquo; The Second System Effect - Thunderbird Woes</a>
       
-        <a class="basic-alignment right" href="/blog/2011/03/07/llvm-compiler-infrastructure/" title="Next Post: LLVM - What is it?">LLVM - What is it? &raquo;</a>
       
     </p>
   </footer>

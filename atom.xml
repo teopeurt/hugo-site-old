@@ -4,7 +4,7 @@
   <title><![CDATA[BlindFolded Archer]]></title>
   <link href="http://teopeurt.github.com/atom.xml" rel="self"/>
   <link href="http://teopeurt.github.com/"/>
-  <updated>2012-08-20T13:36:31+01:00</updated>
+  <updated>2012-08-20T13:37:39+01:00</updated>
   <id>http://teopeurt.github.com/</id>
   <author>
     <name><![CDATA[Don]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android-and-QT]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/08/16/android-and-qt/"/>
+    <updated>2012-08-16T12:22:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/08/16/android-and-qt</id>
+    <content type="html"><![CDATA[<h2>What is QT on Android?</h2>
+
+<p>Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.</p>
+
+<p>Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.</p>
+
+<p>Look <a href="http://necessitas.kde.org/">here</a> for good introduction and the <a href="http://community.kde.org/Necessitas">community</a> if you want to tinker.</p>
+
+<blockquote><p>Necessitas is a KDE community project aimed to provide an easy way to develop Qt apps on Android platform.
+Necessitas comes from the need of exploiting the power and the multi-platform capabilities of the Qt  framework on the Android world. It was born as a concept work which demonstrates the flexibility of Qt and, today, strives to become a fully  working development solution for Android.</p></blockquote>
+
+<p>It was the brainchild of 31 year old Romanian Bogdan Vatra. He did an interview with <a href="http://www.behindkde.org/node/925">Behind KDE</a>. His introduction to the Android platform SDK was similar to mine - doing custom Android builds on embedded devices, though mine was at TomTom and Renault. Here is an excerpt of how he started work on Necessitas.</p>
+
+<blockquote><p><strong>How old is the Qt on Android project?  Who started it?</strong></p>
+
+<p>I started to port Qt to Android at the end of 2009. When I started it the name was android-lighthouse but I had to change the name to &#8220;Necessitas&#8221; just before the SDK release because Nokia and Google didn&#8217;t allow me to use Qt and/or Android words.</p>
+
+<p><a href="http://labs.qt.nokia.com/">Lighthouse</a>, a research project started by Nokia, helped me a lot. This project made my life very easy, the changes I had to make were only a small set of changes into the Qt tree. The &#8220;biggest change&#8221; was to add another shared memory implementation based on ashmem.</p></blockquote>
+
+<p>This post is part of a series of post on QT. I will actually go through the steps for creating an android application using the brilliant QT Quick and <a href="http://qt.nokia.com/qtquick/">QML</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Second System Effect - Thunderbird Woes]]></title>
