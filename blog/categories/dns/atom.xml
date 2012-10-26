@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: dns | BlindFolded Archer]]></title>
+  <link href="http://teopeurt.github.com/blog/categories/dns/atom.xml" rel="self"/>
+  <link href="http://teopeurt.github.com/"/>
+  <updated>2012-09-10T14:32:17+01:00</updated>
+  <id>http://teopeurt.github.com/</id>
+  <author>
+    <name><![CDATA[Don]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[DNS Service Providers]]></title>
+    <link href="http://teopeurt.github.com/blog/2012/09/03/dns-service-providers/"/>
+    <updated>2012-09-03T10:54:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2012/09/03/dns-service-providers</id>
+    <content type="html"><![CDATA[<p>http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/
+https://dnsimple.com/domains/new
+http://www.nettica.com/Prices/Default.aspx
+http://www.dnsmadeeasy.com/</p>
+
+<p>My features
+Aname, CName, DynamicDNS, API, Cheap / 10s - 100s of domains, TTL (not that these are respected)
+setup, docs,</p>
+
+<p>How do these Compare?</p>
+
+<h2>Background</h2>
+
+<p>Always used Linode DNS manager, but not suitable for everything - especially A-Name</p>
+]]></content>
+  </entry>
+  
+</feed>
