@@ -4,7 +4,7 @@
   <title><![CDATA[BlindFolded Archer]]></title>
   <link href="http://teopeurt.github.com/atom.xml" rel="self"/>
   <link href="http://teopeurt.github.com/"/>
-  <updated>2012-10-26T15:31:20+01:00</updated>
+  <updated>2012-10-26T15:51:27+01:00</updated>
   <id>http://teopeurt.github.com/</id>
   <author>
     <name><![CDATA[Don]]></name>
@@ -14,292 +14,231 @@
 
   
   <entry>
-    <title type="html"><![CDATA[new-post]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/10/26/new-post/"/>
-    <updated>2012-10-26T15:28:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/10/26/new-post</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[The Second System Effect - Thunderbird Woes]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes/"/>
+    <updated>2011-11-09T00:00:00+00:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes</id>
+    <content type="html"><![CDATA[<p>My anecdotal evidence - Since 2005, there have been issues with Thunderbird speaking to IMAP servers, specifically saving messages to the sent folder. I assume there have been a bug filed for this but we are now in 2011 and this issue still exists in Thunderbird 7 - So much for progress.</p>
+
+<p><a title="Thunderbird Issue" href="http://forums.mozillazine.org/viewtopic.php?t=218625&amp;start=0." target="_blank">Issue Discussion Here:</a></p>
+
+<p>I really hate it when people point me to forums, as a source of a solution - especially ones that are 12 pages long! If you do not want to help, then don&#8217;t reply! You do have a choice.</p>
+
+<p>Anyway this reminds me of the highly charged jwz, who says it much better than me - even gave it a cool name -  <a title="CADT" href="http://www.jwz.org/doc/cadt.html">CADT</a>.</p>
+
+<p>Note that he was referring to Gnome 1 -&gt; 2, and now we have the monstrosity that is Gnome 3! So much for progress!</p>
+
+<p>To al who says Google is your friend - the account settings are no longer under &#8216;Tools&#8217;
+they are now under &#8216;Edit&#8217;.</p>
+
+<p>Basically there are 2 things to do -</p>
+
+<ul>
+    <li>Reduce server connections cache to 1.</li>
+</ul>
+
+
+<ul>
+    <li>In &#8216;copies and folders&#8217; under &#8216;Account Settings&#8217;, uncheck the box to automatically place copies in &#8216;local&#8217; folders, rather have them stored in the server. The way IMAP works, you will still get these in your folders - go figure. Until they fix this issue, we will still have this problem!</li>
+</ul>
+
+
+<p>Only link I found that gave me an idea on the folder thingy was by <a title="Dr Nabeel" href="http://nabtron.com/thunderbird-stuck-on-copying-message-to-sent-folder-solved-on-mac-osx/2909/" target="_blank">Dr Nabeel</a></p>
+
+<p>The reason for this post title? <a title="second system effect" href="The second-system effect refers to the tendency of small, elegant, and successful systems to have elephantine, feature-laden monstrosities as their successors. ">Wikipedia</a> is your friend!</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Doors type System for BDD and TDD complex systems requirements]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/14/doors-type-system-for-bdd-and-tdd-complex-systems-requirements/"/>
-    <updated>2012-09-14T13:30:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/14/doors-type-system-for-bdd-and-tdd-complex-systems-requirements</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Do Not Equate To Skill, What Can Easily Be Attributed To Luck]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/"/>
+    <updated>2011-11-07T00:00:00+00:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck</id>
+    <content type="html"><![CDATA[<p>A post on a post about a post. How many layers of abstraction? Reminds me of paper money!</p>
+
+<p>Do not really like linking to other posts - but this hits the nail on the head. The so called masters of the universe have no idea luck and serendipity plays such an important role in their &#8216;achievements&#8217;. Much better analysis than can be done by me.</p>
+
+<p>Excellent post by Fred Dustin on Hubris - [http://www.freddestin.com/blog/2011/11/ows-2-hubris-in-the-face-of-risk-and-a-culture-of-entitlement.html].</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Enterprise App Store]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/14/enterprise-app-store/"/>
-    <updated>2012-09-14T13:28:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/14/enterprise-app-store</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[RIP Dennis..]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/10/13/rip-dennis/"/>
+    <updated>2011-10-13T00:00:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/10/13/rip-dennis</id>
+    <content type="html"><![CDATA[<p>A great <a title="Dennis" href="http://en.wikipedia.org/wiki/Dennis_Ritchie" target="_blank">man</a> passed today. Unassuming and truly a legend, at least in my eyes.</p>
+
+<p>If you haven&#8217;t read it - go buy it now! Once you can program in C - you can do anything.</p>
+
+<p><a title="Ansi C" href="http://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628">The C Programming Language.</a></p>
+
+<p>&nbsp;</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Documenting the Android Framework]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/14/documenting-the-android-framework/"/>
-    <updated>2012-09-14T13:28:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/14/documenting-the-android-framework</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[How to BackUp]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/09/15/how-to-backup/"/>
+    <updated>2011-09-15T00:00:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/09/15/how-to-backup</id>
+    <content type="html"><![CDATA[<p>Don&#8217;t break what works - this constant to re-invent the wheel! sheesh</p>
+
+<p>is Emacs broken, is Gnutils?</p>
+
+<p>After reading the very unhelpful advice on <a title="Ubuntu backup" href="https://help.ubuntu.com/community/BackupYourSystem">Ubuntu</a> on how to backup - I have stolen the old notes from jwz.</p>
+
+<p>http://www.jwz.org/doc/backups.html</p>
+
+<ul>
+    <li>You have a computer. It came with a hard drive in it. Go buy two more drives of the same size or larger. If the drive in your computer is SATA2, get SATA2. If it&#8217;s a 2.5&#8221; laptop drive, get two of those. Brand doesn&#8217;t matter, but physical measurements and connectors should match.</li>
+    <li>Get external enclosures for both of them. The enclosures are under $30.</li>
+    <li>Put one of these drives in its enclosure on your desk. Name it something clever like &#8220;Backup&#8221;. If you are using a Mac, the command you use to back up is this:
+<pre><strong>sudo rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/</strong></pre>
+If you&#8217;re using Linux, it&#8217;s something a lot like that. If you&#8217;re using Windows, go fuck yourself.</li>
+    <li>If you have a desktop computer, have this happen every morning at 5AM by creating a temporary text file containing this line:
+<pre><strong>0 5 * * * rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/</strong></pre>
+and then doing <strong><tt>sudo crontab -u root <em>that-file</em></tt></strong>
+
+If you have a laptop, do that before you go to bed. Really. Every night when you plug your laptop in to charge.</li>
+    <li>If you&#8217;re on a Mac, that backup drive will be <em>bootable.</em> That means that when (WHEN) your internal drive scorches itself, you can just take your backup drive and put it in your computer and go. This is nice.</li>
+    <li>When (WHEN) your backup drive goes bad, which you will notice because your last backup failed, replace it immediately. This is your number one priority. Don&#8217;t wait until the weekend when you have time, do it now, before you so much as <em>touch</em> your computer again. Do it before goddamned breakfast. The universe tends toward maximum irony. Don&#8217;t push it.</li>
+    <li>That third drive? Do a backup onto it the same way, then take that to your office and lock it in a desk. Every few months, bring it home, do a backup, and immediately take it away again. This is your &#8220;my house burned down&#8221; backup.</li>
+</ul>
+
+
+<p><em>&#8220;OMG, three drives is so expensive! That sounds like a hassle!&#8221;</em> Shut up. I know things. You will listen to me. Do it anyway.</p>
+
+<p>Excellent advice!</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Einhorn: UseCase]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase/"/>
-    <updated>2012-09-10T14:36:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Unix Help For Users]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/07/03/unix-help-for-users/"/>
+    <updated>2011-07-03T00:00:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/07/03/unix-help-for-users</id>
+    <content type="html"><![CDATA[<p><a href="http://unixhelp.ed.ac.uk/">http://unixhelp.ed.ac.uk/</a>
+Nuff Said.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Mobile Cross Platform Strategy]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/10/mobile-cross-platform-strategy/"/>
-    <updated>2012-09-10T14:20:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/10/mobile-cross-platform-strategy</id>
-    <content type="html"><![CDATA[<h2>Define the Problem</h2>
+    <title type="html"><![CDATA[How Not to Hack the Android Framework]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/06/22/Hacking-Android-FrameWork/"/>
+    <updated>2011-06-22T00:00:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/06/22/Hacking-Android-FrameWork</id>
+    <content type="html"><![CDATA[<p class="meta">22 June 2011 - Amsterdam</p>
 
-<p>Define the problem we face today</p>
 
-<h2>Define the solution</h2>
+<p>This is a short dump of my notes to a customer who hacked the Android framework to create a custom build for their project. The resulting system was unstable and my job was to find out why (and fix it).</p>
 
-<p>list possible solution and setbacks
-note: underlying architecture (C/C++)</p>
+<blockquote><p>Comparing a stock android emulator (both 2.2 and 2.3), we see comparable values for highly graphic intensive apps.</p>
 
-<h3>Why Does it Works?</h3>
+<p>The difference in system-server could be down to our additions and the amount of processes - for each process needs to
+communicate it&#8217;s state and activities to system_server (package manager, activity manager etc, ContentProvider resolver), the more the process, the more
+the messages as the framework need to know which activities, services, providers and broadcast is running.</p>
 
-<p>what is the best way</p>
+<p>I have instrumented the framework and could not find any extra  messages due to increased CotentProvider usages or broadcast recievers, although I can now track the message to the actual package/classs
+the quantity/frequencty was sufficiently low.</p>
 
-<h3>Example App</h3>
-
-<p>Why it Works
-How it works</p>
+<p>system_server crashes because it has run out of FD(file descriptors!).</p></blockquote>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Rails - Efficiency in Production]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/04/rails-efficiency-in-production/"/>
-    <updated>2012-09-04T16:22:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/04/rails-efficiency-in-production</id>
-    <content type="html"><![CDATA[<p>Rails Asset Pipeline - rails book</p>
+    <title type="html"><![CDATA[Chronos and BeagleBoard/Pandaboard]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/06/01/Chronos-BeagleBoard/"/>
+    <updated>2011-06-01T00:00:00+01:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/06/01/Chronos-BeagleBoard</id>
+    <content type="html"><![CDATA[<p class="meta">1 June 2011 - London</p>
 
-<p>Source:</p>
 
-<p>Efficiency in Production
-One of the best things about the asset pipeline is that it automatically results in assets that are optimized to be efficient in a production application. Traditional methods for organizing CSS and JavaScript involve splitting functionality into separate files and using nice formatting (with lots of indentation). While convenient for the programmer, this is inefficient in production; including multiple full-sized files can significantly slow page-load times (one of the most important factors affecting the quality of the user experience). With the asset pipeline, in production all the application stylesheets get rolled into one CSS file (application.css), all the application JavaScript code gets rolled into one JavaScript file (javascripts.js), and all such files (including those in lib/assets and vendor/assets) are minified to remove the unnecessary whitespace that bloats file size. As a result, we get the best of both worlds: multiple nicely formatted files for programmer convenience, with single optimized files in production.</p>
+<p>Check out this awesome watch <a href="http://processors.wiki.ti.com/index.php/EZ430-Chronos">Chronos</a></p>
+
+<p>Looking forward to playing with it as I just ordered it.</p>
+
+<p>Stay tuned for more information once it arrives!</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Making an EPUB Reader for Cocoa]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/03/making-an-epub-reader-for-cocoa/"/>
-    <updated>2012-09-03T23:41:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/03/making-an-epub-reader-for-cocoa</id>
-    <content type="html"><![CDATA[<p>Source: http://stackoverflow.com/questions/1388467/reading-epub-format</p>
+    <title type="html"><![CDATA[LLVM - What is it?]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/03/07/llvm-compiler-infrastructure/"/>
+    <updated>2011-03-07T00:00:00+00:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/03/07/llvm-compiler-infrastructure</id>
+    <content type="html"><![CDATA[<p>What is LLVM? It&#8217;s homepage is somewhat cryptic - spends the first paragraph telling people what it is NOT!</p>
 
-<p>The EPUB format brings together a bunch of different specifications / formats:</p>
+<p><a title="LLVM" href="http://www.llvm.org/">llvm</a></p>
 
-<p>one to say what the content of the book should look like (a subset of XHTML 1.1 + CSS)
-one to define a &#8220;manifest&#8221; that lists all of the files that make up that content (OPF, which is an XML file)
-one to define how everything is packaged up (OEBPS: a zip file of everything in the manifest plus a few extra files)
-The specs look a bit daunting but actually once you&#8217;ve got the basics (unzipping, parsing XML) down it&#8217;s not particularly difficult or complex.</p>
+<p>In POE - it is used to build compilers - that means you can invent your own language, and use LLVM build the compiler and intepreter for you - voila!</p>
 
-<p>You&#8217;ll need to work out how to download the EPUB, to unzip it somewhere, to parse the manifest and then to display the relevant content.</p>
+<p>The abstract from the original paper by Chris is more enlightening:</p>
 
-<p>Some pointers if you&#8217;re just starting out:</p>
+<pre>This paper describes LLVM (Low Level Virtual Machine),
+a compiler framework designed to support transparent,
+lifelong program analysis and transformation for arbitrary programs,
+by providing high-level information to compiler
+transformations at compile-time, link-time, run-time, and in
+idle time between runs. LLVM deﬁnes a common, low-level
+code representation in Static Single Assignment (SSA) form,
+with several novel features: a simple, language-independent
+type-system that exposes the primitives commonly used to
+implement high-level language features; an instruction for
+typed address arithmetic; and a simple mechanism that can
+be used to implement the exception handling features of
+high-level languages (and setjmp/longjmp in C) uniformly
+and eﬃciently. The LLVM compiler framework and code
+representation together provide a combination of key capabilities
+that are important for practical, lifelong analysis and
+transformation of programs. To our knowledge, no existing
+compilation approach provides all these capabilities. We describe
+the design of the LLVM representation and compiler
+framework, and evaluate the design in three ways: (a) the
+size and eﬀectiveness of the representation, including the
+type information it provides; (b) compiler performance for
+several interprocedural problems; and (c) illustrative examples of the
+beneﬁts LLVM provides for several challenging
+compiler problems.</pre>
 
-<p>parse xml
-unzip
-To display content just use a UIWebView for now.</p>
 
-<p>Here&#8217;s a high level step by step for your code:</p>
+<p>&#8230;er. Ok for those who are still wondering what it is - check out Chris&#8217; presentation at <a title="llvm fosdem" href="http://llvm.org/pubs/2011-02-FOSDEM-LLVMAndClang.html">FOSDEM</a> - (did I tell you I also presented at <a title="The McDonalds Model" href="http://blindfoldedarcher.com/the-mcdonalds-model/">FOSDEM</a> this year - my claim to fame! )</p>
 
-<p>1) create a view with a UIWebView</p>
+<p>Even Google is using LLVM in Android - check out <a title="RenderScript" href="http://developer.android.com/guide/topics/renderscript/index.html" target="_blank">RenderScript</a> (beautiful stuff!!).</p>
 
-<p>2) download the EPUB file</p>
-
-<p>3) unzip it to a subdirectory in your app&#8217;s documents folder using the zip library, linked above</p>
-
-<p>4) parse the XML file at META-INF/container.xml (if this file doesn&#8217;t exist the EPUB is invalid) using TBXML, linked above</p>
-
-<p>5) In this XML, find the first &#8220;rootfile&#8221; with media-type application/oebps-package+xml. This is the OPF file for the book.</p>
-
-<p>6) parse the OPF file (also XML)</p>
-
-<p>7) now you need to know what the first chapter of the book is.</p>
-
-<p>a) each <item> in the <manifest> element has an id and an href. Store these in an NSDictionary where the key is the id and the object is the href.</p>
-
-<p>b) Look at the first <itemref> in the <spine>. It has an idref attribute which corresponds to one of the ids in (a). Look up that id in the NSDictionary and you&#8217;ll get an href.</p>
-
-<p>c) this is the the file of the first chapter to show the user. Work out what the full path is (hint: it&#8217;s wherever you unzipped the zip file to in (3) plus the base directory of the OPF file in (6))</p>
-
-<p>8) create an NSURL using fileURLWithPath:, where the path is the full path from (7c). Load this request using the UIWebView you created in (1).</p>
-
-<p>You&#8217;ll need to implement forward / backward buttons or swipes or something so that users can move from one chapter to another. Use the <spine> to work out which file to show next - the <itemrefs> in the XML are in the order they should appear to the reader.</p>
+<p>I still love GCC, but I will not ignore it&#8217;s shortcomings. As an engineer, we should strive to understand our tools especially it&#8217;s limitation</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Distributed Conputing With Ruby]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/03/distributed-conputing-with-ruby/"/>
-    <updated>2012-09-03T23:26:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/03/distributed-conputing-with-ruby</id>
-    <content type="html"><![CDATA[<p>sources/links
-https://github.com/celluloid/dcell
-https://github.com/mperham/sidekiq
-https://github.com/celluloid/celluloid</p>
+    <title type="html"><![CDATA[The McDonalds Model]]></title>
+    <link href="http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model/"/>
+    <updated>2011-02-01T00:00:00+00:00</updated>
+    <id>http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model</id>
+    <content type="html"><![CDATA[<p>My talk at this year&#8217;s FOSDEM. Explaining the soon-to-be world changing Village Telco Mesh Potato!</p>
 
-<p>Reel is a fast Celluloid::IO-powered web server which supports both non-blocking and blocking modes of operation:</p>
+<div id="__ss_6830334" style="width: 425px;">
 
-<p>https://github.com/celluloid/reel</p>
+&nbsp;
 
-<p>This release brings three major new features:</p>
+&nbsp;
 
-<ol>
-<li>WebSockets: Reel now supports WebSockets in addition to standard HTTP connections. An example of using WebSockets is available here:</li>
-</ol>
+&nbsp;
 
+&nbsp;
 
-<p>https://github.com/celluloid/reel/blob/master/examples/websockets.rb</p>
+&nbsp;
 
-<p>This example shows how to do a message fanout from a single actor to several websockets connections. This shows how simple it is to use Reel and Celluloid to implement WebSockets publish/subscribe systems.</p>
+&nbsp;
 
-<ol>
-<li><p>Rack support: Reel now provides a Rack adapter, although the Rack API severely limits the kinds of end-to-end streaming Reel is capable of</p></li>
-<li><p>Octarine support: Reel now lets you write simple Sinatra-like applications using the Octarine gem:</p>
+&nbsp;
 
-<p> class MyApp
-   include Reel::App</p>
+<strong style="display: block; margin: 12px 0 4px;"><a title="VillageTelco FOSDEM WirelessDialog" href="http://www.slideshare.net/teopeurt/villagetelcofinal">VillageTelco FOSDEM WirelessDialog</a></strong>
+<div style="padding: 5px 0 12px;">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/teopeurt">teopeurt</a></div>
+&nbsp;
 
-<p>   get &#8216;/foobar&#8217; { [200, {}, &#8220;hello world&#8221; }
- end</p>
+</div>
 
-<p> MyApp.new(&#8216;127.0.0.1&#8217;, 1234)</p></li>
-</ol>
-
-
-<p>&#8211;
-Tony Arcieri</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[DNS Service Providers]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/09/03/dns-service-providers/"/>
-    <updated>2012-09-03T10:54:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/09/03/dns-service-providers</id>
-    <content type="html"><![CDATA[<p>http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/
-https://dnsimple.com/domains/new
-http://www.nettica.com/Prices/Default.aspx
-http://www.dnsmadeeasy.com/</p>
-
-<p>My features
-Aname, CName, DynamicDNS, API, Cheap / 10s - 100s of domains, TTL (not that these are respected)
-setup, docs,</p>
-
-<p>How do these Compare?</p>
-
-<h2>Background</h2>
-
-<p>Always used Linode DNS manager, but not suitable for everything - especially A-Name</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[F-Script]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/f-script/"/>
-    <updated>2012-08-20T16:33:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/f-script</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Village Telco]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/village-telco/"/>
-    <updated>2012-08-20T14:04:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/village-telco</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iOS App - MobileOrg+]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/ios-app-mobileorg-plus/"/>
-    <updated>2012-08-20T14:04:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/ios-app-mobileorg-plus</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iOS App - Siphone]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/ios-app-siphone/"/>
-    <updated>2012-08-20T14:02:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/ios-app-siphone</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iOS Game - Pigs Can Fly]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/ios-game-pigs-can-fly/"/>
-    <updated>2012-08-20T13:52:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/ios-game-pigs-can-fly</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[USB-Hosts for Arduino Mega ADK - Patch Report]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/usb-hosts-for-arduino-mega-adk-patch-report/"/>
-    <updated>2012-08-20T13:51:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/usb-hosts-for-arduino-mega-adk-patch-report</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LiveCoding: RailsApp + MongoDB + Twilio on PaaS - CloudFoundry]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/livecoding-railsapp-plus-mongodb-plus-twilio-on-paas-cloudfoundry/"/>
-    <updated>2012-08-20T13:47:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/livecoding-railsapp-plus-mongodb-plus-twilio-on-paas-cloudfoundry</id>
-    <content type="html"><![CDATA[<p>RailsGirls</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OAuth Providers - A perceptive]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/oauth-providers-a-perceptive/"/>
-    <updated>2012-08-20T13:44:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/oauth-providers-a-perceptive</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Texture Packing - An Algorithm]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/texture-packing-an-algorithm/"/>
-    <updated>2012-08-20T13:43:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/texture-packing-an-algorithm</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Texture Packing Using Scala]]></title>
-    <link href="http://teopeurt.github.com/blog/2012/08/20/texture-packing-using-scala/"/>
-    <updated>2012-08-20T13:42:00+01:00</updated>
-    <id>http://teopeurt.github.com/blog/2012/08/20/texture-packing-using-scala</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   

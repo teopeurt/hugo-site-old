@@ -41,144 +41,6 @@
         <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
-        <loc>http://teopeurt.github.com/blog/2012/06/16/syntax/</loc>
-        <lastmod>2012-08-16T15:51:13+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/16/using-ninja/</loc>
-        <lastmod>2012-08-16T12:21:21+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/16/android-and-qt/</loc>
-        <lastmod>2012-08-20T13:37:24+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/16/rben-keeping-things-local/</loc>
-        <lastmod>2012-08-16T16:01:47+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/16/barefoot-running/</loc>
-        <lastmod>2012-08-16T16:02:20+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/16/mapbox-mapping-tech/</loc>
-        <lastmod>2012-08-16T16:13:21+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/16/never-buy-non-ged-android/</loc>
-        <lastmod>2012-08-16T16:47:24+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/android-and-arduino/</loc>
-        <lastmod>2012-08-20T13:40:21+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/canon-eos400d-and-arduino-mega-adk/</loc>
-        <lastmod>2012-08-20T13:40:47+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/nasa-opensource-on-github/</loc>
-        <lastmod>2012-08-20T13:41:28+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/texture-packing-using-c-plus-plus/</loc>
-        <lastmod>2012-08-20T13:42:18+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/texture-packing-using-go/</loc>
-        <lastmod>2012-08-20T13:42:12+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/texture-packing-using-objective-c/</loc>
-        <lastmod>2012-08-20T13:42:31+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/texture-packing-using-scala/</loc>
-        <lastmod>2012-08-20T13:42:23+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/texture-packing-an-algorithm/</loc>
-        <lastmod>2012-08-20T13:43:47+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/oauth-providers-a-perceptive/</loc>
-        <lastmod>2012-08-20T13:44:57+01:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://teopeurt.github.com/blog/2012/08/20/livecoding-railsapp-plus-mongodb-plus-twilio-on-paas-cloudfoundry/
-        </loc>
-        <lastmod>2012-09-03T10:59:38+01:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://teopeurt.github.com/blog/2012/08/20/usb-hosts-for-arduino-mega-adk-patch-report/
-        </loc>
-        <lastmod>2012-08-20T13:51:19+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/ios-game-pigs-can-fly/</loc>
-        <lastmod>2012-08-20T13:52:34+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/ios-app-siphone/</loc>
-        <lastmod>2012-08-20T14:02:32+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/ios-app-mobileorg-plus/</loc>
-        <lastmod>2012-08-20T14:04:05+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/village-telco/</loc>
-        <lastmod>2012-08-20T14:04:23+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/08/20/f-script/</loc>
-        <lastmod>2012-08-20T16:33:59+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/03/dns-service-providers/</loc>
-        <lastmod>2012-09-03T11:03:37+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/03/distributed-conputing-with-ruby/</loc>
-        <lastmod>2012-09-03T23:27:46+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/03/making-an-epub-reader-for-cocoa/</loc>
-        <lastmod>2012-09-03T23:42:22+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/04/rails-efficiency-in-production/</loc>
-        <lastmod>2012-09-04T16:23:41+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/10/mobile-cross-platform-strategy/</loc>
-        <lastmod>2012-09-10T14:32:11+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase/</loc>
-        <lastmod>2012-09-10T14:36:05+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/14/documenting-the-android-framework/</loc>
-        <lastmod>2012-09-14T13:28:29+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/09/14/enterprise-app-store/</loc>
-        <lastmod>2012-09-14T13:28:49+01:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://teopeurt.github.com/blog/2012/09/14/doors-type-system-for-bdd-and-tdd-complex-systems-requirements/
-        </loc>
-        <lastmod>2012-09-14T13:30:30+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://teopeurt.github.com/blog/2012/10/26/new-post/</loc>
-        <lastmod>2012-10-26T15:28:15+01:00</lastmod>
-    </url>
-    <url>
         <loc>http://teopeurt.github.com/about/</loc>
         <lastmod>2012-08-20T16:52:06+01:00</lastmod>
     </url>
@@ -188,7 +50,7 @@
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/archives/</loc>
-        <lastmod>2012-10-26T15:28:15+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/hireme/</loc>
@@ -196,7 +58,7 @@
     </url>
     <url>
         <loc>http://teopeurt.github.com/</loc>
-        <lastmod>2012-10-26T15:28:15+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/projects/</loc>
