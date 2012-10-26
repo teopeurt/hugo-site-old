@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>How to BackUp - BlindFolded Archer</title>
+  <title>Einhorn: UseCase - BlindFolded Archer</title>
   <meta name="author" content="Don">
 
   
-  <meta name="description" content="Don&#8217;t break what works - this constant to re-invent the wheel! sheesh is Emacs broken, is Gnutils? After reading the very unhelpful advice on &hellip;">
+  <meta name="description" content="
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://teopeurt.github.com/blog/2011/09/15/how-to-backup">
+  <link rel="canonical" href="http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">How to BackUp</h1>
+      <h1 class="entry-title">Einhorn: UseCase</h1>
     
     
       <p class="meta">
@@ -98,41 +99,14 @@
   
 
 
-<time datetime="2011-09-15T00:00:00+01:00" pubdate data-updated="true">Sep 15<span>th</span>, 2011</time>
+<time datetime="2012-09-10T14:36:00+01:00" pubdate data-updated="true">Sep 10<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Don&#8217;t break what works - this constant to re-invent the wheel! sheesh</p>
-
-<p>is Emacs broken, is Gnutils?</p>
-
-<p>After reading the very unhelpful advice on <a title="Ubuntu backup" href="https://help.ubuntu.com/community/BackupYourSystem">Ubuntu</a> on how to backup - I have stolen the old notes from jwz.</p>
-
-<p>http://www.jwz.org/doc/backups.html</p>
-
-<ul>
-    <li>You have a computer. It came with a hard drive in it. Go buy two more drives of the same size or larger. If the drive in your computer is SATA2, get SATA2. If it&#8217;s a 2.5&#8221; laptop drive, get two of those. Brand doesn&#8217;t matter, but physical measurements and connectors should match.</li>
-    <li>Get external enclosures for both of them. The enclosures are under $30.</li>
-    <li>Put one of these drives in its enclosure on your desk. Name it something clever like &#8220;Backup&#8221;. If you are using a Mac, the command you use to back up is this:
-<pre><strong>sudo rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/</strong></pre>
-If you&#8217;re using Linux, it&#8217;s something a lot like that. If you&#8217;re using Windows, go fuck yourself.</li>
-    <li>If you have a desktop computer, have this happen every morning at 5AM by creating a temporary text file containing this line:
-<pre><strong>0 5 * * * rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/</strong></pre>
-and then doing <strong><tt>sudo crontab -u root <em>that-file</em></tt></strong>
-
-If you have a laptop, do that before you go to bed. Really. Every night when you plug your laptop in to charge.</li>
-    <li>If you&#8217;re on a Mac, that backup drive will be <em>bootable.</em> That means that when (WHEN) your internal drive scorches itself, you can just take your backup drive and put it in your computer and go. This is nice.</li>
-    <li>When (WHEN) your backup drive goes bad, which you will notice because your last backup failed, replace it immediately. This is your number one priority. Don&#8217;t wait until the weekend when you have time, do it now, before you so much as <em>touch</em> your computer again. Do it before goddamned breakfast. The universe tends toward maximum irony. Don&#8217;t push it.</li>
-    <li>That third drive? Do a backup onto it the same way, then take that to your office and lock it in a desk. Every few months, bring it home, do a backup, and immediately take it away again. This is your &#8220;my house burned down&#8221; backup.</li>
-</ul>
-
-
-<p><em>&#8220;OMG, three drives is so expensive! That sounds like a hassle!&#8221;</em> Shut up. I know things. You will listen to me. Do it anyway.</p>
-
-<p>Excellent advice!</p>
+<div class="entry-content">
 </div>
 
 
@@ -155,7 +129,7 @@ If you have a laptop, do that before you go to bed. Really. Every night when you
   
 
 
-<time datetime="2011-09-15T00:00:00+01:00" pubdate data-updated="true">Sep 15<span>th</span>, 2011</time>
+<time datetime="2012-09-10T14:36:00+01:00" pubdate data-updated="true">Sep 10<span>th</span>, 2012</time>
       
 
 
@@ -163,7 +137,7 @@ If you have a laptop, do that before you go to bed. Really. Every night when you
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://teopeurt.github.com/blog/2011/09/15/how-to-backup/" data-via="teopeurt" data-counturl="http://teopeurt.github.com/blog/2011/09/15/how-to-backup/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase/" data-via="teopeurt" data-counturl="http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -174,10 +148,10 @@ If you have a laptop, do that before you go to bed. Really. Every night when you
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/07/03/unix-help-for-users/" title="Previous Post: Unix Help For Users">&laquo; Unix Help For Users</a>
+        <a class="basic-alignment left" href="/blog/2012/09/10/mobile-cross-platform-strategy/" title="Previous Post: Mobile Cross Platform Strategy">&laquo; Mobile Cross Platform Strategy</a>
       
       
-        <a class="basic-alignment right" href="/blog/2011/10/13/rip-dennis/" title="Next Post: RIP Dennis..">RIP Dennis.. &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2012/09/14/documenting-the-android-framework/" title="Next Post: Documenting the Android Framework">Documenting the Android Framework &raquo;</a>
       
     </p>
   </footer>

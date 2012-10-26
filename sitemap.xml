@@ -2,43 +2,43 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/02/01/the-mcdonalds-model/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:18+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/03/07/llvm-compiler-infrastructure/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:18+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/06/01/Chronos-BeagleBoard/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/06/22/Hacking-Android-FrameWork/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/07/03/unix-help-for-users/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/09/15/how-to-backup/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2011/10/13/rip-dennis/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://teopeurt.github.com/blog/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/
         </loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://teopeurt.github.com/blog/2011/11/09/the-second-system-effect-thunderbird-woes/
         </loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2012/06/16/syntax/</loc>
@@ -50,7 +50,7 @@
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2012/08/16/android-and-qt/</loc>
-        <lastmod>2012-08-20T16:52:08+01:00</lastmod>
+        <lastmod>2012-08-20T13:37:24+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2012/08/16/rben-keeping-things-local/</loc>
@@ -62,7 +62,7 @@
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2012/08/16/mapbox-mapping-tech/</loc>
-        <lastmod>2012-08-16T16:13:28+01:00</lastmod>
+        <lastmod>2012-08-16T16:13:21+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2012/08/16/never-buy-non-ged-android/</loc>
@@ -154,26 +154,52 @@
     </url>
     <url>
         <loc>http://teopeurt.github.com/blog/2012/09/10/mobile-cross-platform-strategy/</loc>
-        <lastmod>2012-09-10T14:32:16+01:00</lastmod>
+        <lastmod>2012-09-10T14:32:11+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://teopeurt.github.com/blog/2012/09/10/einhorn-usecase/</loc>
+        <lastmod>2012-09-10T14:36:05+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://teopeurt.github.com/blog/2012/09/14/documenting-the-android-framework/</loc>
+        <lastmod>2012-09-14T13:28:29+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://teopeurt.github.com/blog/2012/09/14/enterprise-app-store/</loc>
+        <lastmod>2012-09-14T13:28:49+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://teopeurt.github.com/blog/2012/09/14/doors-type-system-for-bdd-and-tdd-complex-systems-requirements/
+        </loc>
+        <lastmod>2012-09-14T13:30:30+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://teopeurt.github.com/blog/2012/10/26/new-post/</loc>
+        <lastmod>2012-10-26T15:28:15+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/about/</loc>
         <lastmod>2012-08-20T16:52:06+01:00</lastmod>
     </url>
     <url>
+        <loc>http://teopeurt.github.com/all-about-the-narrative/</loc>
+        <lastmod>2012-09-29T14:07:40+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://teopeurt.github.com/blog/archives/</loc>
-        <lastmod>2012-09-10T14:32:16+01:00</lastmod>
+        <lastmod>2012-10-26T15:28:15+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/hireme/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/</loc>
-        <lastmod>2012-09-10T14:32:16+01:00</lastmod>
+        <lastmod>2012-10-26T15:28:15+01:00</lastmod>
     </url>
     <url>
         <loc>http://teopeurt.github.com/projects/</loc>
-        <lastmod>2012-08-16T11:23:18+01:00</lastmod>
+        <lastmod>2012-05-25T16:37:19+01:00</lastmod>
     </url>
 </urlset>
