@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>LLVM - What is it? &#8211; teopeurt.github.io</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="LLVM - What is it? &#8211; teopeurt.github.io">
+<meta property="og:description" content="What is LLVM? It's homepage is somewhat cryptic - spends the first paragraph telling people what it is NOT!llvmIn POE...">
+<meta property="og:url" content="/llvm-compiler-infrastructure">
+<meta property="og:site_name" content="teopeurt.github.io">
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="teopeurt.github.io Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Type -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
+
+<!-- In order to use Calendas Plus, you must first purchase it. Then, create a font-face package using FontSquirrel.
+<link rel='stylesheet' href='/assets/cal.css' media='all' />
+-->
+
+
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/i.css">
+
+<!-- Fresh Squeezed jQuery -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<div id="bump">
+  <body class="">
+    <header class="site-header">
+      <div class="wrap">
+        <hgroup>
+          <h1><a href="/">teopeurt.github.io</a></h1>
+        </hgroup>
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="teopeurt.github.io">Home</a>
+            </li>
+            
+            
+                <li><a href="/about/index.html" >About</a></li>
+            
+                <li><a href="https://github.com/teopeurt" target="_blank">Github</a></li>
+            
+                <li><a href="http://blindfoldedarcher.com" target="_blank">Blindfolded</a></li>
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="article">
+
+
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url(/images/typewriter.jpg)"></div>
+
+
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>LLVM - What is it?</h1>
+            <p class="date">Mar 07, 2011</p>
+            <p class="intro"></p>
+          </hgroup>
+        </header>
+
+        <p>What is LLVM? It’s homepage is somewhat cryptic - spends the first paragraph telling people what it is NOT!</p>
+
+<p><a title="LLVM" href="http://www.llvm.org/">llvm</a></p>
+
+<p>In POE - it is used to build compilers - that means you can invent your own language, and use LLVM build the compiler and intepreter for you - voila!</p>
+
+<p>The abstract from the original paper by Chris is more enlightening:</p>
+<pre>This paper describes LLVM (Low Level Virtual Machine),
+a compiler framework designed to support transparent,
+lifelong program analysis and transformation for arbitrary programs,
+by providing high-level information to compiler
+transformations at compile-time, link-time, run-time, and in
+idle time between runs. LLVM deﬁnes a common, low-level
+code representation in Static Single Assignment (SSA) form,
+with several novel features: a simple, language-independent
+type-system that exposes the primitives commonly used to
+implement high-level language features; an instruction for
+typed address arithmetic; and a simple mechanism that can
+be used to implement the exception handling features of
+high-level languages (and setjmp/longjmp in C) uniformly
+and eﬃciently. The LLVM compiler framework and code
+representation together provide a combination of key capabilities
+that are important for practical, lifelong analysis and
+transformation of programs. To our knowledge, no existing
+compilation approach provides all these capabilities. We describe
+the design of the LLVM representation and compiler
+framework, and evaluate the design in three ways: (a) the
+size and eﬀectiveness of the representation, including the
+type information it provides; (b) compiler performance for
+several interprocedural problems; and (c) illustrative examples of the
+beneﬁts LLVM provides for several challenging
+compiler problems.</pre>
+<p>…er. Ok for those who are still wondering what it is - check out Chris’ presentation at <a title="llvm fosdem" href="http://llvm.org/pubs/2011-02-FOSDEM-LLVMAndClang.html">FOSDEM</a> - (did I tell you I also presented at <a title="The McDonalds Model" href="http://blindfoldedarcher.com/the-mcdonalds-model/">FOSDEM</a> this year - my claim to fame! )</p>
+
+<p>Even Google is using LLVM in Android - check out <a title="RenderScript" href="http://developer.android.com/guide/topics/renderscript/index.html" target="_blank">RenderScript</a> (beautiful stuff!!).</p>
+
+<p>I still love GCC, but I will not ignore it’s shortcomings. As an engineer, we should strive to understand our tools especially it’s limitation</p>
+
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;LLVM - What is it?&quot;%20/llvm-compiler-infrastructure%20via%20&#64;teopeurt" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+
+      </article>
+
+    </section>
+</div>
+
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/code-highlighting-post" title="Syntax Highlighting Post">Syntax Highlighting Post </a></span>
+              <span class="date">Aug 16, 2013</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/articles/post-with-figure" title="Post with Figure">Post with Figure </a></span>
+              <span class="date">Aug 05, 2013</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/articles/post-with-feature" title="Post and Feature Image">Post and Feature Image </a></span>
+              <span class="date">Aug 05, 2013</span>
+            </li>
+        
+      </ol>
+
+      <div class="social">
+        <ul>
+            <li><a id="mail" href="mailto:arahsor@gmail.com"><span class="foot-link">Contact Me</span></a></li>
+
+            
+            <li><a id="twit" href="http://twitter.com/teopeurt" target="_blank"><span class="foot-link">@teopeurt</span></a></li>
+            
+
+
+            
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; 2013 teopeurt. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="/assets/js/scripts.js"></script>
+
+
+  </body>
+</html>
+
