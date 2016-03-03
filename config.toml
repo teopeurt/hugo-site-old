@@ -1,6 +1,8 @@
 [params]
 	sidebartitle = "Strategy For Hackers"
 	sidebartagline = "Flaneur"
+	GoogleAnalyticsUserID = "XXDDXX"
+	
 
 [[menu.main]]
     name = "About"
@@ -15,5 +17,3 @@
 [[menu.footer]]
     name = "Blog"
       url = "/posts"
-
-socialsharing = true
