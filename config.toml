@@ -1,11 +1,10 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://teopeurt.github.io"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
 [params]
 	sidebartitle = "{teopeurt}"
 	sidebartagline = "digital.security, hacking, ux, product"
-	GoogleAnalyticsUserID = "XXDDXX"
 	categories = "life"
 
 [[menu.main]]

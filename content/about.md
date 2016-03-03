@@ -1,10 +1,10 @@
 +++
 date = "2016-03-02T17:30:47+01:00"
-draft = true
+draft = false
 title = "About"
 socialsharing = true
-tags = [ ".vimrc", "plugins", "spf13-vim", "vim" ]
-categories = ["car", "hacking", "finance"]
+tags = []
+categories = ["cars", "hacking", "finance", "asterisk"]
 +++
 
 

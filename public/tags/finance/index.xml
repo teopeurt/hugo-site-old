@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finance on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/tags/finance/</link>
+    <link>http://localhost:8000/tags/finance/</link>
     <description>Recent content in Finance on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:8000/tags/finance/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Do Not Equate To Skill</title>
-      <link>http://replace-this-with-your-hugo-site.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</link>
+      <link>http://localhost:8000/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</link>
       <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</guid>
+      <guid>http://localhost:8000/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</guid>
       <description>&lt;p&gt;A post on a post about a post. How many layers of abstraction? Reminds me of paper money!&lt;/p&gt;
 
 &lt;p&gt;Do not really like linking to other posts - but this hits the nail on the head. The so called masters of the universe have no idea luck and serendipity plays such an important role in their &amp;lsquo;achievements&amp;rsquo;. Much better analysis than can be done by me.&lt;/p&gt;
