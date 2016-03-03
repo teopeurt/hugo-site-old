@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shell on teopeurt</title>
+    <link>http://teopeurt.com/tags/shell/</link>
+    <description>Recent content in Shell on teopeurt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://teopeurt.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to BackUp</title>
+      <link>http://teopeurt.com/2011/09/15/how-to-backup/</link>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/2011/09/15/how-to-backup/</guid>
+      <description>&lt;p&gt;Don&amp;rsquo;t break what works - this constant to re-invent the wheel! sheesh&lt;/p&gt;
+
+&lt;p&gt;is Emacs broken, is Gnutils?&lt;/p&gt;
+
+&lt;p&gt;After reading the very unhelpful advice on &lt;a title=&#34;Ubuntu backup&#34; href=&#34;https://help.ubuntu.com/community/BackupYourSystem&#34;&gt;Ubuntu&lt;/a&gt; on how to backup - I have stolen the old notes from jwz.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jwz.org/doc/backups.html&#34;&gt;http://www.jwz.org/doc/backups.html&lt;/a&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;You have a computer. It came with a hard drive in it. Go buy two more drives of the same size or larger. If the drive in your computer is SATA2, get SATA2. If it&#39;s a 2.5&amp;quot; laptop drive, get two of those. Brand doesn&#39;t matter, but physical measurements and connectors should match.&amp;lt;/li&amp;gt;
+
+&amp;lt;li&amp;gt;Get external enclosures for both of them. The enclosures are under $30.&amp;lt;/li&amp;gt;
+
+&amp;lt;li&amp;gt;Put one of these drives in its enclosure on your desk. Name it something clever like &amp;quot;Backup&amp;quot;. If you are using a Mac, the command you use to back up is below, If you&#39;re using Linux, it&#39;s something a lot like that. If you&#39;re using Windows, go fuck yourself. &amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;sudo rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;If you have a desktop computer, have this happen every morning at 5AM by creating a temporary text file containing this line:&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;0 5 * * * rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and then doing&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;sudo crontab -u root 
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;that-file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;If you have a laptop, do that before you go to bed. Really. Every night when you plug your laptop in to charge.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;If you&#39;re on a Mac, that backup drive will be &amp;lt;em&amp;gt;bootable.&amp;lt;/em&amp;gt; That means that when (WHEN) your internal drive scorches itself, you can just take your backup drive and put it in your computer and go. This is nice.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;When (WHEN) your backup drive goes bad, which you will notice because your last backup failed, replace it immediately. This is your number one priority. Don&#39;t wait until the weekend when you have time, do it now, before you so much as &amp;lt;em&amp;gt;touch&amp;lt;/em&amp;gt; your computer again. Do it before goddamned breakfast. The universe tends toward maximum irony. Don&#39;t push it.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;That third drive? Do a backup onto it the same way, then take that to your office and lock it in a desk. Every few months, bring it home, do a backup, and immediately take it away again. This is your &amp;quot;my house burned down&amp;quot; backup.&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/ul&gt;
+&lt;em&gt;&amp;ldquo;OMG, three drives is so expensive! That sounds like a hassle!&amp;rdquo;&lt;/em&gt; Shut up. I know things. You will listen to me. Do it anyway.&lt;/p&gt;
+
+&lt;p&gt;Excellent advice!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

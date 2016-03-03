@@ -1,0 +1,19 @@
+[params]
+	sidebartitle = "Strategy For Hackers"
+	sidebartagline = "Flaneur"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+
+
+[[menu.social]]
+  	pre = "<i class='fa fa-twitter'></i>"
+      url = "http://www.twitter.com/teopeurt"
+      identifier = "twitter"
+
+[[menu.footer]]
+    name = "Blog"
+      url = "/posts"
+
+socialsharing = true

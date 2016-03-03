@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dns on teopeurt</title>
+    <link>http://teopeurt.com/categories/dns/</link>
+    <description>Recent content in Dns on teopeurt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://teopeurt.com/categories/dns/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DNS Service Providers</title>
+      <link>http://teopeurt.com/2012/09/03/dns-service-providers/</link>
+      <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/2012/09/03/dns-service-providers/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&#34;&gt;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&lt;/a&gt;
+&lt;a href=&#34;https://dnsimple.com/domains/new&#34;&gt;https://dnsimple.com/domains/new&lt;/a&gt;
+&lt;a href=&#34;http://www.nettica.com/Prices/Default.aspx&#34;&gt;http://www.nettica.com/Prices/Default.aspx&lt;/a&gt;
+&lt;a href=&#34;http://www.dnsmadeeasy.com/&#34;&gt;http://www.dnsmadeeasy.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My features
+Aname, CName, DynamicDNS, API, Cheap / 10s - 100s of domains, TTL (not that these are respected)
+setup, docs,&lt;/p&gt;
+
+&lt;p&gt;How do these Compare?&lt;/p&gt;
+
+&lt;h2 id=&#34;background:b916e23542b710bc00816e34b241a592&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Always used Linode DNS manager, but not suitable for everything - especially A-Name&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
