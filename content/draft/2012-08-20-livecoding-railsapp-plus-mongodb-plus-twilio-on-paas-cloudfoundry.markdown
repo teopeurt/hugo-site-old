@@ -1,5 +1,5 @@
 ---
-categories: rails, ruby, cloudfoundry, mongoDB
+categories: [rails, ruby, cloudfoundry, mongoDB]
 comments: false
 date: 2012-08-20T00:00:00Z
 draft: true

@@ -1,5 +1,5 @@
 ---
-categories: dns
+categories: [dns]
 comments: false
 date: 2012-09-03T00:00:00Z
 title: DNS Service Providers

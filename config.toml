@@ -1,8 +1,12 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
 [params]
-	sidebartitle = "Strategy For Hackers"
-	sidebartagline = "Flaneur"
+	sidebartitle = "{teopeurt}"
+	sidebartagline = "digital.security, hacking, ux, product"
 	GoogleAnalyticsUserID = "XXDDXX"
-	
+	categories = "life"
 
 [[menu.main]]
     name = "About"
