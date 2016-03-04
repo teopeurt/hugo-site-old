@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mesh on My New Hugo Site</title>
-    <link>http://teopeurt.github.io/tags/mesh/</link>
+    <link>http://blog.teopeurt.com/tags/mesh/</link>
     <description>Recent content in Mesh on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Feb 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://teopeurt.github.io/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.teopeurt.com/tags/mesh/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The McDonalds Model</title>
-      <link>http://teopeurt.github.io/2011/02/01/the-mcdonalds-model/</link>
+      <link>http://blog.teopeurt.com/2011/02/01/the-mcdonalds-model/</link>
       <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://teopeurt.github.io/2011/02/01/the-mcdonalds-model/</guid>
+      <guid>http://blog.teopeurt.com/2011/02/01/the-mcdonalds-model/</guid>
       <description>
 
 &lt;p&gt;My talk at 2011&amp;rsquo;s FOSDEM. Explaining the world changing Village Telco Mesh Potato!&lt;/p&gt;
