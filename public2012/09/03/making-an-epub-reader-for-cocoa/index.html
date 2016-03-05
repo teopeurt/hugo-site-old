@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <title>
-    Apple&#39;s New Programming Language Swift // My New Hugo Site
+    Making an EPUB Reader for Cocoa // My New Hugo Site
   </title>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -16,11 +16,11 @@
 <meta name="author" content="">
 <meta name="generator" content="Hugo 0.15" />
 
-  <meta property="og:title" content="Apple&#39;s New Programming Language Swift" />
+  <meta property="og:title" content="Making an EPUB Reader for Cocoa" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/" />
+<meta property="og:url" content="http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/" />
 
 
   
@@ -107,14 +107,14 @@
 	    
   		<section class="post">
             <h1 class="post-title">
-              <a href="/2014/06/04/apples-new-programming-language-swift/">Apple&#39;s New Programming Language Swift</a>
+              <a href="/2012/09/03/making-an-epub-reader-for-cocoa/">Making an EPUB Reader for Cocoa</a>
             </h1>
             <h3 class="post-subtitle">
             	
             </h3>
             
             	<span class="post-date">
-                	<span class="post-date-day"><sup>4</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jun</span> <span class="post-date-year">2014</span>
+                	<span class="post-date-day"><sup>3</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Sep</span> <span class="post-date-year">2012</span>
             	</span>
             	
             
@@ -128,51 +128,50 @@
 
 			
 
-            <p>Apple has just released a brand new programming language, I wont go
-into any of the details as better men have already evaluated it.</p>
+            <p>Source: <a href="http://stackoverflow.com/questions/1388467/reading-epub-format">http://stackoverflow.com/questions/1388467/reading-epub-format</a></p>
 
-<p>My excitement is not on the language itself but rather the suite of
-tools that comes with it. Quoting directly from the release notes.</p>
+<p>The EPUB format brings together a bunch of different specifications / formats:</p>
+
+<p>one to say what the content of the book should look like (a subset of XHTML 1.1 + CSS)
+one to define a &ldquo;manifest&rdquo; that lists all of the files that make up that content (OPF, which is an XML file)
+one to define how everything is packaged up (OEBPS: a zip file of everything in the manifest plus a few extra files)
+The specs look a bit daunting but actually once you&rsquo;ve got the basics (unzipping, parsing XML) down it&rsquo;s not particularly difficult or complex.</p>
+
+<p>You&rsquo;ll need to work out how to download the EPUB, to unzip it somewhere, to parse the manifest and then to display the relevant content.</p>
+
+<p>Some pointers if you&rsquo;re just starting out:</p>
 
 <ul>
-<li><p><strong>Interactive.</strong> Use Swift interactively to experiment with your ideas
-and see instant results.</p></li>
-
-<li><p><strong>Unified.</strong> A complete replacement for both the C and Objective-C
-languages. Swift provides full object-oriented features, and
-includes low-level language primitives such as types, flow control,
-and operators</p></li>
-
-<li><p><strong>Playgrounds.</strong> Playgrounds make writing Swift code productive and
-easy. Type a line of code, and the result appears immediately.
-If your code runs over time—for instance through a loop—you can add
-that line of code to the Timeline Assistant to watch it progress.
-Display variables in a graph, inspect each step of drawing a view, or
-watch an animated Sprite</p></li>
-
-<li><p><strong>Kit scene.</strong> When you’ve perfected your code in the playground, simply
-move that code into your project. Some uses for playgrounds include:
-Designing a new algorithm, watching its results every step of the way
-Experimenting with new API or trying out new Swift syntax Creating new
-tests and then verifying that they work before promoting them into your test suite</p></li>
-
-<li><p><strong>Learn in a playground</strong>. Open select documentation in a playground to
-learn from the tutorial in an interactive environment. The
-combination of richly formatted documentation and interactive
-playground makes it easy to fully explore the API, changing and
-experimenting with the sample code.</p></li>
-
-<li><p><strong>Read-eval-print loop (REPL) in LLDB.</strong> The debugging console in Xcode
-includes an interactive version of the Swift language built right in.
-Use Swift syntax to evaluate and interact with your running app, or
-write new code to see how it works in a script-like environment. REPL
-is available from within the Xcode console, or using LLDB from within
-Terminal.</p></li>
+<li>parse xml</li>
+<li>unzip</li>
+<li>To display content just use a UIWebView for now.</li>
 </ul>
 
-<p>The reason this excites me is that now I can use similar tools which exists for Scala and of which I enjoy especially as a learning tool.
-The playground feature reminds me of <a href="https://github.com/scala-ide/scala-worksheet/wiki/Getting-Started">scala worksheet</a> but more powerful. That warrants its own post by the way.
-I believe in experimentation and breaking things in order to learn and Apple has just won a new fan in me.</p>
+<p>Here&rsquo;s a high level step by step for your code:</p>
+
+<p>1) create a view with a UIWebView</p>
+
+<p>2) download the EPUB file</p>
+
+<p>3) unzip it to a subdirectory in your app&rsquo;s documents folder using the zip library, linked above</p>
+
+<p>4) parse the XML file at META-INF/container.xml (if this file doesn&rsquo;t exist the EPUB is invalid) using TBXML, linked above</p>
+
+<p>5) In this XML, find the first &ldquo;rootfile&rdquo; with media-type application/oebps-package+xml. This is the OPF file for the book.</p>
+
+<p>6) parse the OPF file (also XML)</p>
+
+<p>7) now you need to know what the first chapter of the book is.</p>
+
+<p>a) each <item> in the <manifest> element has an id and an href. Store these in an NSDictionary where the key is the id and the object is the href.</p>
+
+<p>b) Look at the first <itemref> in the <spine>. It has an idref attribute which corresponds to one of the ids in (a). Look up that id in the NSDictionary and you&rsquo;ll get an href.</p>
+
+<p>c) this is the the file of the first chapter to show the user. Work out what the full path is (hint: it&rsquo;s wherever you unzipped the zip file to in (3) plus the base directory of the OPF file in (6))</p>
+
+<p>8) create an NSURL using fileURLWithPath:, where the path is the full path from (7c). Load this request using the UIWebView you created in (1).</p>
+
+<p>You&rsquo;ll need to implement forward / backward buttons or swipes or something so that users can move from one chapter to another. Use the <spine> to work out which file to show next - the <itemrefs> in the XML are in the order they should appear to the reader.</p>
 
 	
 			
@@ -185,14 +184,14 @@ I believe in experimentation and breaking things in order to learn and Apple has
 					
 					<div class="paging-newer">
 						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
-						<a class="paging-link" href="/about/">About</a>
+						<a class="paging-link" href="/2012/09/03/dns-service-providers/">DNS Service Providers</a>
 		            </div>
 		            
 
 					
 					<div class="paging-older">
 						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
-			            <a class="paging-link" href="/2014/04/24/raspberry-pi/">Raspberry Pi</a>
+			            <a class="paging-link" href="/2012/08/16/rben-keeping-things-local/">RBENV Keeping Things Local</a>
 		            </div>
 		            
 	            </div>
