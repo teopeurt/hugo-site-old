@@ -6,13 +6,503 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Mar 2016 17:30:47 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 02 Mar 2016 07:55:30 +0100</lastBuildDate>
     <atom:link href="http://blog.teopeurt.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Programming myths</title>
+      <link>http://blog.teopeurt.com/post/programming-myths/</link>
+      <pubDate>Wed, 02 Mar 2016 07:55:30 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/programming-myths/</guid>
+      <description>
+
+&lt;h1 id=&#34;new-programmer-programming-myths:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;New Programmer Programming Myths&lt;/h1&gt;
+
+&lt;p&gt;Its a PITA when introducing programming to beginners that there is some unwritten rule somewhere that certain things are just too hard to tackle at first. So the student is introduced to crappy concepts and thus doestn touch the &amp;ldquo;advance&amp;rdquo; stuff until it is too late - i.e. they are sat there wondering why their production code is crap, slow and buggy.&lt;/p&gt;
+
+&lt;h2 id=&#34;dont-talk-about-threads:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Dont talk about threads&lt;/h2&gt;
+
+&lt;p&gt;This is annoying - no matter what you feel about threads, we live in an asyn world, it&amp;rsquo;s fine not to talk about about threads but what are my alternatives. I dont need to know how to implement an aysnc/promise/background_task, but at least tell me I &lt;em&gt;need&lt;/em&gt; it and show me how to use. Tell me why it is important in a system.&lt;/p&gt;
+
+&lt;h2 id=&#34;authentication-and-authorisation-security-is-for-others:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Authentication and Authorisation : Security is for Others&lt;/h2&gt;
+
+&lt;p&gt;There is this thing called security which we drum into students to fear like a second coming of bathzeedar. It is bloody important yet most introductory web security start with HTTP Basic Auth! What? When have you ever seen a decent website using bloody HTTP Basic auth? Don&amp;rsquo;t mention the fact that SSL is never introduced, any auth methods are never explained, and what does hashing and encryption even mean?&lt;/p&gt;
+
+&lt;h2 id=&#34;my-language-idiom-is-the-best:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;My Language/IdioM is the best&lt;/h2&gt;
+
+&lt;p&gt;Nuff said on this crap, it&amp;rsquo;s the need and ego of man to be king and he brings his religious crap with him. A typical programming class should include 3 languages (at least 2 scripting languages and at least one compiled &amp;lsquo;c&amp;rsquo; language), 2 or more queue/broker, and 2 or more databases and either NoSQL and SQL databases. Advance students can then debate on the merits on functional/Procedural/OO style while solving the same problem in each style.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Angular by example</title>
+      <link>http://blog.teopeurt.com/post/angular-by-example/</link>
+      <pubDate>Wed, 24 Feb 2016 20:54:40 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/angular-by-example/</guid>
+      <description>
+
+&lt;h1 id=&#34;environment-setup:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Environment Setup&lt;/h1&gt;
+
+&lt;p&gt;Use NVM
+Use Node js&lt;/p&gt;
+
+&lt;h2 id=&#34;scaffold-a-webapp-with-yeoman:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Scaffold a WebApp with YeoMan&lt;/h2&gt;
+
+&lt;p&gt;source &lt;a href=&#34;http://yeoman.io/codelab/&#34;&gt;YeoMan Guide&lt;/a&gt; and &lt;a href=&#34;http://yeoman.io/codelab/meet-yeoman.html&#34;&gt;Meet Yeoman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install yo, grunt-cli, bower, generator-angular and generator-karma&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install -g grunt-cli bower yo generator-karma generator-angular
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am opinionated in how I use Ruby in my system. I use &lt;a href=&#34;https://github.com/rbenv/rbenv#installation&#34;&gt;rbenv&lt;/a&gt; and &lt;a href=&#34;https://github.com/rbenv/ruby-build#readme&#34;&gt;ruby-build&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install the compass gem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install compass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Either clone my github page or if you really want to learn, do it from scratch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir my-angular-project &amp;amp;&amp;amp; cd $_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run &lt;code&gt;yo angular&lt;/code&gt; , optionally passing in an app name:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yo angular [app-name]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go through the options&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. Choose Grunt
+2. Use Sass
+3. Include Bootstrap
+4. Use Sass version of Bootstrap
+5. Choose Angular modules needed
+6. Profit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now run the initial app with &lt;code&gt;grunt serve&lt;/code&gt; .&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grunt serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This should automatically open a browser window&lt;/p&gt;
+
+&lt;p&gt;I always use source control&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git init
+git add .
+git commit -am &amp;quot;initial project commit&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now lets do some actual work..&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;basic-project:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Basic Project&lt;/h1&gt;
+
+&lt;p&gt;Open &lt;code&gt;app/index.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+.
+.
+.
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body ng-app=&amp;quot;myAngularProjectApp&amp;quot;&amp;gt;
+.
+.
+.
+
+    &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+    &amp;lt;div ng-view=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+.
+.
+.
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;what does [ng-app]() do, is it an angular or custom directive?&lt;/li&gt;
+&lt;li&gt;what does [ng-view]() do, is it an angular or custom directive?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;open &lt;code&gt;app/script.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;&#39;use strict&#39;;
+
+/**
+ * @ngdoc overview
+ * @name myAngularProjectApp
+ * @description
+ * # myAngularProjectApp
+ *
+ * Main module of the application.
+ */
+angular
+  .module(&#39;myAngularProjectApp&#39;, [
+    &#39;ngAnimate&#39;,
+    &#39;ngAria&#39;,
+    &#39;ngCookies&#39;,
+    &#39;ngMessages&#39;,
+    &#39;ngResource&#39;,
+    &#39;ngRoute&#39;,
+    &#39;ngSanitize&#39;,
+    &#39;ngTouch&#39;
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when(&#39;/&#39;, {
+        templateUrl: &#39;views/main.html&#39;,
+        controller: &#39;MainCtrl&#39;,
+        controllerAs: &#39;main&#39;
+      })
+      .when(&#39;/about&#39;, {
+        templateUrl: &#39;views/about.html&#39;,
+        controller: &#39;AboutCtrl&#39;,
+        controllerAs: &#39;about&#39;
+      })
+      .otherwise({
+        redirectTo: &#39;/&#39;
+      });
+  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;we can see [$routeprovider]() function - what does it do?&lt;/p&gt;
+
+&lt;p&gt;Ahh - welcome back, so basically read &lt;code&gt;when&lt;/code&gt; in the &lt;code&gt;root&lt;/code&gt; url &lt;code&gt;&#39;/&#39;&lt;/code&gt;, render &lt;code&gt;views/main.html&lt;/code&gt;, derived from &lt;code&gt;templateUrl&lt;/code&gt;, define controller and aliases.&lt;/p&gt;
+
+&lt;p&gt;Brilliant, thus let&amp;rsquo;s see this beauty in action.&lt;/p&gt;
+
+&lt;p&gt;Open &lt;code&gt;app/views/main.html&lt;/code&gt; and replace with this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;    &amp;lt;div class=&amp;quot;jumbotron&amp;quot;&amp;gt;
+      &amp;lt;h1&amp;gt;Bitcoin Investment&amp;lt;br&amp;gt;Calculator&amp;lt;/h1&amp;gt;
+      &amp;lt;br&amp;gt;
+      &amp;lt;h3&amp;gt;How many Bitcoins do you have?&amp;lt;/h3&amp;gt;
+      &amp;lt;!-- model --&amp;gt;
+      &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;somenumber&amp;quot; placeholder=&amp;quot;20&amp;quot;&amp;gt;
+      &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+      &amp;lt;h4&amp;gt;You have &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{ somenumber }}&amp;lt;/span&amp;gt; Bitcoins - nice!&amp;lt;/h4&amp;gt;
+    &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lets look at the diff&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt; &amp;lt;div class=&amp;quot;jumbotron&amp;quot;&amp;gt;
+-  &amp;lt;h1&amp;gt;&#39;Allo, &#39;Allo!&amp;lt;/h1&amp;gt;
+-  &amp;lt;p class=&amp;quot;lead&amp;quot;&amp;gt;
+-    &amp;lt;img src=&amp;quot;images/yeoman.png&amp;quot; alt=&amp;quot;I&#39;m Yeoman&amp;quot;&amp;gt;&amp;lt;br&amp;gt;
+-    Always a pleasure scaffolding your apps.
+-  &amp;lt;/p&amp;gt;
+-  &amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;btn btn-lg btn-success&amp;quot; ng-href=&amp;quot;#/&amp;quot;&amp;gt;Splendid!&amp;lt;span class=&amp;quot;glyphicon glyphicon-ok&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+-&amp;lt;/div&amp;gt;
+-
+-&amp;lt;div class=&amp;quot;row marketing&amp;quot;&amp;gt;
+-  &amp;lt;h4&amp;gt;HTML5 Boilerplate&amp;lt;/h4&amp;gt;
+-  &amp;lt;p&amp;gt;
+-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+-  &amp;lt;/p&amp;gt;
+-
+-  &amp;lt;h4&amp;gt;Angular&amp;lt;/h4&amp;gt;
+-  &amp;lt;p&amp;gt;
+-    AngularJS is a toolset for building the framework most suited to your application development.
+-  &amp;lt;/p&amp;gt;
+-
+-  &amp;lt;h4&amp;gt;Karma&amp;lt;/h4&amp;gt;
+-  &amp;lt;p&amp;gt;Spectacular Test Runner for JavaScript.&amp;lt;/p&amp;gt;
++      &amp;lt;h1&amp;gt;Bitcoin Investment&amp;lt;br&amp;gt;Calculator&amp;lt;/h1&amp;gt;
++      &amp;lt;br&amp;gt;
++      &amp;lt;h3&amp;gt;How many Bitcoins do you have?&amp;lt;/h3&amp;gt;
++      &amp;lt;!-- model --&amp;gt;
++      &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;somenumber&amp;quot; placeholder=&amp;quot;20&amp;quot;&amp;gt;
++      &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
++      &amp;lt;h4&amp;gt;You have &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{ somenumber }}&amp;lt;/span&amp;gt; Bitcoins - nice!&amp;lt;/h4&amp;gt;
+ &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;-Defining a model
+Here we are defining the [ng-model]() in the input box as the &lt;code&gt;ng-model=&amp;quot;someumber&amp;quot;&lt;/code&gt;. By doing so, we have bound the value within the input box to the model, so when the input value changes, Angular automatically updates the model. This is [two-way-binding]() in action.&lt;/p&gt;
+
+&lt;p&gt;-Using a model
+We wrap the model value, &lt;code&gt;somenumber&lt;/code&gt; in double curly braces, this is an example of Angular service component [interpolate]() The double curly brace notation {{ }} to bind expressions to elements is built-in Angular markup&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.angularjs.org/1.5.0/docs/api/ng/provider/SinterpolateProvider&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;module-and-controllers:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Module and Controllers&lt;/h2&gt;
+
+&lt;h3 id=&#34;controllers:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Controllers&lt;/h3&gt;
+
+&lt;p&gt;Controllers are &amp;lsquo;classes or &amp;lsquo;constructor functions&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;Going back to &lt;code&gt;app/scripts/app/js&lt;/code&gt; note this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;.when(&#39;/&#39;, {
+        templateUrl: &#39;views/main.html&#39;,
+        controller: &#39;MainCtrl&#39;,
+        controllerAs: &#39;main&#39;
+      })
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;note that for the &lt;code&gt;main.html&lt;/code&gt; a controller is defined &lt;code&gt;MainCtrl&lt;/code&gt;. This has already been generated by yeoman - so go ahead and open &lt;code&gt;app/scripts/controllers/main.js&lt;/code&gt;.
+Is there anything special about the name? How did we get to inject this into our app?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;        &amp;lt;script src=&amp;quot;scripts/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;scripts/controllers/main.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;scripts/controllers/about.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So the name we created.. whats important is the content..&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;angular.module(&#39;myAngularProjectApp&#39;)
+  .controller(&#39;MainCtrl&#39;, function () {
+    this.awesomeThings = [
+      &#39;HTML5 Boilerplate&#39;,
+      &#39;AngularJS&#39;,
+      &#39;Karma&#39;
+    ];
+  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We define a controller constructor function &lt;code&gt;MainCtrl&lt;/code&gt; within our module &lt;code&gt;myAngularProjectApp&lt;/code&gt; . Note that we have actually created a directive in our App.js when we defined a templateUrl and controller, this is a major source of confusion with Angular js beginners as there a more than one of &lt;code&gt;doing things&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;We could easily have defined our controller within our index.html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html ng-app=&amp;quot;myAngularProjectApp&amp;quot; ng-controller=&amp;quot;MainCtrl&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this is inextensible and makes it difficult to extend our app.&lt;/p&gt;
+
+&lt;p&gt;Replace mainjs with this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;angular.module(&#39;myAngularProjectApp&#39;)
+  .controller(&#39;MainCtrl&#39;, [&#39;$scope&#39;, function ($scope) {
+       // attaching 0 to the DOM
+      $scope.somenumber = 320;
+  }]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should have Grunt running to detect changes so once saved, the screen should refresh and update.
+Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a href=&#34;https://docs.angularjs.org/guide/di&#34;&gt;DI&lt;/a&gt;, it generally takes this shape for controllers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;someModule.controller(&#39;MyController&#39;, [&#39;$scope&#39;, &#39;dep1&#39;, &#39;dep2&#39;, function($scope, dep1, dep2) {
+  ...
+  $scope.aMethod = function() {
+    ...
+  }
+  ...
+}]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go read more on &lt;a href=&#34;https://docs.angularjs.org/guide/scope&#34;&gt;scopes&lt;/a&gt;. Controllers are always generally associated with an element in the DOM (the V and C in MVC) and are thus provided with a scope.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;p&gt;app/scripts/controllers/main.js&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;@@ -8,7 +8,19 @@
+  * Controller of the myAngularProjectApp
+  */
+ angular.module(&#39;myAngularProjectApp&#39;)
+-  .controller(&#39;MainCtrl&#39;, [&#39;$scope&#39;, function ($scope) {
+-       // attaching 0 to the DOM
+-      $scope.somenumber = 320;
+-  }]);
++  .controller(&#39;MainCtrl&#39;, function ($scope, $http) {
++          
++     // calling the api, grabbing the value for USD, appending it to the dom
++     $http.get(&amp;quot;https://bitpay.com/api/rates&amp;quot;)
++          .success(function(data){
++            $scope.rates = data;
++            for(var i=0;i&amp;lt;data.length;i++){
++              if (data[i].code == &amp;quot;USD&amp;quot;){
++                $scope.currRate = data[i].rate;
++              }
++            }
++            $scope.initalAmt  = 5000;
++            $scope.newAmt     = function(price){return price/$scope.currRate * $scope.initalAmt;}
++            $scope.profit     = function(price){return price/$scope.currRate * $scope.initalAmt - $scope.initalAmt;}
++      });      
++  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Looking at app/views/main.html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;@@ -1,9 +1,58 @@
+ &amp;lt;div class=&amp;quot;jumbotron&amp;quot;&amp;gt;
+-      &amp;lt;h1&amp;gt;Bitcoin Investment&amp;lt;br&amp;gt;Calculator&amp;lt;/h1&amp;gt;
+-      &amp;lt;br&amp;gt;
+-      &amp;lt;h3&amp;gt;How many Bitcoins do you have?&amp;lt;/h3&amp;gt;
+-      &amp;lt;!-- model --&amp;gt;
+-      &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;somenumber&amp;quot; placeholder=&amp;quot;20&amp;quot;&amp;gt;
+-      &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+-      &amp;lt;h4&amp;gt;You have &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{ somenumber }}&amp;lt;/span&amp;gt; Bitcoins - nice!&amp;lt;/h4&amp;gt;
++
++      &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
++        &amp;lt;div class=&amp;quot;col-sm-12&amp;quot;&amp;gt;
++          &amp;lt;h1&amp;gt;Bitcoin Investment Calculator&amp;lt;/h1&amp;gt;
++          &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
++          &amp;lt;form role=&amp;quot;form&amp;quot;&amp;gt;
++            &amp;lt;label for=&amp;quot;starting-investment&amp;quot;&amp;gt;Initial Investment (USD)&amp;lt;/label&amp;gt;
++            &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;initalAmt&amp;quot; class=&amp;quot;form-control&amp;quot; placeholder=&amp;quot;{{initalAmt}}&amp;quot;&amp;gt;
++          &amp;lt;/form&amp;gt;
++          &amp;lt;br&amp;gt;
++          &amp;lt;p&amp;gt;Current Price (USD): &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{currRate | currency }}&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
++        &amp;lt;/div&amp;gt;
++      &amp;lt;/div&amp;gt;
++      &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
++        &amp;lt;div class=&amp;quot;col-sm-12&amp;quot;&amp;gt;
++          &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
++          &amp;lt;table class=&amp;quot;table table-bordered&amp;quot;&amp;gt;
++            &amp;lt;thead&amp;gt;
++              &amp;lt;tr&amp;gt;
++                &amp;lt;th&amp;gt;Price of 1 BTC&amp;lt;/th&amp;gt;
++                &amp;lt;th&amp;gt;Starting Investment&amp;lt;/th&amp;gt;
++                &amp;lt;th&amp;gt;Profit&amp;lt;/th&amp;gt;
++              &amp;lt;/tr&amp;gt;
++            &amp;lt;/thead&amp;gt;
++              &amp;lt;tbody&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$1,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(1000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(1000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$5,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(5000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(5000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$10,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(10000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(10000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$25,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(25000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(25000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$50,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(50000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(50000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++              &amp;lt;/tbody&amp;gt;
++          &amp;lt;/table&amp;gt;
++          &amp;lt;span&amp;gt;* IF the price of 1 Bitcoin reaches X, THEN your starting investment becomes X AND your profit becomes X.&amp;lt;/span&amp;gt;
++        &amp;lt;/div&amp;gt;
++      &amp;lt;/div&amp;gt;
++
+ &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Written with &lt;a href=&#34;https://stackedit.io/&#34;&gt;Love&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>All about the narrative</title>
+      <link>http://blog.teopeurt.com/post/all-about-the-narrative/</link>
+      <pubDate>Thu, 07 Jan 2016 10:05:50 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/all-about-the-narrative/</guid>
+      <description>&lt;p&gt;Having the been to a few hackathons, I have witnessed the somewhat explosive fame of a few entrants. Beyond what they have built - most people build really awesome things - I have noticed a similarity to those who go on family..&lt;/p&gt;
+
+&lt;p&gt;Its really all about the narrative, the ability to put in words ( and stir the emotional space) with alluring pictures and anecdotes. To break into the field, you have to have a good combination of telling a good story. These guys are good engineers, but beyond being great at what they do, they are excellent orators and public speakers.&lt;/p&gt;
+
+&lt;p&gt;But how do we as mere mortals get to this stage? Well beyond attending hackathons which are not suitable for everyone - especially with a family. I suggest going to meet-ups and presenting on a topic.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Set a target to do as many speaking engagements as possible - just like coding the more you do, the better you get.&lt;/li&gt;
+&lt;li&gt;Do a monthly review and assessment of your progress&lt;/li&gt;
+&lt;li&gt;Write every-day, thoughts and critics and what you have read. Do not necessarily make it public, journals have been a staple of our engineering diet for eons.&lt;/li&gt;
+&lt;li&gt;Do tutorials and training&lt;/li&gt;
+&lt;li&gt;Profit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, a lesson is nothing without exercise and practice, so go forth and multiply.&lt;/p&gt;
+
+&lt;p&gt;This helps to build your narrative skills, as it breaks the anxiety barrier and lets you explore your creativity, thereby making a the world a better place.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://blog.teopeurt.com/projects/</link>
+      <pubDate>Sat, 07 Mar 2015 09:35:24 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/projects/</guid>
+      <description>
+
+&lt;p&gt;Selected Commercial Projects&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.engadget.com/2011/12/09/renault-debuts-r-link-an-in-dash-android-system-with-app-market&#34;&gt;Renault R-Link Renault R-Link Project&lt;/a&gt;
+An Android Tablet for the automotive market - built with TomTom.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.tracyandmatt.co.uk/blogs/index.php/samsung-devices-on-show-at-harrods&#34;&gt;Harrods/Samsung Cross Device Streaming Service&lt;/a&gt; An Excellent example of what Websockets can do. Used Node.js and Android.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.thefutureofifec.com/#opa&#34;&gt;Panasonic IFE Panasonic Avionics In Flight Entertainment&lt;/a&gt;
+Demo Project for Panasonic - Done in partnerhsip with Migcan.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://galweatherstearn.com/client-services&#34;&gt;ShowTime: House of Lies&lt;/a&gt; iOS and Android Project - wih special build for Nook and Kindle Fire.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;open-source-projects:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Open-Source Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/five-server&#34;&gt;Five-ng&lt;/a&gt; A fork of the Five project, personal streaming server and Android Client&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/mobileorg&#34;&gt;Mobileorg+&lt;/a&gt; A fork of the MobileOrg Iphone Project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.villagetelco.com/&#34;&gt;VillageTelco&lt;/a&gt;  Telephone Exchange in a Box&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talks and Public Speaking</title>
+      <link>http://blog.teopeurt.com/talks/</link>
+      <pubDate>Sat, 07 Mar 2015 09:35:00 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/talks/</guid>
+      <description>&lt;p&gt;Selected Talks and Workshops&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[Village Telco @ Fosdem]()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8YG4dPfZfkY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/teopeurt/mobile-development-practical-introduction&#34;&gt;Mobile Developement- Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://teopeurt.github.io/cchub-cloud-security&#34;&gt;Cloud Security&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/teopeurt/rapid-application-development&#34;&gt;Rapid Application Development&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>About</title>
       <link>http://blog.teopeurt.com/about/</link>
-      <pubDate>Wed, 02 Mar 2016 17:30:47 +0100</pubDate>
+      <pubDate>Mon, 02 Mar 2015 17:30:47 +0100</pubDate>
       
       <guid>http://blog.teopeurt.com/about/</guid>
       <description>&lt;p&gt;I do data, I do software, I do open-source, I love building
@@ -139,10 +629,10 @@ I believe in experimentation and breaking things in order to learn and Apple has
       <guid>http://blog.teopeurt.com/2013/01/18/mobile-development/</guid>
       <description>&lt;p&gt;A workshop I gave on developing for Mobile and the strategy to take.&lt;/p&gt;
 
-&lt;script 
-    async class=&#34;speakerdeck-embed&#34; 
-    data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34; 
-    data-ratio=&#34;1.33333333333333&#34; 
+&lt;script
+    async class=&#34;speakerdeck-embed&#34;
+    data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34;
+    data-ratio=&#34;1.33333333333333&#34;
     src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;
 &lt;/script&gt;
 
@@ -248,6 +738,18 @@ The specs look a bit daunting but actually once you&amp;rsquo;ve got the basics 
     </item>
     
     <item>
+      <title>MapBox - Mapping Tech</title>
+      <link>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</guid>
+      <description>&lt;p&gt;Mapbox, Open Mapping Platform and Tile Mill.&lt;/p&gt;
+
+&lt;p&gt;Only an IOS SDK, but Javascript API is okay I suppose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>RBENV Keeping Things Local</title>
       <link>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
@@ -257,168 +759,7 @@ The specs look a bit daunting but actually once you&amp;rsquo;ve got the basics 
 
 &lt;p&gt;Working across machines- I have 4 physical machines I use daily and countless servers dotted around the world, I can never remember the shell commands for any particular project so I created build scripts.&lt;/p&gt;
 
-&lt;p&gt;I always hated having to rebuild dev environments hence I loved RVM. The &lt;a href=&#34;https://github.com/sstephenson/rbenv/&#34;&gt;RBENV&lt;/a&gt; came along and I fell in love. Used in conjunction with a [Bundler][3] and &lt;code&gt;--path&lt;/code&gt; option, one can get a pretty awesome build going that is isolated and local just to that directory!&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://gembundler.com/&#34;&gt;http://gembundler.com/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What is QT on Android?</title>
-      <link>http://blog.teopeurt.com/2012/08/16/android-and-qt/</link>
-      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.teopeurt.com/2012/08/16/android-and-qt/</guid>
-      <description>&lt;p&gt;Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.&lt;/p&gt;
-
-&lt;p&gt;Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.&lt;/p&gt;
-
-&lt;p&gt;Look &lt;a href=&#34;http://necessitas.kde.org/&#34;&gt;here&lt;/a&gt; for good introduction and the &lt;a href=&#34;http://community.kde.org/Necessitas&#34;&gt;community&lt;/a&gt; if you want to tinker.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Necessitas is a KDE community project aimed to provide an easy way to develop Qt apps on Android platform.
-Necessitas comes from the need of exploiting the power and the multi-platform capabilities of the Qt  framework on the Android world. It was born as a concept work which demonstrates the flexibility of Qt and, today, strives to become a fully  working development solution for Android.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It was the brainchild of 31 year old Romanian Bogdan Vatra. He did an interview with &lt;a href=&#34;http://www.behindkde.org/node/925&#34;&gt;Behind KDE&lt;/a&gt;. His introduction to the Android platform SDK was similar to mine - doing custom Android builds on embedded devices, though mine was at TomTom and Renault. Here is an excerpt of how he started work on Necessitas.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;How old is the Qt on Android project?  Who started it?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I started to port Qt to Android at the end of 2009. When I started it the name was android-lighthouse but I had to change the name to &amp;ldquo;Necessitas&amp;rdquo; just before the SDK release because Nokia and Google didn&amp;rsquo;t allow me to use Qt and/or Android words.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://labs.qt.nokia.com/&#34;&gt;Lighthouse&lt;/a&gt;, a research project started by Nokia, helped me a lot. This project made my life very easy, the changes I had to make were only a small set of changes into the Qt tree. The &amp;ldquo;biggest change&amp;rdquo; was to add another shared memory implementation based on ashmem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This post is part of a series of post on QT. I will actually go through the steps for creating an android application using the brilliant QT Quick and &lt;a href=&#34;http://qt.nokia.com/qtquick/&#34;&gt;QML&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Second System Effect - Thunderbird Woes</title>
-      <link>http://blog.teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</link>
-      <pubDate>Wed, 09 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</guid>
-      <description>&lt;p&gt;My anecdotal evidence - Since 2005, there have been issues with Thunderbird speaking to IMAP servers, specifically saving messages to the sent folder. I assume there have been a bug filed for this but we are now in 2011 and this issue still exists in Thunderbird 7 - So much for progress.&lt;/p&gt;
-
-&lt;p&gt;&lt;a title=&#34;Thunderbird Issue&#34; href=&#34;http://forums.mozillazine.org/viewtopic.php?t=218625&amp;amp;start=0.&#34; target=&#34;_blank&#34;&gt;Issue Discussion Here:&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I really hate it when people point me to forums, as a source of a solution - especially ones that are 12 pages long! If you do not want to help, then don&amp;rsquo;t reply! You do have a choice.&lt;/p&gt;
-
-&lt;p&gt;Anyway this reminds me of the highly charged jwz, who says it much better than me - even gave it a cool name -  &lt;a title=&#34;CADT&#34; href=&#34;http://www.jwz.org/doc/cadt.html&#34;&gt;CADT&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Note that he was referring to Gnome 1 and 2, and now we have the monstrosity that is Gnome 3! So much for progress!&lt;/p&gt;
-
-&lt;p&gt;To al who says Google is your friend - the account settings are no longer under &amp;lsquo;Tools&amp;rsquo;
-they are now under &amp;lsquo;Edit&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;Basically there are 2 things to do -&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Reduce server connections cache to 1.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In &amp;lsquo;copies and folders&amp;rsquo; under &amp;lsquo;Account Settings&amp;rsquo;, uncheck the box to automatically place copies in &amp;lsquo;local&amp;rsquo; folders, rather have them stored in the server. The way IMAP works, you will still get these in your folders - go figure. Until they fix this issue, we will still have this problem!&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Only link I found that gave me an idea on the folder thingy was by &lt;a title=&#34;Dr Nabeel&#34; href=&#34;http://nabtron.com/thunderbird-stuck-on-copying-message-to-sent-folder-solved-on-mac-osx/2909/&#34; target=&#34;_blank&#34;&gt;Dr Nabeel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The reason for this post title? &lt;a title=&#34;second system effect&#34; href=&#34;The second-system effect refers to the tendency of small, elegant, and successful systems to have elephantine, feature-laden monstrosities as their successors. &#34;&gt;Wikipedia&lt;/a&gt; is your friend!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Do Not Equate To Skill</title>
-      <link>http://blog.teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</link>
-      <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</guid>
-      <description>&lt;p&gt;A post on a post about a post. How many layers of abstraction? Reminds me of paper money!&lt;/p&gt;
-
-&lt;p&gt;Do not really like linking to other posts - but this hits the nail on the head. The so called masters of the universe have no idea luck and serendipity plays such an important role in their &amp;lsquo;achievements&amp;rsquo;. Much better analysis than can be done by me.&lt;/p&gt;
-
-&lt;p&gt;Excellent post by Fred Dustin on &lt;a href=&#34;http://freddestin.com/2011/11/ows-2-hubris-in-the-face-of-risk-and-a-culture-of-entitlement.html&#34;&gt;hubris&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RIP Dennis..</title>
-      <link>http://blog.teopeurt.com/2011/10/13/rip-dennis/</link>
-      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.teopeurt.com/2011/10/13/rip-dennis/</guid>
-      <description>&lt;p&gt;A great &lt;a title=&#34;Dennis&#34; href=&#34;http://en.wikipedia.org/wiki/Dennis_Ritchie&#34; target=&#34;_blank&#34;&gt;man&lt;/a&gt; passed today. Unassuming and truly a legend, at least in my eyes.&lt;/p&gt;
-
-&lt;p&gt;If you haven&amp;rsquo;t read it - go buy it now! Once you can program in C - you can do anything.&lt;/p&gt;
-
-&lt;p&gt;&lt;a title=&#34;Ansi C&#34; href=&#34;http://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628&#34;&gt;The C Programming Language.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to BackUp</title>
-      <link>http://blog.teopeurt.com/2011/09/15/how-to-backup/</link>
-      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.teopeurt.com/2011/09/15/how-to-backup/</guid>
-      <description>&lt;p&gt;Don&amp;rsquo;t break what works - this constant to re-invent the wheel! sheesh&lt;/p&gt;
-
-&lt;p&gt;is Emacs broken, is Gnutils?&lt;/p&gt;
-
-&lt;p&gt;After reading the very unhelpful advice on &lt;a title=&#34;Ubuntu backup&#34; href=&#34;https://help.ubuntu.com/community/BackupYourSystem&#34;&gt;Ubuntu&lt;/a&gt; on how to backup - I have stolen the old notes from jwz.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jwz.org/doc/backups.html&#34;&gt;http://www.jwz.org/doc/backups.html&lt;/a&gt;
-&lt;ul&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;You have a computer. It came with a hard drive in it. Go buy two more drives of the same size or larger. If the drive in your computer is SATA2, get SATA2. If it&#39;s a 2.5&amp;quot; laptop drive, get two of those. Brand doesn&#39;t matter, but physical measurements and connectors should match.&amp;lt;/li&amp;gt;
-
-&amp;lt;li&amp;gt;Get external enclosures for both of them. The enclosures are under $30.&amp;lt;/li&amp;gt;
-
-&amp;lt;li&amp;gt;Put one of these drives in its enclosure on your desk. Name it something clever like &amp;quot;Backup&amp;quot;. If you are using a Mac, the command you use to back up is below, If you&#39;re using Linux, it&#39;s something a lot like that. If you&#39;re using Windows, go fuck yourself. &amp;lt;/li&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;sudo rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;If you have a desktop computer, have this happen every morning at 5AM by creating a temporary text file containing this line:&amp;lt;/li&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;0 5 * * * rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;and then doing&lt;/p&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;sudo crontab -u root 
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;that-file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;If you have a laptop, do that before you go to bed. Really. Every night when you plug your laptop in to charge.&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;If you&#39;re on a Mac, that backup drive will be &amp;lt;em&amp;gt;bootable.&amp;lt;/em&amp;gt; That means that when (WHEN) your internal drive scorches itself, you can just take your backup drive and put it in your computer and go. This is nice.&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;When (WHEN) your backup drive goes bad, which you will notice because your last backup failed, replace it immediately. This is your number one priority. Don&#39;t wait until the weekend when you have time, do it now, before you so much as &amp;lt;em&amp;gt;touch&amp;lt;/em&amp;gt; your computer again. Do it before goddamned breakfast. The universe tends toward maximum irony. Don&#39;t push it.&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;That third drive? Do a backup onto it the same way, then take that to your office and lock it in a desk. Every few months, bring it home, do a backup, and immediately take it away again. This is your &amp;quot;my house burned down&amp;quot; backup.&amp;lt;/li&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/ul&gt;
-&lt;em&gt;&amp;ldquo;OMG, three drives is so expensive! That sounds like a hassle!&amp;rdquo;&lt;/em&gt; Shut up. I know things. You will listen to me. Do it anyway.&lt;/p&gt;
-
-&lt;p&gt;Excellent advice!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unix Help For Users</title>
-      <link>http://blog.teopeurt.com/2011/07/03/unix-help-for-users/</link>
-      <pubDate>Sun, 03 Jul 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.teopeurt.com/2011/07/03/unix-help-for-users/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://unixhelp.ed.ac.uk/&#34;&gt;http://unixhelp.ed.ac.uk/&lt;/a&gt;
-Nuff Said.&lt;/p&gt;
+&lt;p&gt;I always hated having to rebuild dev environments hence I loved RVM. The &lt;a href=&#34;https://github.com/sstephenson/rbenv/&#34;&gt;RBENV&lt;/a&gt; came along and I fell in love. Used in conjunction with a &lt;a href=&#34;http://gembundler.com/&#34;&gt;Bundler&lt;/a&gt; and &lt;code&gt;--path&lt;/code&gt; option, one can get a pretty awesome build going that is isolated and local just to that directory!&lt;/p&gt;
 </description>
     </item>
     

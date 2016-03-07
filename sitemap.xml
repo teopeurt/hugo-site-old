@@ -3,13 +3,38 @@
   
   <url>
     <loc>http://blog.teopeurt.com/</loc>
-    <lastmod>2016-03-02T17:30:47+01:00</lastmod>
+    <lastmod>2016-03-02T07:55:30+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://blog.teopeurt.com/post/programming-myths/</loc>
+    <lastmod>2016-03-02T07:55:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.teopeurt.com/post/angular-by-example/</loc>
+    <lastmod>2016-02-24T20:54:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.teopeurt.com/post/all-about-the-narrative/</loc>
+    <lastmod>2016-01-07T10:05:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.teopeurt.com/projects/</loc>
+    <lastmod>2015-03-07T09:35:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.teopeurt.com/talks/</loc>
+    <lastmod>2015-03-07T09:35:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.teopeurt.com/about/</loc>
-    <lastmod>2016-03-02T17:30:47+01:00</lastmod>
+    <lastmod>2015-03-02T17:30:47+01:00</lastmod>
   </url>
   
   <url>
@@ -45,6 +70,11 @@
   <url>
     <loc>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</loc>
     <lastmod>2012-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</loc>
+    <lastmod>2012-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -100,6 +130,10 @@
   <url>
     <loc>http://blog.teopeurt.com/2011/02/01/the-mcdonalds-model/</loc>
     <lastmod>2011-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.teopeurt.com/draft/Deaths%20on%20African%20Highways/</loc>
   </url>
   
 </urlset>
