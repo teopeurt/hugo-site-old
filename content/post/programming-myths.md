@@ -2,7 +2,7 @@
 date = "2016-03-02T07:55:30+01:00"
 draft = false
 title = "Programming myths"
-categories = ["programming"]
+categories = ["programming", "rant"]
 +++
 
 # New Programmer Programming Myths
@@ -15,5 +15,9 @@ This is annoying - no matter what you feel about threads, we live in an async wo
 ## Authentication and Authorisation : Security is for Others
 There is this thing called security which we drum into students to fear like a second coming of Baal Davar. It is bloody important yet most introductory web security start with HTTP Basic Auth! What? When have you ever seen a decent website using bloody HTTP Basic auth? Don't mention the fact that SSL is never introduced, any auth methods are never explained, and what does hashing and encryption even mean?
 
-## My Language/IdioM is the best
-Nuff said on this crap, it's the need and ego of man to be king and he brings his religious crap with him. A typical programming class should include 3 languages (at least 2 scripting languages and at least one compiled 'c' language), 2 or more queue/broker, and 2 or more databases and either NoSQL and SQL databases. Advance students can then debate on the merits on functional/Procedural/OO style while solving the same problem in each style.
+## My Language/Idiom is the best
+Nuff said on this,
+
+> "it's the need and ego of man to be king and he brings his religious crap with him." :me
+
+A typical programming class should include 3 languages (at least 2 scripting languages and at least one compiled 'c' language), 2 or more queue/broker, and 2 or more databases and either NoSQL and SQL databases. Advance students can then debate on the merits on functional/Procedural/OO style while solving the same problem in each style.
