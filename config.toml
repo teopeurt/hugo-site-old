@@ -4,7 +4,7 @@ title = "My Thoughts"
 
 [params]
 	sidebartitle = "{teopeurt}"
-	sidebartagline = "digital.security, hacking, ux, product"
+	sidebartagline = "digital.security, mobile, api, hacking, ux, product"
 	categories = "life"
 
 [[menu.main]]
