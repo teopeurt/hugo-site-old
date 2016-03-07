@@ -6,6 +6,7 @@ published: true
 share: true
 title: Making an EPUB Reader for Cocoa
 url: /2012/09/03/making-an-epub-reader-for-cocoa/
+categories: ["programming", "hacking"]
 ---
 
 Source: http://stackoverflow.com/questions/1388467/reading-epub-format

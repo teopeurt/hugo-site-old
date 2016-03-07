@@ -4,6 +4,7 @@ comments: false
 date: 2012-09-03T00:00:00Z
 title: DNS Service Providers
 url: /2012/09/03/dns-service-providers/
+categories: ["programming", "hacking"]
 ---
 
 http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/

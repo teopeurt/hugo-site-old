@@ -11,6 +11,18 @@ title = "My New Hugo Site"
     name = "About"
     url = "/about"
 
+[[menu.main]]
+		name = "Talks"
+		url = "/talks"
+
+[[menu.main]]
+		name = "Projects"
+		url = "/projects"
+
+[[menu.main]]
+		name = "Blog"
+		url = "/post"
+
 
 [[menu.social]]
   	pre = "<i class='fa fa-twitter'></i>"

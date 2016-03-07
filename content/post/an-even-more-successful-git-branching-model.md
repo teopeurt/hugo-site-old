@@ -1,8 +1,8 @@
 +++
 date = "2016-02-28T23:42:58+01:00"
 draft = true
-title = "an even more successful git branching model"
-
+title = "An even more successful git branching model"
+categories = ["programming"]
 +++
 
 ## An Agile Approach..
@@ -18,4 +18,3 @@ Never an EPIC
 ### Aligned with Agile - Feature branch Name should have Task-ID
 
 ### Junior Devs should use a GUI such as SourceTree
-

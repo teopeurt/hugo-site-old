@@ -1,8 +1,8 @@
 +++
 date = "2016-03-02T07:55:30+01:00"
-draft = true
-title = "programming myths"
-
+draft = false
+title = "Programming myths"
+categories = ["programming"]
 +++
 
 # New Programmer Programming Myths

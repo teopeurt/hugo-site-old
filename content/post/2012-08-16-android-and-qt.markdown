@@ -12,6 +12,7 @@ tags:
 - framework
 title: What is QT on Android?
 url: /2012/08/16/android-and-qt/
+categories: ["programming", "mobile"]
 ---
 
 Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.

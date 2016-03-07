@@ -12,14 +12,15 @@ tags:
 - pi
 title: Mobile Development
 url: /2013/01/18/mobile-development/
+categories: ["programming", "mobile"]
 ---
 
 A workshop I gave on developing for Mobile and the strategy to take.
 
-<script 
-    async class="speakerdeck-embed" 
-    data-id="3b7469c043c60130f33f1231381d4ca8" 
-    data-ratio="1.33333333333333" 
+<script
+    async class="speakerdeck-embed"
+    data-id="3b7469c043c60130f33f1231381d4ca8"
+    data-ratio="1.33333333333333"
     src="//speakerdeck.com/assets/embed.js">
 </script>
 
