@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swagger on My Thoughts</title>
+    <link>http://blog.teopeurt.com/categories/swagger/</link>
+    <description>Recent content in Swagger on My Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Feb 2016 17:17:42 +0100</lastBuildDate>
+    <atom:link href="http://blog.teopeurt.com/categories/swagger/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Open Api</title>
+      <link>http://blog.teopeurt.com/post/open-api/</link>
+      <pubDate>Mon, 01 Feb 2016 17:17:42 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/open-api/</guid>
+      <description>&lt;p&gt;Today I am pleased to learn that &lt;a href=&#34;http://swagger.io/&#34;&gt;Swagger&lt;/a&gt; has been adopted/donated to the &lt;a href=&#34;https://openapis.org/&#34;&gt;Open API Initiative&lt;/a&gt;, anyone who has worked with me on any project will know along with many &amp;ldquo;truths&amp;rdquo; I apply to any of my project, I always adopt an &amp;ldquo;API First Design&amp;rdquo; and use Swagger as a way to document the api. I find this approach works for cross-platform team and even remote ones as it enables back-end to get on with the task at hand without front-enders and mobile team hovering over&lt;/p&gt;
+
+&lt;p&gt;I recommended this approach when initial architecture designs for &lt;a href=&#34;https://hiho.com&#34;&gt;HiHo&lt;/a&gt; were taking place and we ended up  utilising the &lt;a href=&#34;https://github.com/metosin/ring-swagger&#34;&gt;Clojure Ring-Swagger&lt;/a&gt; from day -1. I am happy to say that this decision was validated with the &lt;a href=&#34;http://blog.parse.com/announcements/moving-on/&#34;&gt;other option&lt;/a&gt; dying off.&lt;/p&gt;
+
+&lt;p&gt;As an avid Linux User for over 10 years, the real number lies just double that, but don&amp;rsquo;t ask my age! I am pleased to see that this initiative is supported and hosted by the ever present and exquisite &lt;a href=&#34;http://collabprojects.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am currently working on a short book/tutorial on best practises on an API first approach, as there are many decisions which will come to haunt you if you take the wrong path and I have been stung many times in the past.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

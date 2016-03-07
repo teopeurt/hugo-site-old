@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Thoughts</title>
+    <link>http://blog.teopeurt.com/</link>
+    <description>Recent content on My Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Mar 2016 07:55:30 +0100</lastBuildDate>
+    <atom:link href="http://blog.teopeurt.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Programming myths</title>
+      <link>http://blog.teopeurt.com/post/programming-myths/</link>
+      <pubDate>Wed, 02 Mar 2016 07:55:30 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/programming-myths/</guid>
+      <description>
+
+&lt;h1 id=&#34;new-programmer-programming-myths:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;New Programmer Programming Myths&lt;/h1&gt;
+
+&lt;p&gt;Its a PITA when introducing programming to beginners that there is some unwritten rule somewhere that certain things are just too hard to tackle at first. So the student is introduced to crappy concepts and thus doesn&amp;rsquo;t touch the &amp;ldquo;advance&amp;rdquo; stuff until it is too late - i.e. they are sat there wondering why their production code is crap, slow and buggy.&lt;/p&gt;
+
+&lt;h2 id=&#34;dont-talk-about-threads:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Dont talk about threads&lt;/h2&gt;
+
+&lt;p&gt;This is annoying - no matter what you feel about threads, we live in an async world, it&amp;rsquo;s fine not to talk about about threads but what are my alternatives. I don&amp;rsquo;t need to know how to implement an aysnc/promise/background_task, but at least tell me I &lt;em&gt;need&lt;/em&gt; it and show me how to use. Tell me why it is important in a system.&lt;/p&gt;
+
+&lt;h2 id=&#34;authentication-and-authorisation-security-is-for-others:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Authentication and Authorisation : Security is for Others&lt;/h2&gt;
+
+&lt;p&gt;There is this thing called security which we drum into students to fear like a second coming of Baal Davar. It is bloody important yet most introductory web security start with HTTP Basic Auth! What? When have you ever seen a decent website using bloody HTTP Basic auth? Don&amp;rsquo;t mention the fact that SSL is never introduced, any auth methods are never explained, and what does hashing and encryption even mean?&lt;/p&gt;
+
+&lt;h2 id=&#34;my-language-idiom-is-the-best:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;My Language/Idiom is the best&lt;/h2&gt;
+
+&lt;p&gt;Nuff said on this,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;it&amp;rsquo;s the need and ego of man to be king and he brings his religious crap with him.&amp;rdquo; :me&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A typical programming class should include 3 languages (at least 2 scripting languages and at least one compiled &amp;lsquo;c&amp;rsquo; language), 2 or more queue/broker, and 2 or more databases and either NoSQL and SQL databases. Advance students can then debate on the merits on functional/Procedural/OO style while solving the same problem in each style.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Angular by example</title>
+      <link>http://blog.teopeurt.com/post/angular-by-example/</link>
+      <pubDate>Wed, 24 Feb 2016 20:54:40 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/angular-by-example/</guid>
+      <description>
+
+&lt;h1 id=&#34;environment-setup:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Environment Setup&lt;/h1&gt;
+
+&lt;p&gt;Use NVM
+Use Node js&lt;/p&gt;
+
+&lt;h2 id=&#34;scaffold-a-webapp-with-yeoman:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Scaffold a WebApp with YeoMan&lt;/h2&gt;
+
+&lt;p&gt;source &lt;a href=&#34;http://yeoman.io/codelab/&#34;&gt;YeoMan Guide&lt;/a&gt; and &lt;a href=&#34;http://yeoman.io/codelab/meet-yeoman.html&#34;&gt;Meet Yeoman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install yo, grunt-cli, bower, generator-angular and generator-karma&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install -g grunt-cli bower yo generator-karma generator-angular
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am opinionated in how I use Ruby in my system. I use &lt;a href=&#34;https://github.com/rbenv/rbenv#installation&#34;&gt;rbenv&lt;/a&gt; and &lt;a href=&#34;https://github.com/rbenv/ruby-build#readme&#34;&gt;ruby-build&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Install the compass gem:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install compass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Either clone my github page or if you really want to learn, do it from scratch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir my-angular-project &amp;amp;&amp;amp; cd $_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run &lt;code&gt;yo angular&lt;/code&gt; , optionally passing in an app name:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yo angular [app-name]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go through the options&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. Choose Grunt
+2. Use Sass
+3. Include Bootstrap
+4. Use Sass version of Bootstrap
+5. Choose Angular modules needed
+6. Profit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now run the initial app with &lt;code&gt;grunt serve&lt;/code&gt; .&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grunt serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This should automatically open a browser window&lt;/p&gt;
+
+&lt;p&gt;I always use source control&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git init
+git add .
+git commit -am &amp;quot;initial project commit&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now lets do some actual work..&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;basic-project:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Basic Project&lt;/h1&gt;
+
+&lt;p&gt;Open &lt;code&gt;app/index.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+.
+.
+.
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body ng-app=&amp;quot;myAngularProjectApp&amp;quot;&amp;gt;
+.
+.
+.
+
+    &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+    &amp;lt;div ng-view=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+.
+.
+.
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;what does [ng-app]() do, is it an angular or custom directive?&lt;/li&gt;
+&lt;li&gt;what does [ng-view]() do, is it an angular or custom directive?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;open &lt;code&gt;app/script.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;&#39;use strict&#39;;
+
+/**
+ * @ngdoc overview
+ * @name myAngularProjectApp
+ * @description
+ * # myAngularProjectApp
+ *
+ * Main module of the application.
+ */
+angular
+  .module(&#39;myAngularProjectApp&#39;, [
+    &#39;ngAnimate&#39;,
+    &#39;ngAria&#39;,
+    &#39;ngCookies&#39;,
+    &#39;ngMessages&#39;,
+    &#39;ngResource&#39;,
+    &#39;ngRoute&#39;,
+    &#39;ngSanitize&#39;,
+    &#39;ngTouch&#39;
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when(&#39;/&#39;, {
+        templateUrl: &#39;views/main.html&#39;,
+        controller: &#39;MainCtrl&#39;,
+        controllerAs: &#39;main&#39;
+      })
+      .when(&#39;/about&#39;, {
+        templateUrl: &#39;views/about.html&#39;,
+        controller: &#39;AboutCtrl&#39;,
+        controllerAs: &#39;about&#39;
+      })
+      .otherwise({
+        redirectTo: &#39;/&#39;
+      });
+  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;we can see [$routeprovider]() function - what does it do?&lt;/p&gt;
+
+&lt;p&gt;Ahh - welcome back, so basically read &lt;code&gt;when&lt;/code&gt; in the &lt;code&gt;root&lt;/code&gt; url &lt;code&gt;&#39;/&#39;&lt;/code&gt;, render &lt;code&gt;views/main.html&lt;/code&gt;, derived from &lt;code&gt;templateUrl&lt;/code&gt;, define controller and aliases.&lt;/p&gt;
+
+&lt;p&gt;Brilliant, thus let&amp;rsquo;s see this beauty in action.&lt;/p&gt;
+
+&lt;p&gt;Open &lt;code&gt;app/views/main.html&lt;/code&gt; and replace with this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;    &amp;lt;div class=&amp;quot;jumbotron&amp;quot;&amp;gt;
+      &amp;lt;h1&amp;gt;Bitcoin Investment&amp;lt;br&amp;gt;Calculator&amp;lt;/h1&amp;gt;
+      &amp;lt;br&amp;gt;
+      &amp;lt;h3&amp;gt;How many Bitcoins do you have?&amp;lt;/h3&amp;gt;
+      &amp;lt;!-- model --&amp;gt;
+      &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;somenumber&amp;quot; placeholder=&amp;quot;20&amp;quot;&amp;gt;
+      &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+      &amp;lt;h4&amp;gt;You have &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{ somenumber }}&amp;lt;/span&amp;gt; Bitcoins - nice!&amp;lt;/h4&amp;gt;
+    &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lets look at the diff&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt; &amp;lt;div class=&amp;quot;jumbotron&amp;quot;&amp;gt;
+-  &amp;lt;h1&amp;gt;&#39;Allo, &#39;Allo!&amp;lt;/h1&amp;gt;
+-  &amp;lt;p class=&amp;quot;lead&amp;quot;&amp;gt;
+-    &amp;lt;img src=&amp;quot;images/yeoman.png&amp;quot; alt=&amp;quot;I&#39;m Yeoman&amp;quot;&amp;gt;&amp;lt;br&amp;gt;
+-    Always a pleasure scaffolding your apps.
+-  &amp;lt;/p&amp;gt;
+-  &amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;btn btn-lg btn-success&amp;quot; ng-href=&amp;quot;#/&amp;quot;&amp;gt;Splendid!&amp;lt;span class=&amp;quot;glyphicon glyphicon-ok&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+-&amp;lt;/div&amp;gt;
+-
+-&amp;lt;div class=&amp;quot;row marketing&amp;quot;&amp;gt;
+-  &amp;lt;h4&amp;gt;HTML5 Boilerplate&amp;lt;/h4&amp;gt;
+-  &amp;lt;p&amp;gt;
+-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+-  &amp;lt;/p&amp;gt;
+-
+-  &amp;lt;h4&amp;gt;Angular&amp;lt;/h4&amp;gt;
+-  &amp;lt;p&amp;gt;
+-    AngularJS is a toolset for building the framework most suited to your application development.
+-  &amp;lt;/p&amp;gt;
+-
+-  &amp;lt;h4&amp;gt;Karma&amp;lt;/h4&amp;gt;
+-  &amp;lt;p&amp;gt;Spectacular Test Runner for JavaScript.&amp;lt;/p&amp;gt;
++      &amp;lt;h1&amp;gt;Bitcoin Investment&amp;lt;br&amp;gt;Calculator&amp;lt;/h1&amp;gt;
++      &amp;lt;br&amp;gt;
++      &amp;lt;h3&amp;gt;How many Bitcoins do you have?&amp;lt;/h3&amp;gt;
++      &amp;lt;!-- model --&amp;gt;
++      &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;somenumber&amp;quot; placeholder=&amp;quot;20&amp;quot;&amp;gt;
++      &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
++      &amp;lt;h4&amp;gt;You have &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{ somenumber }}&amp;lt;/span&amp;gt; Bitcoins - nice!&amp;lt;/h4&amp;gt;
+ &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;-Defining a model
+Here we are defining the [ng-model]() in the input box as the &lt;code&gt;ng-model=&amp;quot;someumber&amp;quot;&lt;/code&gt;. By doing so, we have bound the value within the input box to the model, so when the input value changes, Angular automatically updates the model. This is [two-way-binding]() in action.&lt;/p&gt;
+
+&lt;p&gt;-Using a model
+We wrap the model value, &lt;code&gt;somenumber&lt;/code&gt; in double curly braces, this is an example of Angular service component [interpolate]() The double curly brace notation {{ }} to bind expressions to elements is built-in Angular markup&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://code.angularjs.org/1.5.0/docs/api/ng/provider/SinterpolateProvider&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;module-and-controllers:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Module and Controllers&lt;/h2&gt;
+
+&lt;h3 id=&#34;controllers:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Controllers&lt;/h3&gt;
+
+&lt;p&gt;Controllers are &amp;lsquo;classes or &amp;lsquo;constructor functions&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;Going back to &lt;code&gt;app/scripts/app/js&lt;/code&gt; note this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;.when(&#39;/&#39;, {
+        templateUrl: &#39;views/main.html&#39;,
+        controller: &#39;MainCtrl&#39;,
+        controllerAs: &#39;main&#39;
+      })
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;note that for the &lt;code&gt;main.html&lt;/code&gt; a controller is defined &lt;code&gt;MainCtrl&lt;/code&gt;. This has already been generated by yeoman - so go ahead and open &lt;code&gt;app/scripts/controllers/main.js&lt;/code&gt;.
+Is there anything special about the name? How did we get to inject this into our app?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;        &amp;lt;script src=&amp;quot;scripts/app.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;scripts/controllers/main.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+        &amp;lt;script src=&amp;quot;scripts/controllers/about.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So the name we created.. whats important is the content..&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;angular.module(&#39;myAngularProjectApp&#39;)
+  .controller(&#39;MainCtrl&#39;, function () {
+    this.awesomeThings = [
+      &#39;HTML5 Boilerplate&#39;,
+      &#39;AngularJS&#39;,
+      &#39;Karma&#39;
+    ];
+  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We define a controller constructor function &lt;code&gt;MainCtrl&lt;/code&gt; within our module &lt;code&gt;myAngularProjectApp&lt;/code&gt; . Note that we have actually created a directive in our App.js when we defined a templateUrl and controller, this is a major source of confusion with Angular js beginners as there a more than one of &lt;code&gt;doing things&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;We could easily have defined our controller within our index.html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html ng-app=&amp;quot;myAngularProjectApp&amp;quot; ng-controller=&amp;quot;MainCtrl&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this is inextensible and makes it difficult to extend our app.&lt;/p&gt;
+
+&lt;p&gt;Replace mainjs with this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;angular.module(&#39;myAngularProjectApp&#39;)
+  .controller(&#39;MainCtrl&#39;, [&#39;$scope&#39;, function ($scope) {
+       // attaching 0 to the DOM
+      $scope.somenumber = 320;
+  }]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should have Grunt running to detect changes so once saved, the screen should refresh and update.
+Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a href=&#34;https://docs.angularjs.org/guide/di&#34;&gt;DI&lt;/a&gt;, it generally takes this shape for controllers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;someModule.controller(&#39;MyController&#39;, [&#39;$scope&#39;, &#39;dep1&#39;, &#39;dep2&#39;, function($scope, dep1, dep2) {
+  ...
+  $scope.aMethod = function() {
+    ...
+  }
+  ...
+}]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go read more on &lt;a href=&#34;https://docs.angularjs.org/guide/scope&#34;&gt;scopes&lt;/a&gt;. Controllers are always generally associated with an element in the DOM (the V and C in MVC) and are thus provided with a scope.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;p&gt;app/scripts/controllers/main.js&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;@@ -8,7 +8,19 @@
+  * Controller of the myAngularProjectApp
+  */
+ angular.module(&#39;myAngularProjectApp&#39;)
+-  .controller(&#39;MainCtrl&#39;, [&#39;$scope&#39;, function ($scope) {
+-       // attaching 0 to the DOM
+-      $scope.somenumber = 320;
+-  }]);
++  .controller(&#39;MainCtrl&#39;, function ($scope, $http) {
++          
++     // calling the api, grabbing the value for USD, appending it to the dom
++     $http.get(&amp;quot;https://bitpay.com/api/rates&amp;quot;)
++          .success(function(data){
++            $scope.rates = data;
++            for(var i=0;i&amp;lt;data.length;i++){
++              if (data[i].code == &amp;quot;USD&amp;quot;){
++                $scope.currRate = data[i].rate;
++              }
++            }
++            $scope.initalAmt  = 5000;
++            $scope.newAmt     = function(price){return price/$scope.currRate * $scope.initalAmt;}
++            $scope.profit     = function(price){return price/$scope.currRate * $scope.initalAmt - $scope.initalAmt;}
++      });      
++  });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Looking at app/views/main.html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;@@ -1,9 +1,58 @@
+ &amp;lt;div class=&amp;quot;jumbotron&amp;quot;&amp;gt;
+-      &amp;lt;h1&amp;gt;Bitcoin Investment&amp;lt;br&amp;gt;Calculator&amp;lt;/h1&amp;gt;
+-      &amp;lt;br&amp;gt;
+-      &amp;lt;h3&amp;gt;How many Bitcoins do you have?&amp;lt;/h3&amp;gt;
+-      &amp;lt;!-- model --&amp;gt;
+-      &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;somenumber&amp;quot; placeholder=&amp;quot;20&amp;quot;&amp;gt;
+-      &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+-      &amp;lt;h4&amp;gt;You have &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{ somenumber }}&amp;lt;/span&amp;gt; Bitcoins - nice!&amp;lt;/h4&amp;gt;
++
++      &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
++        &amp;lt;div class=&amp;quot;col-sm-12&amp;quot;&amp;gt;
++          &amp;lt;h1&amp;gt;Bitcoin Investment Calculator&amp;lt;/h1&amp;gt;
++          &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
++          &amp;lt;form role=&amp;quot;form&amp;quot;&amp;gt;
++            &amp;lt;label for=&amp;quot;starting-investment&amp;quot;&amp;gt;Initial Investment (USD)&amp;lt;/label&amp;gt;
++            &amp;lt;input type=&amp;quot;number&amp;quot; ng-model=&amp;quot;initalAmt&amp;quot; class=&amp;quot;form-control&amp;quot; placeholder=&amp;quot;{{initalAmt}}&amp;quot;&amp;gt;
++          &amp;lt;/form&amp;gt;
++          &amp;lt;br&amp;gt;
++          &amp;lt;p&amp;gt;Current Price (USD): &amp;lt;span class=&amp;quot;number&amp;quot;&amp;gt;{{currRate | currency }}&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
++        &amp;lt;/div&amp;gt;
++      &amp;lt;/div&amp;gt;
++      &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
++        &amp;lt;div class=&amp;quot;col-sm-12&amp;quot;&amp;gt;
++          &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
++          &amp;lt;table class=&amp;quot;table table-bordered&amp;quot;&amp;gt;
++            &amp;lt;thead&amp;gt;
++              &amp;lt;tr&amp;gt;
++                &amp;lt;th&amp;gt;Price of 1 BTC&amp;lt;/th&amp;gt;
++                &amp;lt;th&amp;gt;Starting Investment&amp;lt;/th&amp;gt;
++                &amp;lt;th&amp;gt;Profit&amp;lt;/th&amp;gt;
++              &amp;lt;/tr&amp;gt;
++            &amp;lt;/thead&amp;gt;
++              &amp;lt;tbody&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$1,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(1000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(1000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$5,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(5000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(5000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$10,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(10000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(10000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$25,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(25000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(25000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++                &amp;lt;tr&amp;gt;
++                  &amp;lt;td&amp;gt;$50,000&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ newAmt(50000) | currency }}&amp;lt;/td&amp;gt;
++                  &amp;lt;td&amp;gt;{{ profit(50000) | currency }}&amp;lt;/td&amp;gt;
++                &amp;lt;/tr&amp;gt;
++              &amp;lt;/tbody&amp;gt;
++          &amp;lt;/table&amp;gt;
++          &amp;lt;span&amp;gt;* IF the price of 1 Bitcoin reaches X, THEN your starting investment becomes X AND your profit becomes X.&amp;lt;/span&amp;gt;
++        &amp;lt;/div&amp;gt;
++      &amp;lt;/div&amp;gt;
++
+ &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Written with &lt;a href=&#34;https://stackedit.io/&#34;&gt;Love&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://blog.teopeurt.com/projects/</link>
+      <pubDate>Wed, 17 Feb 2016 09:35:24 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/projects/</guid>
+      <description>
+
+&lt;p&gt;Selected Commercial Projects&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HiHo Partner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A startup just launched in Manchester, England. &lt;a href=&#34;https://www.hiho.com/&#34;&gt;HiHo&lt;/a&gt; is an app that connects ready-to-go customers with local, qualified skilled specialists.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/gb/app/hiho-partner/id1050625660?ls=1&amp;amp;mt=8&#34;&gt;iOS App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hiho.hihopartner&#34;&gt;Android App Store Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HiHo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/gb/app/hiho/id1065442492?mt=8&#34;&gt;iOS App Store Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hiho.hihoapp&#34;&gt;Android App Store Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Playday&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/playday_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/playday_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/playday_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/playday_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/playday/id898183351?mt=8&#34;&gt;iOS App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Barclays&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/barclays_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set3&#34; data-title=&#34;Barclays Mobile&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/barclays_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/barclays_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set3&#34; data-title=&#34;Barclays Mobile&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/barclays_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SonicWall Mobile Connect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.sonicwall.mobileconnect&#34;&gt;iOS App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TomTom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ewow Books&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_1.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_1-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_2.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_2-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_3.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_3-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_4.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_4-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.engadget.com/2011/12/09/renault-debuts-r-link-an-in-dash-android-system-with-app-market&#34;&gt;Renault R-Link Renault R-Link Project&lt;/a&gt;
+An Android Tablet for the automotive market - built with TomTom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/renault_1.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Renault Automotive&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/renault_1-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.tracyandmatt.co.uk/blogs/index.php/samsung-devices-on-show-at-harrods&#34;&gt;Harrods/Samsung Cross Device Streaming Service&lt;/a&gt; An Excellent example of what Websockets can do. Used Node.js and Android.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.thefutureofifec.com/#opa&#34;&gt;Panasonic IFE Panasonic Avionics In Flight Entertainment&lt;/a&gt;
+Demo Project for Panasonic - Done in partnerhsip with Migcan.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://galweatherstearn.com/client-services&#34;&gt;ShowTime: House of Lies&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;iOS and Android Project - with special build for Nook and Kindle Fire.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/DAqVhiaet5g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Stroke-Your-Genius-Management-Consulting/dp/B00C9KDFCO&#34;&gt;Amazon App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;open-source-projects:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Open-Source Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/five-server&#34;&gt;Five-ng&lt;/a&gt; A fork of the Five project, personal streaming server and Android Client&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/mobileorg&#34;&gt;Mobileorg+&lt;/a&gt; A fork of the MobileOrg Iphone Project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.villagetelco.com/&#34;&gt;VillageTelco&lt;/a&gt;  Telephone Exchange in a Box&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Api</title>
+      <link>http://blog.teopeurt.com/post/open-api/</link>
+      <pubDate>Mon, 01 Feb 2016 17:17:42 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/open-api/</guid>
+      <description>&lt;p&gt;Today I am pleased to learn that &lt;a href=&#34;http://swagger.io/&#34;&gt;Swagger&lt;/a&gt; has been adopted/donated to the &lt;a href=&#34;https://openapis.org/&#34;&gt;Open API Initiative&lt;/a&gt;, anyone who has worked with me on any project will know along with many &amp;ldquo;truths&amp;rdquo; I apply to any of my project, I always adopt an &amp;ldquo;API First Design&amp;rdquo; and use Swagger as a way to document the api. I find this approach works for cross-platform team and even remote ones as it enables back-end to get on with the task at hand without front-enders and mobile team hovering over&lt;/p&gt;
+
+&lt;p&gt;I recommended this approach when initial architecture designs for &lt;a href=&#34;https://hiho.com&#34;&gt;HiHo&lt;/a&gt; were taking place and we ended up  utilising the &lt;a href=&#34;https://github.com/metosin/ring-swagger&#34;&gt;Clojure Ring-Swagger&lt;/a&gt; from day -1. I am happy to say that this decision was validated with the &lt;a href=&#34;http://blog.parse.com/announcements/moving-on/&#34;&gt;other option&lt;/a&gt; dying off.&lt;/p&gt;
+
+&lt;p&gt;As an avid Linux User for over 10 years, the real number lies just double that, but don&amp;rsquo;t ask my age! I am pleased to see that this initiative is supported and hosted by the ever present and exquisite &lt;a href=&#34;http://collabprojects.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am currently working on a short book/tutorial on best practises on an API first approach, as there are many decisions which will come to haunt you if you take the wrong path and I have been stung many times in the past.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>All about the narrative</title>
+      <link>http://blog.teopeurt.com/post/all-about-the-narrative/</link>
+      <pubDate>Thu, 07 Jan 2016 10:05:50 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/all-about-the-narrative/</guid>
+      <description>&lt;p&gt;Having the been to a few hackathons, I have witnessed the somewhat explosive fame of a few entrants. Beyond what they have built - most people build really awesome things - I have noticed a similarity to those who go on family..&lt;/p&gt;
+
+&lt;p&gt;Its really all about the narrative, the ability to put in words ( and stir the emotional space) with alluring pictures and anecdotes. To break into the field, you have to have a good combination of telling a good story. These guys are good engineers, but beyond being great at what they do, they are excellent orators and public speakers.&lt;/p&gt;
+
+&lt;p&gt;But how do we as mere mortals get to this stage? Well beyond attending hackathons which are not suitable for everyone - especially with a family. I suggest going to meet-ups and presenting on a topic.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Set a target to do as many speaking engagements as possible - just like coding the more you do, the better you get.&lt;/li&gt;
+&lt;li&gt;Do a monthly review and assessment of your progress&lt;/li&gt;
+&lt;li&gt;Write every-day, thoughts and critics and what you have read. Do not necessarily make it public, journals have been a staple of our engineering diet for eons.&lt;/li&gt;
+&lt;li&gt;Do tutorials and training&lt;/li&gt;
+&lt;li&gt;Profit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, a lesson is nothing without exercise and practice, so go forth and multiply.&lt;/p&gt;
+
+&lt;p&gt;This helps to build your narrative skills, as it breaks the anxiety barrier and lets you explore your creativity, thereby making a the world a better place.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talks and Public Speaking</title>
+      <link>http://blog.teopeurt.com/talks/</link>
+      <pubDate>Sat, 07 Mar 2015 09:35:00 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/talks/</guid>
+      <description>&lt;p&gt;Selected Talks and Workshops&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[Village Telco @ Fosdem]()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8YG4dPfZfkY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/teopeurt/mobile-development-practical-introduction&#34;&gt;Mobile Developement- Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://teopeurt.github.io/cchub-cloud-security&#34;&gt;Cloud Security&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/teopeurt/rapid-application-development&#34;&gt;Rapid Application Development&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://blog.teopeurt.com/about/</link>
+      <pubDate>Mon, 02 Mar 2015 17:30:47 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/about/</guid>
+      <description>&lt;p&gt;I do data, I do software, I do open-source, I love building
+distributed, connected services, hack embedded devices and mobile
+development.
+I also write software for mobiles, and try to make Web services
+&amp;ldquo;reactive&amp;rdquo;. I am also helping to build the open Web.&lt;/p&gt;
+
+&lt;p&gt;In my past life I used to work with software in high performance cars
+&lt;a href=&#34;http://www.astonmartin.com/&#34;&gt;here&lt;/a&gt;,
+&lt;a href=&#34;http://www.jaguar.com/gb/en/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www.bmw.com/&#34;&gt;here&lt;/a&gt;,
+racing cars &lt;a href=&#34;http://www.mclaren.com/home/&#34;&gt;here&lt;/a&gt;, regular cars
+&lt;a href=&#34;http://www.ford.co.uk/&#34;&gt;here&lt;/a&gt;, now I work with High Performance
+Computers.&lt;/p&gt;
+
+&lt;p&gt;I tried to do something totally different in
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Computational_finance&#34;&gt;Computational Finance&lt;/a&gt;,
+realised that most of the theory was based on dodgy application of
+Physics, so decided to fund and do my own research into analysing risk
+and capital markets - similar in vein to
+&lt;a href=&#34;http://www.amazon.com/The-behavior-Markets-Benoit-Mandelbrot/dp/0465043550&#34;&gt;Mandelbroit&lt;/a&gt;.
+I am due to launch a product which demonstrates and blows Portfolio
+Theory out of the water.&lt;/p&gt;
+
+&lt;p&gt;I am highly opinionated and think Africa&amp;rsquo;s internet rate
+penetration/adoption is NOT going quick enough. I intend to change
+that hence why I support projects like the
+&lt;a href=&#34;http://villagetelco.org&#34;&gt;Village Telco&lt;/a&gt;. Unfortunately the stumbling
+block is not technical.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apple&#39;s New Programming Language Swift</title>
+      <link>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</guid>
+      <description>&lt;p&gt;Apple has just released a brand new programming language, I wont go
+into any of the details as better men have already evaluated it.&lt;/p&gt;
+
+&lt;p&gt;My excitement is not on the language itself but rather the suite of
+tools that comes with it. Quoting directly from the release notes.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interactive.&lt;/strong&gt; Use Swift interactively to experiment with your ideas
+and see instant results.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Unified.&lt;/strong&gt; A complete replacement for both the C and Objective-C
+languages. Swift provides full object-oriented features, and
+includes low-level language primitives such as types, flow control,
+and operators&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Playgrounds.&lt;/strong&gt; Playgrounds make writing Swift code productive and
+easy. Type a line of code, and the result appears immediately.
+If your code runs over time—for instance through a loop—you can add
+that line of code to the Timeline Assistant to watch it progress.
+Display variables in a graph, inspect each step of drawing a view, or
+watch an animated Sprite&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Kit scene.&lt;/strong&gt; When you’ve perfected your code in the playground, simply
+move that code into your project. Some uses for playgrounds include:
+Designing a new algorithm, watching its results every step of the way
+Experimenting with new API or trying out new Swift syntax Creating new
+tests and then verifying that they work before promoting them into your test suite&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Learn in a playground&lt;/strong&gt;. Open select documentation in a playground to
+learn from the tutorial in an interactive environment. The
+combination of richly formatted documentation and interactive
+playground makes it easy to fully explore the API, changing and
+experimenting with the sample code.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Read-eval-print loop (REPL) in LLDB.&lt;/strong&gt; The debugging console in Xcode
+includes an interactive version of the Swift language built right in.
+Use Swift syntax to evaluate and interact with your running app, or
+write new code to see how it works in a script-like environment. REPL
+is available from within the Xcode console, or using LLDB from within
+Terminal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The reason this excites me is that now I can use similar tools which exists for Scala and of which I enjoy especially as a learning tool.
+The playground feature reminds me of &lt;a href=&#34;https://github.com/scala-ide/scala-worksheet/wiki/Getting-Started&#34;&gt;scala worksheet&lt;/a&gt; but more powerful. That warrants its own post by the way.
+I believe in experimentation and breaking things in order to learn and Apple has just won a new fan in me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>100 Raspberry Pi</title>
+      <link>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</link>
+      <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</guid>
+      <description>&lt;p&gt;As you may or may not know - I run &lt;a href=&#34;http://pigstycoders.com&#34;&gt;PigstyCoders&lt;/a&gt;. It is a small yet global boutique with clients across 4 continents and 10 countries. We love and are active in the  open-source community and give back whenever possible, either through hackathons, workshops and giveaways.&lt;/p&gt;
+
+&lt;p&gt;I have always had a passion for Africa and it&amp;rsquo;s potential and I think Africa is the next frontier in the digital evolution, hence why  are doing our best to enable local expertise, through workshops and talks. We don&amp;rsquo;t just believe in copying over products from Europe and USA - but using our expertise to tailor the approach to the continent, especially those at the BOP.&lt;/p&gt;
+
+&lt;p&gt;It sounds like a crazy plan but we are planning in giving away 100 Raspberry Pi&amp;rsquo;s across 10 African cities. Unlike other projects - this is not just a pump and dump mission. We are doing local workshops - backed with a live forum support and on-going discussion to help develop their skills further.&lt;/p&gt;
+
+&lt;p&gt;Who knows what will happen - just like open-source software - we just want to put this out there and see what happens.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Git Arsenal</title>
+      <link>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</link>
+      <pubDate>Sun, 09 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</guid>
+      <description>&lt;p&gt;I am a huge fan of &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; and have been for many years. I tend to go through a lot of developer machines and thus will need to set up my dev environment really quickly - I only use Linux or Apple&amp;rsquo;s Mac so a shell script normally works for me. Two invaluable tools I have come to love over the years is &lt;a href=&#34;http://www.sourcetreeapp.com/&#34;&gt;SourceTree&lt;/a&gt; and &lt;a href=&#34;http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools&#34;&gt;P4Merge&lt;/a&gt; by Perforce. As an aside Perforce is actually a proprietary version control system used in Enterprise but P4Merge is a free tool.&lt;/p&gt;
+
+&lt;p&gt;One of the things everyone encounters when using Git are merge conflicts and this is where a visual tool is invaluable. I hate having to learn a new tool as my attention span is very limited and thus P4Merge does it for me. YMMV.&lt;/p&gt;
+
+&lt;p&gt;Sourcetree was an application originally developed for Mac OS X but was since acquired by Atlassian - owners of Bitbucket - so it has very good integration.&lt;/p&gt;
+
+&lt;p&gt;Git itself has a major learning curve but the investment is very much worth it. My advice is to take baby steps and don&amp;rsquo;t try to get into the holy wars about branching models etc - e.g whether &lt;a href=&#34;http://nvie.com/posts/a-successful-git-branching-model/&#34;&gt;git-flow&lt;/a&gt; is good for you or not.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development</title>
+      <link>http://blog.teopeurt.com/2013/01/18/mobile-development/</link>
+      <pubDate>Fri, 18 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2013/01/18/mobile-development/</guid>
+      <description>&lt;p&gt;A workshop I gave on developing for Mobile and the strategy to take.&lt;/p&gt;
+
+&lt;script
+    async class=&#34;speakerdeck-embed&#34;
+    data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34;
+    data-ratio=&#34;1.33333333333333&#34;
+    src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/teopeurt/mobile-development-practical-introduction&#34;&gt;Mobile development&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The deck gives some very basic introduction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rails - Efficiency in Production</title>
+      <link>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</link>
+      <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</guid>
+      <description>&lt;p&gt;Rails Asset Pipeline - rails book&lt;/p&gt;
+
+&lt;p&gt;Efficiency in Production&lt;/p&gt;
+
+&lt;p&gt;One of the best things about the asset pipeline is that it automatically results in assets that are optimized to be efficient in a production application.
+Traditional methods for organizing CSS and JavaScript involve splitting functionality into separate files and using nice formatting (with lots of indentation). While convenient for the programmer, this is inefficient in production; including multiple full-sized files can significantly slow page-load times (one of the most important factors affecting the quality of the user experience). With the asset pipeline, in production all the application stylesheets get rolled into one CSS file (application.css), all the application JavaScript code gets rolled into one JavaScript file (javascripts.js), and all such files (including those in lib/assets and vendor/assets) are minified to remove the unnecessary whitespace that bloats file size.&lt;/p&gt;
+
+&lt;p&gt;As a result, we get the best of both worlds: multiple nicely formatted files for programmer convenience, with single optimized files in production.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DNS Service Providers</title>
+      <link>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</link>
+      <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&#34;&gt;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&lt;/a&gt;
+&lt;a href=&#34;https://dnsimple.com/domains/new&#34;&gt;https://dnsimple.com/domains/new&lt;/a&gt;
+&lt;a href=&#34;http://www.nettica.com/Prices/Default.aspx&#34;&gt;http://www.nettica.com/Prices/Default.aspx&lt;/a&gt;
+&lt;a href=&#34;http://www.dnsmadeeasy.com/&#34;&gt;http://www.dnsmadeeasy.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My features
+Aname, CName, DynamicDNS, API, Cheap / 10s - 100s of domains, TTL (not that these are respected)
+setup, docs,&lt;/p&gt;
+
+&lt;p&gt;How do these Compare?&lt;/p&gt;
+
+&lt;h2 id=&#34;background:b916e23542b710bc00816e34b241a592&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Always used Linode DNS manager, but not suitable for everything - especially A-Name&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making an EPUB Reader for Cocoa</title>
+      <link>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</link>
+      <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</guid>
+      <description>&lt;p&gt;Source: &lt;a href=&#34;http://stackoverflow.com/questions/1388467/reading-epub-format&#34;&gt;http://stackoverflow.com/questions/1388467/reading-epub-format&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The EPUB format brings together a bunch of different specifications / formats:&lt;/p&gt;
+
+&lt;p&gt;one to say what the content of the book should look like (a subset of XHTML 1.1 + CSS)
+one to define a &amp;ldquo;manifest&amp;rdquo; that lists all of the files that make up that content (OPF, which is an XML file)
+one to define how everything is packaged up (OEBPS: a zip file of everything in the manifest plus a few extra files)
+The specs look a bit daunting but actually once you&amp;rsquo;ve got the basics (unzipping, parsing XML) down it&amp;rsquo;s not particularly difficult or complex.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need to work out how to download the EPUB, to unzip it somewhere, to parse the manifest and then to display the relevant content.&lt;/p&gt;
+
+&lt;p&gt;Some pointers if you&amp;rsquo;re just starting out:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;parse xml&lt;/li&gt;
+&lt;li&gt;unzip&lt;/li&gt;
+&lt;li&gt;To display content just use a UIWebView for now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a high level step by step for your code:&lt;/p&gt;
+
+&lt;p&gt;1) create a view with a UIWebView&lt;/p&gt;
+
+&lt;p&gt;2) download the EPUB file&lt;/p&gt;
+
+&lt;p&gt;3) unzip it to a subdirectory in your app&amp;rsquo;s documents folder using the zip library, linked above&lt;/p&gt;
+
+&lt;p&gt;4) parse the XML file at META-INF/container.xml (if this file doesn&amp;rsquo;t exist the EPUB is invalid) using TBXML, linked above&lt;/p&gt;
+
+&lt;p&gt;5) In this XML, find the first &amp;ldquo;rootfile&amp;rdquo; with media-type application/oebps-package+xml. This is the OPF file for the book.&lt;/p&gt;
+
+&lt;p&gt;6) parse the OPF file (also XML)&lt;/p&gt;
+
+&lt;p&gt;7) now you need to know what the first chapter of the book is.&lt;/p&gt;
+
+&lt;p&gt;a) each &lt;item&gt; in the &lt;manifest&gt; element has an id and an href. Store these in an NSDictionary where the key is the id and the object is the href.&lt;/p&gt;
+
+&lt;p&gt;b) Look at the first &lt;itemref&gt; in the &lt;spine&gt;. It has an idref attribute which corresponds to one of the ids in (a). Look up that id in the NSDictionary and you&amp;rsquo;ll get an href.&lt;/p&gt;
+
+&lt;p&gt;c) this is the the file of the first chapter to show the user. Work out what the full path is (hint: it&amp;rsquo;s wherever you unzipped the zip file to in (3) plus the base directory of the OPF file in (6))&lt;/p&gt;
+
+&lt;p&gt;8) create an NSURL using fileURLWithPath:, where the path is the full path from (7c). Load this request using the UIWebView you created in (1).&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need to implement forward / backward buttons or swipes or something so that users can move from one chapter to another. Use the &lt;spine&gt; to work out which file to show next - the &lt;itemrefs&gt; in the XML are in the order they should appear to the reader.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MapBox - Mapping Tech</title>
+      <link>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</guid>
+      <description>&lt;p&gt;Mapbox, Open Mapping Platform and Tile Mill.&lt;/p&gt;
+
+&lt;p&gt;Only an IOS SDK, but Javascript API is okay I suppose.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

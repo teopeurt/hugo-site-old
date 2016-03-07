@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on My Thoughts</title>
+    <link>http://blog.teopeurt.com/categories/ruby/</link>
+    <description>Recent content in Ruby on My Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.teopeurt.com/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RBENV Keeping Things Local</title>
+      <link>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</guid>
+      <description>&lt;p&gt;The benefits of keeping things local,&lt;/p&gt;
+
+&lt;p&gt;Working across machines- I have 4 physical machines I use daily and countless servers dotted around the world, I can never remember the shell commands for any particular project so I created build scripts.&lt;/p&gt;
+
+&lt;p&gt;I always hated having to rebuild dev environments hence I loved RVM. The &lt;a href=&#34;https://github.com/sstephenson/rbenv/&#34;&gt;RBENV&lt;/a&gt; came along and I fell in love. Used in conjunction with a &lt;a href=&#34;http://gembundler.com/&#34;&gt;Bundler&lt;/a&gt; and &lt;code&gt;--path&lt;/code&gt; option, one can get a pretty awesome build going that is isolated and local just to that directory!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

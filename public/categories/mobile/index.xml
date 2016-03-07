@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on My Thoughts</title>
+    <link>http://blog.teopeurt.com/categories/mobile/</link>
+    <description>Recent content in Mobile on My Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.teopeurt.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Apple&#39;s New Programming Language Swift</title>
+      <link>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</guid>
+      <description>&lt;p&gt;Apple has just released a brand new programming language, I wont go
+into any of the details as better men have already evaluated it.&lt;/p&gt;
+
+&lt;p&gt;My excitement is not on the language itself but rather the suite of
+tools that comes with it. Quoting directly from the release notes.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interactive.&lt;/strong&gt; Use Swift interactively to experiment with your ideas
+and see instant results.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Unified.&lt;/strong&gt; A complete replacement for both the C and Objective-C
+languages. Swift provides full object-oriented features, and
+includes low-level language primitives such as types, flow control,
+and operators&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Playgrounds.&lt;/strong&gt; Playgrounds make writing Swift code productive and
+easy. Type a line of code, and the result appears immediately.
+If your code runs over time—for instance through a loop—you can add
+that line of code to the Timeline Assistant to watch it progress.
+Display variables in a graph, inspect each step of drawing a view, or
+watch an animated Sprite&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Kit scene.&lt;/strong&gt; When you’ve perfected your code in the playground, simply
+move that code into your project. Some uses for playgrounds include:
+Designing a new algorithm, watching its results every step of the way
+Experimenting with new API or trying out new Swift syntax Creating new
+tests and then verifying that they work before promoting them into your test suite&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Learn in a playground&lt;/strong&gt;. Open select documentation in a playground to
+learn from the tutorial in an interactive environment. The
+combination of richly formatted documentation and interactive
+playground makes it easy to fully explore the API, changing and
+experimenting with the sample code.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Read-eval-print loop (REPL) in LLDB.&lt;/strong&gt; The debugging console in Xcode
+includes an interactive version of the Swift language built right in.
+Use Swift syntax to evaluate and interact with your running app, or
+write new code to see how it works in a script-like environment. REPL
+is available from within the Xcode console, or using LLDB from within
+Terminal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The reason this excites me is that now I can use similar tools which exists for Scala and of which I enjoy especially as a learning tool.
+The playground feature reminds me of &lt;a href=&#34;https://github.com/scala-ide/scala-worksheet/wiki/Getting-Started&#34;&gt;scala worksheet&lt;/a&gt; but more powerful. That warrants its own post by the way.
+I believe in experimentation and breaking things in order to learn and Apple has just won a new fan in me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Development</title>
+      <link>http://blog.teopeurt.com/2013/01/18/mobile-development/</link>
+      <pubDate>Fri, 18 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2013/01/18/mobile-development/</guid>
+      <description>&lt;p&gt;A workshop I gave on developing for Mobile and the strategy to take.&lt;/p&gt;
+
+&lt;script
+    async class=&#34;speakerdeck-embed&#34;
+    data-id=&#34;3b7469c043c60130f33f1231381d4ca8&#34;
+    data-ratio=&#34;1.33333333333333&#34;
+    src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/teopeurt/mobile-development-practical-introduction&#34;&gt;Mobile development&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The deck gives some very basic introduction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is QT on Android?</title>
+      <link>http://blog.teopeurt.com/2012/08/16/android-and-qt/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/08/16/android-and-qt/</guid>
+      <description>&lt;p&gt;Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.&lt;/p&gt;
+
+&lt;p&gt;Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.&lt;/p&gt;
+
+&lt;p&gt;Look &lt;a href=&#34;http://necessitas.kde.org/&#34;&gt;here&lt;/a&gt; for good introduction and the &lt;a href=&#34;http://community.kde.org/Necessitas&#34;&gt;community&lt;/a&gt; if you want to tinker.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Necessitas is a KDE community project aimed to provide an easy way to develop Qt apps on Android platform.
+Necessitas comes from the need of exploiting the power and the multi-platform capabilities of the Qt  framework on the Android world. It was born as a concept work which demonstrates the flexibility of Qt and, today, strives to become a fully  working development solution for Android.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It was the brainchild of 31 year old Romanian Bogdan Vatra. He did an interview with &lt;a href=&#34;http://www.behindkde.org/node/925&#34;&gt;Behind KDE&lt;/a&gt;. His introduction to the Android platform SDK was similar to mine - doing custom Android builds on embedded devices, though mine was at TomTom and Renault. Here is an excerpt of how he started work on Necessitas.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;How old is the Qt on Android project?  Who started it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I started to port Qt to Android at the end of 2009. When I started it the name was android-lighthouse but I had to change the name to &amp;ldquo;Necessitas&amp;rdquo; just before the SDK release because Nokia and Google didn&amp;rsquo;t allow me to use Qt and/or Android words.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://labs.qt.nokia.com/&#34;&gt;Lighthouse&lt;/a&gt;, a research project started by Nokia, helped me a lot. This project made my life very easy, the changes I had to make were only a small set of changes into the Qt tree. The &amp;ldquo;biggest change&amp;rdquo; was to add another shared memory implementation based on ashmem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This post is part of a series of post on QT. I will actually go through the steps for creating an android application using the brilliant QT Quick and &lt;a href=&#34;http://qt.nokia.com/qtquick/&#34;&gt;QML&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How Not to Hack the Android Framework</title>
+      <link>http://blog.teopeurt.com/2011/06/22/hacking-android-framework/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2011/06/22/hacking-android-framework/</guid>
+      <description>&lt;p class=&#34;meta&#34;&gt;22 June 2011 - Amsterdam&lt;/p&gt;
+
+&lt;p&gt;This is a short dump of my notes to a customer who hacked the Android framework to create a custom build for their project. The resulting system was unstable and my job was to find out why (and fix it).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Comparing a stock android emulator (both 2.2 and 2.3), we see comparable values for highly graphic intensive apps.&lt;/p&gt;
+
+&lt;p&gt;The difference in system-server could be down to our additions and the amount of processes - for each process needs to
+communicate it&amp;rsquo;s state and activities to system_server (package manager, activity manager etc, ContentProvider resolver), the more the process, the more
+the messages as the framework need to know which activities, services, providers and broadcast is running.&lt;/p&gt;
+
+&lt;p&gt;I have instrumented the framework and could not find any extra  messages due to increased CotentProvider usages or broadcast recievers, although I can now track the message to the actual package/classs
+the quantity/frequencty was sufficiently low.&lt;/p&gt;
+
+&lt;p&gt;system_server crashes because it has run out of FD(file descriptors!).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

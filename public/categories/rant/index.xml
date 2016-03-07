@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on My Thoughts</title>
+    <link>http://blog.teopeurt.com/categories/rant/</link>
+    <description>Recent content in Rant on My Thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Mar 2016 07:55:30 +0100</lastBuildDate>
+    <atom:link href="http://blog.teopeurt.com/categories/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Programming myths</title>
+      <link>http://blog.teopeurt.com/post/programming-myths/</link>
+      <pubDate>Wed, 02 Mar 2016 07:55:30 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/post/programming-myths/</guid>
+      <description>
+
+&lt;h1 id=&#34;new-programmer-programming-myths:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;New Programmer Programming Myths&lt;/h1&gt;
+
+&lt;p&gt;Its a PITA when introducing programming to beginners that there is some unwritten rule somewhere that certain things are just too hard to tackle at first. So the student is introduced to crappy concepts and thus doesn&amp;rsquo;t touch the &amp;ldquo;advance&amp;rdquo; stuff until it is too late - i.e. they are sat there wondering why their production code is crap, slow and buggy.&lt;/p&gt;
+
+&lt;h2 id=&#34;dont-talk-about-threads:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Dont talk about threads&lt;/h2&gt;
+
+&lt;p&gt;This is annoying - no matter what you feel about threads, we live in an async world, it&amp;rsquo;s fine not to talk about about threads but what are my alternatives. I don&amp;rsquo;t need to know how to implement an aysnc/promise/background_task, but at least tell me I &lt;em&gt;need&lt;/em&gt; it and show me how to use. Tell me why it is important in a system.&lt;/p&gt;
+
+&lt;h2 id=&#34;authentication-and-authorisation-security-is-for-others:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Authentication and Authorisation : Security is for Others&lt;/h2&gt;
+
+&lt;p&gt;There is this thing called security which we drum into students to fear like a second coming of Baal Davar. It is bloody important yet most introductory web security start with HTTP Basic Auth! What? When have you ever seen a decent website using bloody HTTP Basic auth? Don&amp;rsquo;t mention the fact that SSL is never introduced, any auth methods are never explained, and what does hashing and encryption even mean?&lt;/p&gt;
+
+&lt;h2 id=&#34;my-language-idiom-is-the-best:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;My Language/Idiom is the best&lt;/h2&gt;
+
+&lt;p&gt;Nuff said on this,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;it&amp;rsquo;s the need and ego of man to be king and he brings his religious crap with him.&amp;rdquo; :me&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A typical programming class should include 3 languages (at least 2 scripting languages and at least one compiled &amp;lsquo;c&amp;rsquo; language), 2 or more queue/broker, and 2 or more databases and either NoSQL and SQL databases. Advance students can then debate on the merits on functional/Procedural/OO style while solving the same problem in each style.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
