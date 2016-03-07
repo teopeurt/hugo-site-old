@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts on My New Hugo Site</title>
+    <link>http://blog.teopeurt.com/draft/</link>
+    <description>Recent content in Drafts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.teopeurt.com/draft/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MapBox - Mapping Tech</title>
+      <link>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</link>
+      <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</guid>
+      <description>&lt;p&gt;Mapbox, Open Mapping Platform and Tile Mill.&lt;/p&gt;
+
+&lt;p&gt;Only an IOS SDK, but Javascript API is okay I suppose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://blog.teopeurt.com/draft/Deaths%20on%20African%20Highways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.teopeurt.com/draft/Deaths%20on%20African%20Highways/</guid>
+      <description>
+
+&lt;h1 id=&#34;deaths-on-african-highways:0e03c1719ba6177d65c05d3e8f2e2581&#34;&gt;Deaths on African Highways&lt;/h1&gt;
+
+&lt;p&gt;From my anecdotal evidence, the biggest killer in Africa apart from diseases must be road accidents and this seems to be &lt;a href=&#34;https://africacheck.org/factsheets/factsheet-the-leading-causes-of-death-in-africa/&#34;&gt;verified&lt;/a&gt;. Factors including poor or missing crash barriers, lack of road-worthiness check for vehicles, poor driver training - no minimum level training for new drivers, poorly designed roads, poorly maintained roads, no observable speed limit (or enforcement of said limit). &lt;a href=&#34;http://www.who.int/violence_injury_prevention/road_safety_status/2015/GSRRS2015_data/en/&#34;&gt;WHO Data&lt;/a&gt; and &lt;a href=&#34;http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/&#34;&gt;WHO Report&lt;/a&gt;. Can&amp;rsquo;t find anything on Nigeria&amp;rsquo;s FRSC website. Some evidence of &lt;a href=&#34;http://www.dailytrust.com.ng/sunday/index.php/news-extra/18712-accident-rate-still-high-in-nigeria-says-frsc-boss&#34;&gt;reduction of deaths&lt;/a&gt; on Nigeria highways but with little citable source. WHO data does rank Nigeria as #72 - from 191 in 2010.&lt;/p&gt;
+
+&lt;p&gt;I had the unfortunate experience of having a near-accident this weekend - basically a car lost control on the opposite side of a dual caraigeway, flipped and skidded unto the other side of the motorway. It was only luck and chance that spared my life. Unfortunately this is such a frequent occurence that citizens have become immune to it, just like corruption and poor governance - they just have to find a way around the problem.
+Clearly shaken, I stopped and along with other pedestrains rushed to the car to offer assistance. Thankfully the lone driver was okay. To my surprise, no less than 2 police cars slowed slightly and drove on. They were probably immune to nothing less than death on the motorways and judged rather quickly that no lives were lost and moved promptly on.&lt;/p&gt;
+
+&lt;p&gt;The same weekend [A whole Family wiped out]() while travelling from Kaduna to Abuja on a stretch of motorway revered as the best in Nigeria. James Ocholi, the Minister of state for Labour lost his life as well as that of his wife and son. &lt;a href=&#34;http://www.premiumtimesng.com/news/199631-nigerias-minister-state-labour-james-ocholi-wife-son-die-road-crash.html&#34;&gt;Premium times Link&lt;/a&gt;
+Ignoring the fact that these were high-profile victims, it beggars belief that a whole family can be wiped out in an auto accident.&lt;/p&gt;
+
+&lt;p&gt;Having travelled this same route a few months ago, with my family in tow, and having nearly lost control on a number of occasions - this brings to light the poor state of Nigerian motorways. That particular road is littered with pot-holes, some deep enough to cause your car to flip. There are no night-time lights so drivers tend to speed to avoid getting trapped at dusk. There are no observable speed limits or officers in tow, and I personally saw 2 fatal accidents on that stretch. Suffice to say I still drive across Nigerian but tend to leave my family to fly.&lt;/p&gt;
+
+&lt;p&gt;Road travel especially inter-state travel are normaly bourne by the lower and lower-middle class. A fact made ever more real as a typical 100/200km drive across states is littered with skeletal warped metals of past accidents gone by, makes one wonder what inhumanity resides within us when these remains are seen as every day occurences and a reminder of the futility of life.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
