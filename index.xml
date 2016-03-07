@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>My Thoughts</title>
     <link>http://blog.teopeurt.com/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2016 07:55:30 +0100</lastBuildDate>
@@ -19,15 +19,15 @@
 
 &lt;h1 id=&#34;new-programmer-programming-myths:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;New Programmer Programming Myths&lt;/h1&gt;
 
-&lt;p&gt;Its a PITA when introducing programming to beginners that there is some unwritten rule somewhere that certain things are just too hard to tackle at first. So the student is introduced to crappy concepts and thus doestn touch the &amp;ldquo;advance&amp;rdquo; stuff until it is too late - i.e. they are sat there wondering why their production code is crap, slow and buggy.&lt;/p&gt;
+&lt;p&gt;Its a PITA when introducing programming to beginners that there is some unwritten rule somewhere that certain things are just too hard to tackle at first. So the student is introduced to crappy concepts and thus doesn&amp;rsquo;t touch the &amp;ldquo;advance&amp;rdquo; stuff until it is too late - i.e. they are sat there wondering why their production code is crap, slow and buggy.&lt;/p&gt;
 
 &lt;h2 id=&#34;dont-talk-about-threads:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Dont talk about threads&lt;/h2&gt;
 
-&lt;p&gt;This is annoying - no matter what you feel about threads, we live in an asyn world, it&amp;rsquo;s fine not to talk about about threads but what are my alternatives. I dont need to know how to implement an aysnc/promise/background_task, but at least tell me I &lt;em&gt;need&lt;/em&gt; it and show me how to use. Tell me why it is important in a system.&lt;/p&gt;
+&lt;p&gt;This is annoying - no matter what you feel about threads, we live in an async world, it&amp;rsquo;s fine not to talk about about threads but what are my alternatives. I don&amp;rsquo;t need to know how to implement an aysnc/promise/background_task, but at least tell me I &lt;em&gt;need&lt;/em&gt; it and show me how to use. Tell me why it is important in a system.&lt;/p&gt;
 
 &lt;h2 id=&#34;authentication-and-authorisation-security-is-for-others:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;Authentication and Authorisation : Security is for Others&lt;/h2&gt;
 
-&lt;p&gt;There is this thing called security which we drum into students to fear like a second coming of bathzeedar. It is bloody important yet most introductory web security start with HTTP Basic Auth! What? When have you ever seen a decent website using bloody HTTP Basic auth? Don&amp;rsquo;t mention the fact that SSL is never introduced, any auth methods are never explained, and what does hashing and encryption even mean?&lt;/p&gt;
+&lt;p&gt;There is this thing called security which we drum into students to fear like a second coming of Baal Davar. It is bloody important yet most introductory web security start with HTTP Basic Auth! What? When have you ever seen a decent website using bloody HTTP Basic auth? Don&amp;rsquo;t mention the fact that SSL is never introduced, any auth methods are never explained, and what does hashing and encryption even mean?&lt;/p&gt;
 
 &lt;h2 id=&#34;my-language-idiom-is-the-best:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;My Language/IdioM is the best&lt;/h2&gt;
 
@@ -410,6 +410,120 @@ Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a 
     </item>
     
     <item>
+      <title>Projects</title>
+      <link>http://blog.teopeurt.com/projects/</link>
+      <pubDate>Wed, 17 Feb 2016 09:35:24 +0100</pubDate>
+      
+      <guid>http://blog.teopeurt.com/projects/</guid>
+      <description>
+
+&lt;p&gt;Selected Commercial Projects&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HiHo Partner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A startup just launched in Manchester, England. &lt;a href=&#34;https://www.hiho.com/&#34;&gt;HiHo&lt;/a&gt; is an app that connects ready-to-go customers with local, qualified skilled specialists.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_part_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set6&#34; data-title=&#34;HiHo Partner&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_part_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/gb/app/hiho-partner/id1050625660?ls=1&amp;amp;mt=8&#34;&gt;iOS App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hiho.hihopartner&#34;&gt;Android App Store Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HiHo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/hiho_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set5&#34; data-title=&#34;HiHo&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/hiho_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/gb/app/hiho/id1065442492?mt=8&#34;&gt;iOS App Store Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hiho.hihoapp&#34;&gt;Android App Store Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Playday&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/playday_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/playday_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/playday_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/playday_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set4&#34; data-title=&#34;PlayDay&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/playday_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/playday/id898183351?mt=8&#34;&gt;iOS App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Barclays&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/barclays_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set3&#34; data-title=&#34;Barclays Mobile&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/barclays_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/barclays_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set3&#34; data-title=&#34;Barclays Mobile&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/barclays_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SonicWall Mobile Connect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.sonicwall.mobileconnect&#34;&gt;iOS App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TomTom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_1.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_1-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_2.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_2-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_3.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_3-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/tomtom_4.jpeg&#34; title=&#34;&#34; data-lightbox=&#34;set2&#34; data-title=&#34;TomTom&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/tomtom_4-thumb.jpeg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ewow Books&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_1.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_1-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_2.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_2-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_3.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_3-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog.teopeurt.com/images/ewow_4.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Ewow Books&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/ewow_4-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.engadget.com/2011/12/09/renault-debuts-r-link-an-in-dash-android-system-with-app-market&#34;&gt;Renault R-Link Renault R-Link Project&lt;/a&gt;
+An Android Tablet for the automotive market - built with TomTom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.teopeurt.com/images/renault_1.jpg&#34; title=&#34;&#34; data-lightbox=&#34;set1&#34; data-title=&#34;Renault Automotive&#34;&gt;&lt;img src=&#34;http://blog.teopeurt.com/images/renault_1-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.tracyandmatt.co.uk/blogs/index.php/samsung-devices-on-show-at-harrods&#34;&gt;Harrods/Samsung Cross Device Streaming Service&lt;/a&gt; An Excellent example of what Websockets can do. Used Node.js and Android.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.thefutureofifec.com/#opa&#34;&gt;Panasonic IFE Panasonic Avionics In Flight Entertainment&lt;/a&gt;
+Demo Project for Panasonic - Done in partnerhsip with Migcan.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://galweatherstearn.com/client-services&#34;&gt;ShowTime: House of Lies&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;iOS and Android Project - with special build for Nook and Kindle Fire.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/DAqVhiaet5g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Stroke-Your-Genius-Management-Consulting/dp/B00C9KDFCO&#34;&gt;Amazon App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;open-source-projects:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Open-Source Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/five-server&#34;&gt;Five-ng&lt;/a&gt; A fork of the Five project, personal streaming server and Android Client&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/mobileorg&#34;&gt;Mobileorg+&lt;/a&gt; A fork of the MobileOrg Iphone Project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.villagetelco.com/&#34;&gt;VillageTelco&lt;/a&gt;  Telephone Exchange in a Box&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>All about the narrative</title>
       <link>http://blog.teopeurt.com/post/all-about-the-narrative/</link>
       <pubDate>Thu, 07 Jan 2016 10:05:50 +0100</pubDate>
@@ -432,40 +546,6 @@ Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a 
 &lt;p&gt;Now, a lesson is nothing without exercise and practice, so go forth and multiply.&lt;/p&gt;
 
 &lt;p&gt;This helps to build your narrative skills, as it breaks the anxiety barrier and lets you explore your creativity, thereby making a the world a better place.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://blog.teopeurt.com/projects/</link>
-      <pubDate>Sat, 07 Mar 2015 09:35:24 +0100</pubDate>
-      
-      <guid>http://blog.teopeurt.com/projects/</guid>
-      <description>
-
-&lt;p&gt;Selected Commercial Projects&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.engadget.com/2011/12/09/renault-debuts-r-link-an-in-dash-android-system-with-app-market&#34;&gt;Renault R-Link Renault R-Link Project&lt;/a&gt;
-An Android Tablet for the automotive market - built with TomTom.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.tracyandmatt.co.uk/blogs/index.php/samsung-devices-on-show-at-harrods&#34;&gt;Harrods/Samsung Cross Device Streaming Service&lt;/a&gt; An Excellent example of what Websockets can do. Used Node.js and Android.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.thefutureofifec.com/#opa&#34;&gt;Panasonic IFE Panasonic Avionics In Flight Entertainment&lt;/a&gt;
-Demo Project for Panasonic - Done in partnerhsip with Migcan.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://galweatherstearn.com/client-services&#34;&gt;ShowTime: House of Lies&lt;/a&gt; iOS and Android Project - wih special build for Nook and Kindle Fire.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;open-source-projects:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Open-Source Projects&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/five-server&#34;&gt;Five-ng&lt;/a&gt; A fork of the Five project, personal streaming server and Android Client&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://github.com/teopeurt/mobileorg&#34;&gt;Mobileorg+&lt;/a&gt; A fork of the MobileOrg Iphone Project&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.villagetelco.com/&#34;&gt;VillageTelco&lt;/a&gt;  Telephone Exchange in a Box&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -590,7 +670,7 @@ I believe in experimentation and breaking things in order to learn and Apple has
     </item>
     
     <item>
-      <title>Raspberry Pi</title>
+      <title>100 Raspberry Pi</title>
       <link>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
       
