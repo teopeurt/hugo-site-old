@@ -1,6 +1,6 @@
 baseurl = "http://blog.teopeurt.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "My Thoughts"
 
 [params]
 	sidebartitle = "{teopeurt}"
@@ -28,6 +28,11 @@ title = "My New Hugo Site"
   	pre = "<i class='fa fa-twitter'></i>"
       url = "http://www.twitter.com/teopeurt"
       identifier = "twitter"
+
+[[menu.social]]
+	  	pre = "<i class='fa fa-github'></i>"
+	      url = "https://github.com/teopeurt"
+	      identifier = "github"
 
 [[menu.footer]]
     name = "Blog"

@@ -10,7 +10,7 @@ published: true
 share: true
 tags:
 - pi
-title: Raspberry Pi
+title: 100 Raspberry Pi
 url: /2014/04/24/raspberry-pi/
 categories: ["programming", "hacking"]
 ---
