@@ -7,20 +7,20 @@ tags = []
 categories = ["cars", "hacking", "finance", "asterisk"]
 +++
 
-
 I do data, I do software, I do open-source, I love building
 distributed, connected services, hack embedded devices and mobile
 development.
+
 I also write software for mobiles, and try to make Web services
 "reactive". I am also helping to build the open Web.
+
+I also teach Python/Java using the Raspberry PI as a tool for pre-teen, teenagers and young adult from disadvantage backgrounds.
 
 In my past life I used to work with software in high performance cars
 [here](http://www.astonmartin.com/),
 [here](http://www.jaguar.com/gb/en/) and [here](http://www.bmw.com/),
 racing cars [here](http://www.mclaren.com/home/), regular cars
-[here](http://www.ford.co.uk/), now I work with High Performance
-Computers.
-
+[here](http://www.ford.co.uk/).
 
 I tried to do something totally different in
 [Computational Finance](http://en.wikipedia.org/wiki/Computational_finance),
@@ -31,8 +31,5 @@ and capital markets - similar in vein to
 I am due to launch a product which demonstrates and blows Portfolio
 Theory out of the water.
 
-I am highly opinionated and think Africa's internet rate
-penetration/adoption is NOT going quick enough. I intend to change
-that hence why I support projects like the
-[Village Telco](http://villagetelco.org). Unfortunately the stumbling
-block is not technical.
+I once tried to build a self-sustaining, self-healing network using [Village Telco](http://villagetelco.org). Unfortunately the stumbling
+block is not technical and it still work in progress.
