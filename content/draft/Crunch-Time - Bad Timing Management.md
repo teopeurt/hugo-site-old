@@ -1,0 +1,25 @@
+# Crunch-Time : Bad Timing Management
+
+There is an article making the waves around the internet about games programers being paid poorly for doing exceptional work. Basically someone got "lucky" and rich being at the right place at the right time and due to hubris and survivorship bias - ignores all there is about what made him millions (just one time! - so statistically irrelevant) and decides to berates those in Industry literally putting their health at risks for meager pay - justifing it by sayinf it is an "art-form". 
+
+The holes and flaws in his argument has been derided by many (here)[http://venturebeat.com/2016/04/16/indie-developer-rami-ismail-responds-to-critic-of-work-life-balance-in-game-industry/] and here[http://www.destructoid.com/man-already-wealthy-beyond-good-taste-says-working-80-hour-weeks-for-million-dollar-corporations-is-not-a-job--355857.phtml].
+
+This short essay is not about him or his critics, it is about a thorough misunderstanding in a highly immature industry lead by those without the experience or expertise to lead it. 
+
+the terminolgy software engineering is sometimes used synomously with computer science. If one can't even define what they are you can start to understand the problems the industry faces in trying to define what exactly the job entails.
+
+I have a background as n electrical/electronic engineer - as in I majored at university. I even got to practise real engineering working for various engineering multinationals with a structure and even ISO standards. Our work was subject to the national/international regulations and this was priced into the engineering timeline. We couldnt practise "Agile" or what-not because we had to have a standardise approach - the paper-trail so to speak. I was around when litigations were brought to the industry and this brought up more standards both internal and external. 
+
+I also worked in the finance industry and faced similar issues with KYC, security and fraud prevention. At times working in these situations felt like wading through sand, innovation is quelched and with my frustations I decided to move fully into the software engineering. I mean I was already writing software but it wasnt my job-title. Now I can work for comapnies where software is the product not the tool.
+
+It was then that I realise how immature the software industry is. I do understand the need for agile manifesto and practise it somewhat - but I have never worked on a company where they practise the same sort of Agile methodology. Even down to techniques, terminology - it's mainly a resume padding exersise - as most software projects withouth the backing/safety of large enterprise tend to deviate into "crunch time". 
+
+Software planning is an art - and this is the ultimate problem. We know how long it will take to build a house, bridge or etch a circuit board, the procedure is pretty standard and there isnt a new fad/process/tooling every few months, but in software engineering, there isnt a defined process. Creating a website is not the same as building a house. there isn't a heirachy of skillset and the design is not the implementation. There isnt a blueprint, a defined set of rules or even a standard. Planning requires extremely fuzzy logic to come with a date, the parameters(developers, experience, equipement, platform, budget, prog language etc) are dynamic in of themselves while the problem domain (requirements) is ever shifting. It may have begat the Agile Maifesto but we failed to educate management as to the fuzziness of our technique. We called ourselves engineers and as such given their experience with mechanical, civil and electrical engineers - they expected a date, deliveriables at those dates and talk of technical debt was superfilous. 
+
+So crunch-time was born! Given a date someone came up with - most likely not the person writing the software - and the lack of resources (due to whatever circumstances befell the poor devs) crunch time is ineveitable. It is basically puttung in an extra 500 hrs for a project that was planned to take 100hrs. The real solution is have a iterative planning process, something devs have realised and created Agile programming, but try telling that the director of finance or to marketing that they should wait and things will change in a week by week basis. 
+
+With the audience lured by the narrative, the industry, not just gaming need to take a long hard look at itself and the way it interacts with others if it wants a seat in the big-boy table. This can only come with time, but lessons needs to learnt and positions need to be flexible to try out new approaches. There isnt a golden bullet to solve this. 
+
+My approach to planning is thus: the equation is Time or Budget or Features - choose two to improve on and leave one to sacrifice. 
+
+i.e. If you want a project to be completed in a short time, you will need to increase your budget or reduce your features, you can't have both. There is obvioslly a limit to what you can given the circumstances.
