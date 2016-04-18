@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Framework on My Thoughts</title>
-    <link>http://blog.teopeurt.com/tags/framework/</link>
+    <link>http://teopeurt.com/tags/framework/</link>
     <description>Recent content in Framework on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Aug 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.teopeurt.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://teopeurt.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What is QT on Android?</title>
-      <link>http://blog.teopeurt.com/2012/08/16/android-and-qt/</link>
+      <link>http://teopeurt.com/2012/08/16/android-and-qt/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/08/16/android-and-qt/</guid>
+      <guid>http://teopeurt.com/2012/08/16/android-and-qt/</guid>
       <description>&lt;p&gt;Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.&lt;/p&gt;
 
 &lt;p&gt;Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.&lt;/p&gt;
@@ -42,10 +42,10 @@ Necessitas comes from the need of exploiting the power and the multi-platform ca
     
     <item>
       <title>How Not to Hack the Android Framework</title>
-      <link>http://blog.teopeurt.com/2011/06/22/hacking-android-framework/</link>
+      <link>http://teopeurt.com/2011/06/22/hacking-android-framework/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2011/06/22/hacking-android-framework/</guid>
+      <guid>http://teopeurt.com/2011/06/22/hacking-android-framework/</guid>
       <description>&lt;p class=&#34;meta&#34;&gt;22 June 2011 - Amsterdam&lt;/p&gt;
 
 &lt;p&gt;This is a short dump of my notes to a customer who hacked the Android framework to create a custom build for their project. The resulting system was unstable and my job was to find out why (and fix it).&lt;/p&gt;

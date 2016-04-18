@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rip on My Thoughts</title>
-    <link>http://blog.teopeurt.com/tags/rip/</link>
+    <link>http://teopeurt.com/tags/rip/</link>
     <description>Recent content in Rip on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Oct 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.teopeurt.com/tags/rip/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://teopeurt.com/tags/rip/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RIP Dennis..</title>
-      <link>http://blog.teopeurt.com/2011/10/13/rip-dennis/</link>
+      <link>http://teopeurt.com/2011/10/13/rip-dennis/</link>
       <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2011/10/13/rip-dennis/</guid>
+      <guid>http://teopeurt.com/2011/10/13/rip-dennis/</guid>
       <description>&lt;p&gt;A great &lt;a title=&#34;Dennis&#34; href=&#34;http://en.wikipedia.org/wiki/Dennis_Ritchie&#34; target=&#34;_blank&#34;&gt;man&lt;/a&gt; passed today. Unassuming and truly a legend, at least in my eyes.&lt;/p&gt;
 
 &lt;p&gt;If you haven&amp;rsquo;t read it - go buy it now! Once you can program in C - you can do anything.&lt;/p&gt;

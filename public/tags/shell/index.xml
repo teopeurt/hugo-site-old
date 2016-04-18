@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on My Thoughts</title>
-    <link>http://blog.teopeurt.com/tags/shell/</link>
+    <link>http://teopeurt.com/tags/shell/</link>
     <description>Recent content in Shell on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Sep 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.teopeurt.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://teopeurt.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to BackUp</title>
-      <link>http://blog.teopeurt.com/2011/09/15/how-to-backup/</link>
+      <link>http://teopeurt.com/2011/09/15/how-to-backup/</link>
       <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2011/09/15/how-to-backup/</guid>
+      <guid>http://teopeurt.com/2011/09/15/how-to-backup/</guid>
       <description>&lt;p&gt;Don&amp;rsquo;t break what works - this constant to re-invent the wheel! sheesh&lt;/p&gt;
 
 &lt;p&gt;is Emacs broken, is Gnutils?&lt;/p&gt;
@@ -31,20 +31,20 @@
 &amp;lt;li&amp;gt;Put one of these drives in its enclosure on your desk. Name it something clever like &amp;quot;Backup&amp;quot;. If you are using a Mac, the command you use to back up is below, If you&#39;re using Linux, it&#39;s something a lot like that. If you&#39;re using Windows, go fuck yourself. &amp;lt;/li&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;sudo rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;sudo rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;If you have a desktop computer, have this happen every morning at 5AM by creating a temporary text file containing this line:&amp;lt;/li&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;0 5 * * * rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;5&lt;/span&gt; * * * rsync -vaxAX --delete --ignore-errors / /Volumes/Backup/
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;and then doing&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;sudo crontab -u root 
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;sudo crontab -u root 
 &lt;/pre&gt;&lt;/div&gt;
 
 

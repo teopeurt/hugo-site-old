@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My Thoughts</title>
-    <link>http://blog.teopeurt.com/post/</link>
+    <link>http://teopeurt.com/post/</link>
     <description>Recent content in Posts on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2016 07:55:30 +0100</lastBuildDate>
-    <atom:link href="http://blog.teopeurt.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://teopeurt.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming myths</title>
-      <link>http://blog.teopeurt.com/post/programming-myths/</link>
+      <link>http://teopeurt.com/post/programming-myths/</link>
       <pubDate>Wed, 02 Mar 2016 07:55:30 +0100</pubDate>
       
-      <guid>http://blog.teopeurt.com/post/programming-myths/</guid>
+      <guid>http://teopeurt.com/post/programming-myths/</guid>
       <description>
 
 &lt;h1 id=&#34;new-programmer-programming-myths:195e84da6dd74bdfbce0dd849141de1d&#34;&gt;New Programmer Programming Myths&lt;/h1&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Angular by example</title>
-      <link>http://blog.teopeurt.com/post/angular-by-example/</link>
+      <link>http://teopeurt.com/post/angular-by-example/</link>
       <pubDate>Wed, 24 Feb 2016 20:54:40 +0100</pubDate>
       
-      <guid>http://blog.teopeurt.com/post/angular-by-example/</guid>
+      <guid>http://teopeurt.com/post/angular-by-example/</guid>
       <description>
 
 &lt;h1 id=&#34;environment-setup:33e68cecf32be79d1a30ee91889a835d&#34;&gt;Environment Setup&lt;/h1&gt;
@@ -417,10 +417,10 @@ Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a 
     
     <item>
       <title>Open Api</title>
-      <link>http://blog.teopeurt.com/post/open-api/</link>
+      <link>http://teopeurt.com/post/open-api/</link>
       <pubDate>Mon, 01 Feb 2016 17:17:42 +0100</pubDate>
       
-      <guid>http://blog.teopeurt.com/post/open-api/</guid>
+      <guid>http://teopeurt.com/post/open-api/</guid>
       <description>&lt;p&gt;Today I am pleased to learn that &lt;a href=&#34;http://swagger.io/&#34;&gt;Swagger&lt;/a&gt; has been adopted/donated to the &lt;a href=&#34;https://openapis.org/&#34;&gt;Open API Initiative&lt;/a&gt;, anyone who has worked with me on any project will know along with many &amp;ldquo;truths&amp;rdquo; I apply to any of my project, I always adopt an &amp;ldquo;API First Design&amp;rdquo; and use Swagger as a way to document the api. I find this approach works for cross-platform team and even remote ones as it enables back-end to get on with the task at hand without front-enders and mobile team hovering over&lt;/p&gt;
 
 &lt;p&gt;I recommended this approach when initial architecture designs for &lt;a href=&#34;https://hiho.com&#34;&gt;HiHo&lt;/a&gt; were taking place and we ended up  utilising the &lt;a href=&#34;https://github.com/metosin/ring-swagger&#34;&gt;Clojure Ring-Swagger&lt;/a&gt; from day -1. I am happy to say that this decision was validated with the &lt;a href=&#34;http://blog.parse.com/announcements/moving-on/&#34;&gt;other option&lt;/a&gt; dying off.&lt;/p&gt;
@@ -433,10 +433,10 @@ Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a 
     
     <item>
       <title>All about the narrative</title>
-      <link>http://blog.teopeurt.com/post/all-about-the-narrative/</link>
+      <link>http://teopeurt.com/post/all-about-the-narrative/</link>
       <pubDate>Thu, 07 Jan 2016 10:05:50 +0100</pubDate>
       
-      <guid>http://blog.teopeurt.com/post/all-about-the-narrative/</guid>
+      <guid>http://teopeurt.com/post/all-about-the-narrative/</guid>
       <description>&lt;p&gt;Having the been to a few hackathons, I have witnessed the somewhat explosive fame of a few entrants. Beyond what they have built - most people build really awesome things - I have noticed a similarity to those who go on family..&lt;/p&gt;
 
 &lt;p&gt;Its really all about the narrative, the ability to put in words ( and stir the emotional space) with alluring pictures and anecdotes. To break into the field, you have to have a good combination of telling a good story. These guys are good engineers, but beyond being great at what they do, they are excellent orators and public speakers.&lt;/p&gt;
@@ -459,10 +459,10 @@ Notice the usage of $scope, Angular uses a lot of DI Dependency Injection &lt;a 
     
     <item>
       <title>Apple&#39;s New Programming Language Swift</title>
-      <link>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</link>
+      <link>http://teopeurt.com/2014/06/04/apples-new-programming-language-swift/</link>
       <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</guid>
+      <guid>http://teopeurt.com/2014/06/04/apples-new-programming-language-swift/</guid>
       <description>&lt;p&gt;Apple has just released a brand new programming language, I wont go
 into any of the details as better men have already evaluated it.&lt;/p&gt;
 
@@ -513,10 +513,10 @@ I believe in experimentation and breaking things in order to learn and Apple has
     
     <item>
       <title>100 Raspberry Pi</title>
-      <link>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</link>
+      <link>http://teopeurt.com/2014/04/24/raspberry-pi/</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</guid>
+      <guid>http://teopeurt.com/2014/04/24/raspberry-pi/</guid>
       <description>&lt;p&gt;As you may or may not know - I run &lt;a href=&#34;http://pigstycoders.com&#34;&gt;PigstyCoders&lt;/a&gt;. It is a small yet global boutique with clients across 4 continents and 10 countries. We love and are active in the  open-source community and give back whenever possible, either through hackathons, workshops and giveaways.&lt;/p&gt;
 
 &lt;p&gt;I have always had a passion for Africa and it&amp;rsquo;s potential and I think Africa is the next frontier in the digital evolution, hence why  are doing our best to enable local expertise, through workshops and talks. We don&amp;rsquo;t just believe in copying over products from Europe and USA - but using our expertise to tailor the approach to the continent, especially those at the BOP.&lt;/p&gt;
@@ -529,10 +529,10 @@ I believe in experimentation and breaking things in order to learn and Apple has
     
     <item>
       <title>My Git Arsenal</title>
-      <link>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</link>
+      <link>http://teopeurt.com/2014/03/09/my-git-arsenal/</link>
       <pubDate>Sun, 09 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</guid>
+      <guid>http://teopeurt.com/2014/03/09/my-git-arsenal/</guid>
       <description>&lt;p&gt;I am a huge fan of &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; and have been for many years. I tend to go through a lot of developer machines and thus will need to set up my dev environment really quickly - I only use Linux or Apple&amp;rsquo;s Mac so a shell script normally works for me. Two invaluable tools I have come to love over the years is &lt;a href=&#34;http://www.sourcetreeapp.com/&#34;&gt;SourceTree&lt;/a&gt; and &lt;a href=&#34;http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools&#34;&gt;P4Merge&lt;/a&gt; by Perforce. As an aside Perforce is actually a proprietary version control system used in Enterprise but P4Merge is a free tool.&lt;/p&gt;
 
 &lt;p&gt;One of the things everyone encounters when using Git are merge conflicts and this is where a visual tool is invaluable. I hate having to learn a new tool as my attention span is very limited and thus P4Merge does it for me. YMMV.&lt;/p&gt;
@@ -545,10 +545,10 @@ I believe in experimentation and breaking things in order to learn and Apple has
     
     <item>
       <title>Mobile Development</title>
-      <link>http://blog.teopeurt.com/2013/01/18/mobile-development/</link>
+      <link>http://teopeurt.com/2013/01/18/mobile-development/</link>
       <pubDate>Fri, 18 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2013/01/18/mobile-development/</guid>
+      <guid>http://teopeurt.com/2013/01/18/mobile-development/</guid>
       <description>&lt;p&gt;A workshop I gave on developing for Mobile and the strategy to take.&lt;/p&gt;
 
 &lt;script
@@ -566,10 +566,10 @@ I believe in experimentation and breaking things in order to learn and Apple has
     
     <item>
       <title>Rails - Efficiency in Production</title>
-      <link>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</link>
+      <link>http://teopeurt.com/2012/09/04/rails-efficiency-in-production/</link>
       <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</guid>
+      <guid>http://teopeurt.com/2012/09/04/rails-efficiency-in-production/</guid>
       <description>&lt;p&gt;Rails Asset Pipeline - rails book&lt;/p&gt;
 
 &lt;p&gt;Efficiency in Production&lt;/p&gt;
@@ -583,10 +583,10 @@ Traditional methods for organizing CSS and JavaScript involve splitting function
     
     <item>
       <title>DNS Service Providers</title>
-      <link>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</link>
+      <link>http://teopeurt.com/2012/09/03/dns-service-providers/</link>
       <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</guid>
+      <guid>http://teopeurt.com/2012/09/03/dns-service-providers/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&#34;&gt;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&lt;/a&gt;
@@ -608,10 +608,10 @@ setup, docs,&lt;/p&gt;
     
     <item>
       <title>Making an EPUB Reader for Cocoa</title>
-      <link>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</link>
+      <link>http://teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</link>
       <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</guid>
+      <guid>http://teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</guid>
       <description>&lt;p&gt;Source: &lt;a href=&#34;http://stackoverflow.com/questions/1388467/reading-epub-format&#34;&gt;http://stackoverflow.com/questions/1388467/reading-epub-format&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The EPUB format brings together a bunch of different specifications / formats:&lt;/p&gt;
@@ -661,10 +661,10 @@ The specs look a bit daunting but actually once you&amp;rsquo;ve got the basics 
     
     <item>
       <title>RBENV Keeping Things Local</title>
-      <link>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</link>
+      <link>http://teopeurt.com/2012/08/16/rben-keeping-things-local/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</guid>
+      <guid>http://teopeurt.com/2012/08/16/rben-keeping-things-local/</guid>
       <description>&lt;p&gt;The benefits of keeping things local,&lt;/p&gt;
 
 &lt;p&gt;Working across machines- I have 4 physical machines I use daily and countless servers dotted around the world, I can never remember the shell commands for any particular project so I created build scripts.&lt;/p&gt;
@@ -675,10 +675,10 @@ The specs look a bit daunting but actually once you&amp;rsquo;ve got the basics 
     
     <item>
       <title>What is QT on Android?</title>
-      <link>http://blog.teopeurt.com/2012/08/16/android-and-qt/</link>
+      <link>http://teopeurt.com/2012/08/16/android-and-qt/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/08/16/android-and-qt/</guid>
+      <guid>http://teopeurt.com/2012/08/16/android-and-qt/</guid>
       <description>&lt;p&gt;Do you want to port those brilliant Nokia applications and QT based apps to Android without rewriting your code or having to learn what a Java Interface is? Necessitas to the rescue! - though you still have to learn Java if you want to be serious on the Android, but I digress.&lt;/p&gt;
 
 &lt;p&gt;Necessitas allows you port and write QT based applications for Android. For those who are familiar with QT - it is/was the best C++ framework ever invented - opinions clearly my own.&lt;/p&gt;
@@ -706,10 +706,10 @@ Necessitas comes from the need of exploiting the power and the multi-platform ca
     
     <item>
       <title>The Second System Effect - Thunderbird Woes</title>
-      <link>http://blog.teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</link>
+      <link>http://teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</link>
       <pubDate>Wed, 09 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</guid>
+      <guid>http://teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</guid>
       <description>&lt;p&gt;My anecdotal evidence - Since 2005, there have been issues with Thunderbird speaking to IMAP servers, specifically saving messages to the sent folder. I assume there have been a bug filed for this but we are now in 2011 and this issue still exists in Thunderbird 7 - So much for progress.&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Thunderbird Issue&#34; href=&#34;http://forums.mozillazine.org/viewtopic.php?t=218625&amp;amp;start=0.&#34; target=&#34;_blank&#34;&gt;Issue Discussion Here:&lt;/a&gt;&lt;/p&gt;
@@ -739,10 +739,10 @@ they are now under &amp;lsquo;Edit&amp;rsquo;.&lt;/p&gt;
     
     <item>
       <title>Do Not Equate To Skill</title>
-      <link>http://blog.teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</link>
+      <link>http://teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</link>
       <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</guid>
+      <guid>http://teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</guid>
       <description>&lt;p&gt;A post on a post about a post. How many layers of abstraction? Reminds me of paper money!&lt;/p&gt;
 
 &lt;p&gt;Do not really like linking to other posts - but this hits the nail on the head. The so called masters of the universe have no idea luck and serendipity plays such an important role in their &amp;lsquo;achievements&amp;rsquo;. Much better analysis than can be done by me.&lt;/p&gt;

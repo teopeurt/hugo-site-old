@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking on My Thoughts</title>
-    <link>http://blog.teopeurt.com/categories/hacking/</link>
+    <link>http://teopeurt.com/categories/hacking/</link>
     <description>Recent content in Hacking on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Jan 2016 10:05:50 +0100</lastBuildDate>
-    <atom:link href="http://blog.teopeurt.com/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://teopeurt.com/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>All about the narrative</title>
-      <link>http://blog.teopeurt.com/post/all-about-the-narrative/</link>
+      <link>http://teopeurt.com/post/all-about-the-narrative/</link>
       <pubDate>Thu, 07 Jan 2016 10:05:50 +0100</pubDate>
       
-      <guid>http://blog.teopeurt.com/post/all-about-the-narrative/</guid>
+      <guid>http://teopeurt.com/post/all-about-the-narrative/</guid>
       <description>&lt;p&gt;Having the been to a few hackathons, I have witnessed the somewhat explosive fame of a few entrants. Beyond what they have built - most people build really awesome things - I have noticed a similarity to those who go on family..&lt;/p&gt;
 
 &lt;p&gt;Its really all about the narrative, the ability to put in words ( and stir the emotional space) with alluring pictures and anecdotes. To break into the field, you have to have a good combination of telling a good story. These guys are good engineers, but beyond being great at what they do, they are excellent orators and public speakers.&lt;/p&gt;
@@ -37,18 +37,15 @@
     
     <item>
       <title>About</title>
-      <link>http://blog.teopeurt.com/about/</link>
+      <link>http://teopeurt.com/about/</link>
       <pubDate>Mon, 02 Mar 2015 17:30:47 +0100</pubDate>
       
-      <guid>http://blog.teopeurt.com/about/</guid>
-      <description>&lt;p&gt;I do data, I do software, I do open-source, I love building
-distributed, connected services, hack embedded devices and mobile
+      <guid>http://teopeurt.com/about/</guid>
+      <description>&lt;p&gt;An opinionated polyglot, I do data, I do software, I do open-source, I love building
+distributed, connected services, with mobiles.
 development.&lt;/p&gt;
 
-&lt;p&gt;I also write software for mobiles, and try to make Web services
-&amp;ldquo;reactive&amp;rdquo;. I am also helping to build the open Web.&lt;/p&gt;
-
-&lt;p&gt;I also teach Python/Java using the Raspberry PI as a tool for pre-teen, teenagers and young adult from disadvantage backgrounds.&lt;/p&gt;
+&lt;p&gt;I sometimes teach Python using the Raspberry PI as a tool for pre-teen, teenagers and young adult from disadvantage backgrounds.&lt;/p&gt;
 
 &lt;p&gt;In my past life I used to work with software in high performance cars
 &lt;a href=&#34;http://www.astonmartin.com/&#34;&gt;here&lt;/a&gt;,
@@ -56,26 +53,23 @@ development.&lt;/p&gt;
 racing cars &lt;a href=&#34;http://www.mclaren.com/home/&#34;&gt;here&lt;/a&gt;, regular cars
 &lt;a href=&#34;http://www.ford.co.uk/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I tried to do something totally different in
+&lt;p&gt;I also tried to do something totally different in
 &lt;a href=&#34;http://en.wikipedia.org/wiki/Computational_finance&#34;&gt;Computational Finance&lt;/a&gt;,
 realised that most of the theory was based on dodgy application of
-Physics, so decided to fund and do my own research into analysing risk
+Physics, so decided do my own research into analysing risk
 and capital markets - similar in vein to
-&lt;a href=&#34;http://www.amazon.com/The-behavior-Markets-Benoit-Mandelbrot/dp/0465043550&#34;&gt;Mandelbroit&lt;/a&gt;.
-I am due to launch a product which demonstrates and blows Portfolio
-Theory out of the water.&lt;/p&gt;
+&lt;a href=&#34;http://www.amazon.com/The-behavior-Markets-Benoit-Mandelbrot/dp/0465043550&#34;&gt;Mandelbroit&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I once tried to build a self-sustaining, self-healing network using &lt;a href=&#34;http://villagetelco.org&#34;&gt;Village Telco&lt;/a&gt;. Unfortunately the stumbling
-block is not technical and it still work in progress.&lt;/p&gt;
+&lt;p&gt;I also once tried to build a self-sustaining, self-healing network using &lt;a href=&#34;http://villagetelco.org&#34;&gt;Village Telco&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>100 Raspberry Pi</title>
-      <link>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</link>
+      <link>http://teopeurt.com/2014/04/24/raspberry-pi/</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</guid>
+      <guid>http://teopeurt.com/2014/04/24/raspberry-pi/</guid>
       <description>&lt;p&gt;As you may or may not know - I run &lt;a href=&#34;http://pigstycoders.com&#34;&gt;PigstyCoders&lt;/a&gt;. It is a small yet global boutique with clients across 4 continents and 10 countries. We love and are active in the  open-source community and give back whenever possible, either through hackathons, workshops and giveaways.&lt;/p&gt;
 
 &lt;p&gt;I have always had a passion for Africa and it&amp;rsquo;s potential and I think Africa is the next frontier in the digital evolution, hence why  are doing our best to enable local expertise, through workshops and talks. We don&amp;rsquo;t just believe in copying over products from Europe and USA - but using our expertise to tailor the approach to the continent, especially those at the BOP.&lt;/p&gt;
@@ -88,10 +82,10 @@ block is not technical and it still work in progress.&lt;/p&gt;
     
     <item>
       <title>My Git Arsenal</title>
-      <link>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</link>
+      <link>http://teopeurt.com/2014/03/09/my-git-arsenal/</link>
       <pubDate>Sun, 09 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</guid>
+      <guid>http://teopeurt.com/2014/03/09/my-git-arsenal/</guid>
       <description>&lt;p&gt;I am a huge fan of &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; and have been for many years. I tend to go through a lot of developer machines and thus will need to set up my dev environment really quickly - I only use Linux or Apple&amp;rsquo;s Mac so a shell script normally works for me. Two invaluable tools I have come to love over the years is &lt;a href=&#34;http://www.sourcetreeapp.com/&#34;&gt;SourceTree&lt;/a&gt; and &lt;a href=&#34;http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools&#34;&gt;P4Merge&lt;/a&gt; by Perforce. As an aside Perforce is actually a proprietary version control system used in Enterprise but P4Merge is a free tool.&lt;/p&gt;
 
 &lt;p&gt;One of the things everyone encounters when using Git are merge conflicts and this is where a visual tool is invaluable. I hate having to learn a new tool as my attention span is very limited and thus P4Merge does it for me. YMMV.&lt;/p&gt;
@@ -104,10 +98,10 @@ block is not technical and it still work in progress.&lt;/p&gt;
     
     <item>
       <title>Rails - Efficiency in Production</title>
-      <link>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</link>
+      <link>http://teopeurt.com/2012/09/04/rails-efficiency-in-production/</link>
       <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</guid>
+      <guid>http://teopeurt.com/2012/09/04/rails-efficiency-in-production/</guid>
       <description>&lt;p&gt;Rails Asset Pipeline - rails book&lt;/p&gt;
 
 &lt;p&gt;Efficiency in Production&lt;/p&gt;
@@ -121,10 +115,10 @@ Traditional methods for organizing CSS and JavaScript involve splitting function
     
     <item>
       <title>DNS Service Providers</title>
-      <link>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</link>
+      <link>http://teopeurt.com/2012/09/03/dns-service-providers/</link>
       <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</guid>
+      <guid>http://teopeurt.com/2012/09/03/dns-service-providers/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&#34;&gt;http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/&lt;/a&gt;
@@ -146,10 +140,10 @@ setup, docs,&lt;/p&gt;
     
     <item>
       <title>Making an EPUB Reader for Cocoa</title>
-      <link>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</link>
+      <link>http://teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</link>
       <pubDate>Mon, 03 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</guid>
+      <guid>http://teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</guid>
       <description>&lt;p&gt;Source: &lt;a href=&#34;http://stackoverflow.com/questions/1388467/reading-epub-format&#34;&gt;http://stackoverflow.com/questions/1388467/reading-epub-format&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The EPUB format brings together a bunch of different specifications / formats:&lt;/p&gt;
@@ -199,10 +193,10 @@ The specs look a bit daunting but actually once you&amp;rsquo;ve got the basics 
     
     <item>
       <title>RBENV Keeping Things Local</title>
-      <link>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</link>
+      <link>http://teopeurt.com/2012/08/16/rben-keeping-things-local/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</guid>
+      <guid>http://teopeurt.com/2012/08/16/rben-keeping-things-local/</guid>
       <description>&lt;p&gt;The benefits of keeping things local,&lt;/p&gt;
 
 &lt;p&gt;Working across machines- I have 4 physical machines I use daily and countless servers dotted around the world, I can never remember the shell commands for any particular project so I created build scripts.&lt;/p&gt;

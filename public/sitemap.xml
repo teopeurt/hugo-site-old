@@ -2,143 +2,191 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.teopeurt.com/</loc>
+    <loc>http://teopeurt.com/</loc>
     <lastmod>2016-03-02T07:55:30+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/post/programming-myths/</loc>
+    <loc>http://teopeurt.com/post/programming-myths/</loc>
     <lastmod>2016-03-02T07:55:30+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/post/angular-by-example/</loc>
+    <loc>http://teopeurt.com/post/angular-by-example/</loc>
     <lastmod>2016-02-24T20:54:40+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/projects/</loc>
+    <loc>http://teopeurt.com/projects/</loc>
     <lastmod>2016-02-17T09:35:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/post/open-api/</loc>
+    <loc>http://teopeurt.com/post/open-api/</loc>
     <lastmod>2016-02-01T17:17:42+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/post/all-about-the-narrative/</loc>
+    <loc>http://teopeurt.com/post/all-about-the-narrative/</loc>
     <lastmod>2016-01-07T10:05:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/talks/</loc>
+    <loc>http://teopeurt.com/talks/</loc>
     <lastmod>2015-03-07T09:35:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/about/</loc>
+    <loc>http://teopeurt.com/about/</loc>
     <lastmod>2015-03-02T17:30:47+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2014/06/04/apples-new-programming-language-swift/</loc>
+    <loc>http://teopeurt.com/2014/06/04/apples-new-programming-language-swift/</loc>
     <lastmod>2014-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2014/04/24/raspberry-pi/</loc>
+    <loc>http://teopeurt.com/2014/04/24/raspberry-pi/</loc>
     <lastmod>2014-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2014/03/09/my-git-arsenal/</loc>
+    <loc>http://teopeurt.com/2014/03/09/my-git-arsenal/</loc>
     <lastmod>2014-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2013/01/18/mobile-development/</loc>
+    <loc>http://teopeurt.com/2013/01/18/mobile-development/</loc>
     <lastmod>2013-01-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2012/09/04/rails-efficiency-in-production/</loc>
+    <loc>http://teopeurt.com/2012/09/04/rails-efficiency-in-production/</loc>
     <lastmod>2012-09-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2012/09/03/dns-service-providers/</loc>
+    <loc>http://teopeurt.com/2012/09/03/dns-service-providers/</loc>
     <lastmod>2012-09-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</loc>
+    <loc>http://teopeurt.com/2012/09/03/making-an-epub-reader-for-cocoa/</loc>
     <lastmod>2012-09-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</loc>
+    <loc>http://teopeurt.com/2012/08/16/mapbox-mapping-tech/</loc>
     <lastmod>2012-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2012/08/16/rben-keeping-things-local/</loc>
+    <loc>http://teopeurt.com/2012/08/16/rben-keeping-things-local/</loc>
     <lastmod>2012-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2012/08/16/android-and-qt/</loc>
+    <loc>http://teopeurt.com/2012/08/16/android-and-qt/</loc>
     <lastmod>2012-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</loc>
+    <loc>http://teopeurt.com/2011/11/09/the-second-system-effect-thunderbird-woes/</loc>
     <lastmod>2011-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</loc>
+    <loc>http://teopeurt.com/2011/11/07/do-not-equate-to-skill-what-can-easily-be-attributed-to-luck/</loc>
     <lastmod>2011-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/10/13/rip-dennis/</loc>
+    <loc>http://teopeurt.com/2011/10/13/rip-dennis/</loc>
     <lastmod>2011-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/09/15/how-to-backup/</loc>
+    <loc>http://teopeurt.com/2011/09/15/how-to-backup/</loc>
     <lastmod>2011-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/07/03/unix-help-for-users/</loc>
+    <loc>http://teopeurt.com/2011/07/03/unix-help-for-users/</loc>
     <lastmod>2011-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/06/22/hacking-android-framework/</loc>
+    <loc>http://teopeurt.com/2011/06/22/hacking-android-framework/</loc>
     <lastmod>2011-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/06/01/chronos-beagleboard/</loc>
+    <loc>http://teopeurt.com/2011/06/01/chronos-beagleboard/</loc>
     <lastmod>2011-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/03/07/llvm-compiler-infrastructure/</loc>
+    <loc>http://teopeurt.com/2011/03/07/llvm-compiler-infrastructure/</loc>
     <lastmod>2011-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/2011/02/01/the-mcdonalds-model/</loc>
+    <loc>http://teopeurt.com/2011/02/01/the-mcdonalds-model/</loc>
     <lastmod>2011-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.teopeurt.com/draft/Deaths%20on%20African%20Highways/</loc>
+    <loc>http://teopeurt.com/draft/Android/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Crunch-Time%20-%20Bad%20Timing%20Management/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Deaths%20on%20African%20Highways/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Docker%20vs%20LXC-LXD/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Java%20Spring%20iOC%20and%20Swift%20Protocols/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/MOSH/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/MTN%20vs%20Smile/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Mobile%20Money%20Policy%20Framework-%20A%20failure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Service%20Company%20to%20Product%20Company/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Untitled/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/Using%20LXD-LXC%20as%20Demo%20Engine/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/flockport/</loc>
+  </url>
+  
+  <url>
+    <loc>http://teopeurt.com/draft/gitsubmodules/</loc>
   </url>
   
 </urlset>

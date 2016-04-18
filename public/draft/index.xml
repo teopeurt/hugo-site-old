@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drafts on My Thoughts</title>
-    <link>http://blog.teopeurt.com/draft/</link>
+    <link>http://teopeurt.com/draft/</link>
     <description>Recent content in Drafts on My Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Aug 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.teopeurt.com/draft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://teopeurt.com/draft/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MapBox - Mapping Tech</title>
-      <link>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</link>
+      <link>http://teopeurt.com/2012/08/16/mapbox-mapping-tech/</link>
       <pubDate>Thu, 16 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/2012/08/16/mapbox-mapping-tech/</guid>
+      <guid>http://teopeurt.com/2012/08/16/mapbox-mapping-tech/</guid>
       <description>&lt;p&gt;Mapbox, Open Mapping Platform and Tile Mill.&lt;/p&gt;
 
 &lt;p&gt;Only an IOS SDK, but Javascript API is okay I suppose.&lt;/p&gt;
@@ -23,10 +23,93 @@
     
     <item>
       <title></title>
-      <link>http://blog.teopeurt.com/draft/Deaths%20on%20African%20Highways/</link>
+      <link>http://teopeurt.com/draft/Android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.teopeurt.com/draft/Deaths%20on%20African%20Highways/</guid>
+      <guid>http://teopeurt.com/draft/Android/</guid>
+      <description>
+
+&lt;h1 id=&#34;android:1a50734509d59d2c8ebd4d688b8133b9&#34;&gt;Android&lt;/h1&gt;
+
+&lt;p&gt;You’ve been developing Native mobile apps for at least three years. You understand the advantages of Native vs. Hybrid…and vice-versa!&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;re interested in creating MVPs and helping clients scale their ideas to profit / exit.&lt;/p&gt;
+
+&lt;p&gt;You delight people with the experiences you create, so you have a bunch of interesting accomplishments to tell us about.&lt;/p&gt;
+
+&lt;p&gt;You love challenges and solving them. You know when to ask more questions and where to look for answers.&lt;/p&gt;
+
+&lt;p&gt;You have a good internet connection and some quiet space to video chat or share your screen to do some pair programming.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;re ready for a long-term fit with the flexibility to create your best work, again and again.&lt;/p&gt;
+
+&lt;p&gt;Rxjava&lt;/p&gt;
+
+&lt;h1 id=&#34;ios:1a50734509d59d2c8ebd4d688b8133b9&#34;&gt;iOS&lt;/h1&gt;
+
+&lt;h1 id=&#34;api-s-and-databases:1a50734509d59d2c8ebd4d688b8133b9&#34;&gt;API&amp;rsquo;s (and databases)&lt;/h1&gt;
+
+&lt;p&gt;Play a key role in evaluating API technology stacks and assessing their performance through prototypingProvide input into the design of a startup company’s line of business API, including dataImplement and benchmark&lt;/p&gt;
+
+&lt;h1 id=&#34;java-script-node-angular:1a50734509d59d2c8ebd4d688b8133b9&#34;&gt;Java script (node + Angular)&lt;/h1&gt;
+
+&lt;p&gt;Hands on experience with Node JSSr level experience with MongoDB - development and deployment planningExperience with PostgreSQLFamiliarity with REST API design, streaming API experience a bonusFamiliarity with data structure designFamiliarity with single page JavaScript application architecture, experience with Angular JS a bonusExperience with API load testing tools is desirable&lt;/p&gt;
+
+&lt;h1 id=&#34;linux-and-software-architect-10-years:1a50734509d59d2c8ebd4d688b8133b9&#34;&gt;Linux and Software Architect (10+ years)&lt;/h1&gt;
+
+&lt;p&gt;•Minimum of 10 years of experience in software development
+•6+ years of internet-scale application services development
+•A strong foundation in Computer Science fundamentals such as data structures and algorithms is required.
+•Ability to develop new and innovative applications as well as debug and refactor existing code.
+•Strong experience with Java, and JVM tuning is required.
+•Experience working with scalable distributed systems in practice like Cassandra, Voldemort, memcached, Redis or Hadoop.
+ internet-scale application services development
+ Expertise with Java and web application frameworks. Experience with developing applications that utilize relational databases (e.g. Oracle) and other less structured data stores (NoSQL). Experience with Jruby, Groovy, Cocoa is preferred.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Crunch-Time%20-%20Bad%20Timing%20Management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Crunch-Time%20-%20Bad%20Timing%20Management/</guid>
+      <description>
+
+&lt;h1 id=&#34;crunch-time-bad-timing-management:7ed05567b3081d5788382fd58e9d9478&#34;&gt;Crunch-Time : Bad Timing Management&lt;/h1&gt;
+
+&lt;p&gt;There is an article making the waves around the internet about games programers being paid poorly for doing exceptional work. Basically someone got &amp;ldquo;lucky&amp;rdquo; and rich being at the right place at the right time and due to hubris and survivorship bias - ignores all there is about what made him millions (just one time! - so statistically irrelevant) and decides to berates those in Industry literally putting their health at risks for meager pay - justifing it by sayinf it is an &amp;ldquo;art-form&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The holes and flaws in his argument has been derided by many (here)[&lt;a href=&#34;http://venturebeat.com/2016/04/16/indie-developer-rami-ismail-responds-to-critic-of-work-life-balance-in-game-industry/&#34;&gt;http://venturebeat.com/2016/04/16/indie-developer-rami-ismail-responds-to-critic-of-work-life-balance-in-game-industry/&lt;/a&gt;] and here[&lt;a href=&#34;http://www.destructoid.com/man-already-wealthy-beyond-good-taste-says-working-80-hour-weeks-for-million-dollar-corporations-is-not-a-job--355857.phtml&#34;&gt;http://www.destructoid.com/man-already-wealthy-beyond-good-taste-says-working-80-hour-weeks-for-million-dollar-corporations-is-not-a-job--355857.phtml&lt;/a&gt;].&lt;/p&gt;
+
+&lt;p&gt;This short essay is not about him or his critics, it is about a thorough misunderstanding in a highly immature industry lead by those without the experience or expertise to lead it.&lt;/p&gt;
+
+&lt;p&gt;the terminolgy software engineering is sometimes used synomously with computer science. If one can&amp;rsquo;t even define what they are you can start to understand the problems the industry faces in trying to define what exactly the job entails.&lt;/p&gt;
+
+&lt;p&gt;I have a background as n electrical/electronic engineer - as in I majored at university. I even got to practise real engineering working for various engineering multinationals with a structure and even ISO standards. Our work was subject to the national/international regulations and this was priced into the engineering timeline. We couldnt practise &amp;ldquo;Agile&amp;rdquo; or what-not because we had to have a standardise approach - the paper-trail so to speak. I was around when litigations were brought to the industry and this brought up more standards both internal and external.&lt;/p&gt;
+
+&lt;p&gt;I also worked in the finance industry and faced similar issues with KYC, security and fraud prevention. At times working in these situations felt like wading through sand, innovation is quelched and with my frustations I decided to move fully into the software engineering. I mean I was already writing software but it wasnt my job-title. Now I can work for comapnies where software is the product not the tool.&lt;/p&gt;
+
+&lt;p&gt;It was then that I realise how immature the software industry is. I do understand the need for agile manifesto and practise it somewhat - but I have never worked on a company where they practise the same sort of Agile methodology. Even down to techniques, terminology - it&amp;rsquo;s mainly a resume padding exersise - as most software projects withouth the backing/safety of large enterprise tend to deviate into &amp;ldquo;crunch time&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Software planning is an art - and this is the ultimate problem. We know how long it will take to build a house, bridge or etch a circuit board, the procedure is pretty standard and there isnt a new fad/process/tooling every few months, but in software engineering, there isnt a defined process. Creating a website is not the same as building a house. there isn&amp;rsquo;t a heirachy of skillset and the design is not the implementation. There isnt a blueprint, a defined set of rules or even a standard. Planning requires extremely fuzzy logic to come with a date, the parameters(developers, experience, equipement, platform, budget, prog language etc) are dynamic in of themselves while the problem domain (requirements) is ever shifting. It may have begat the Agile Maifesto but we failed to educate management as to the fuzziness of our technique. We called ourselves engineers and as such given their experience with mechanical, civil and electrical engineers - they expected a date, deliveriables at those dates and talk of technical debt was superfilous.&lt;/p&gt;
+
+&lt;p&gt;So crunch-time was born! Given a date someone came up with - most likely not the person writing the software - and the lack of resources (due to whatever circumstances befell the poor devs) crunch time is ineveitable. It is basically puttung in an extra 500 hrs for a project that was planned to take 100hrs. The real solution is have a iterative planning process, something devs have realised and created Agile programming, but try telling that the director of finance or to marketing that they should wait and things will change in a week by week basis.&lt;/p&gt;
+
+&lt;p&gt;With the audience lured by the narrative, the industry, not just gaming need to take a long hard look at itself and the way it interacts with others if it wants a seat in the big-boy table. This can only come with time, but lessons needs to learnt and positions need to be flexible to try out new approaches. There isnt a golden bullet to solve this.&lt;/p&gt;
+
+&lt;p&gt;My approach to planning is thus: the equation is Time or Budget or Features - choose two to improve on and leave one to sacrifice.&lt;/p&gt;
+
+&lt;p&gt;i.e. If you want a project to be completed in a short time, you will need to increase your budget or reduce your features, you can&amp;rsquo;t have both. There is obvioslly a limit to what you can given the circumstances.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Deaths%20on%20African%20Highways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Deaths%20on%20African%20Highways/</guid>
       <description>
 
 &lt;h1 id=&#34;deaths-on-african-highways:0e03c1719ba6177d65c05d3e8f2e2581&#34;&gt;Deaths on African Highways&lt;/h1&gt;
@@ -42,6 +125,221 @@ Ignoring the fact that these were high-profile victims, it beggars belief that a
 &lt;p&gt;Having travelled this same route a few months ago, with my family in tow, and having nearly lost control on a number of occasions - this brings to light the poor state of Nigerian motorways. That particular road is littered with pot-holes, some deep enough to cause your car to flip. There are no night-time lights so drivers tend to speed to avoid getting trapped at dusk. There are no observable speed limits or officers in tow, and I personally saw 2 fatal accidents on that stretch. Suffice to say I still drive across Nigerian but tend to leave my family to fly.&lt;/p&gt;
 
 &lt;p&gt;Road travel especially inter-state travel are normaly bourne by the lower and lower-middle class. A fact made ever more real as a typical 100/200km drive across states is littered with skeletal warped metals of past accidents gone by, makes one wonder what inhumanity resides within us when these remains are seen as every day occurences and a reminder of the futility of life.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Docker%20vs%20LXC-LXD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Docker%20vs%20LXC-LXD/</guid>
+      <description>
+
+&lt;h1 id=&#34;docker-vs-lxc-lxd:e5c9b871150dacb0c15c5f486b8e2a47&#34;&gt;Docker vs LXC/LXD&lt;/h1&gt;
+
+&lt;h2 id=&#34;what-is-docker:e5c9b871150dacb0c15c5f486b8e2a47&#34;&gt;what is Docker?&lt;/h2&gt;
+
+&lt;h2 id=&#34;what-is-lxc-lxd:e5c9b871150dacb0c15c5f486b8e2a47&#34;&gt;What is LXC/LXD&lt;/h2&gt;
+
+&lt;h2 id=&#34;one-against-the-other:e5c9b871150dacb0c15c5f486b8e2a47&#34;&gt;One against the other&lt;/h2&gt;
+
+&lt;p&gt;Basically Docker is a commercial product backed by 95 million with an Open-source business model. Aside from it&amp;rsquo;s structure and it&amp;rsquo;s approach to &amp;ldquo;containers&amp;rdquo;, its lack of private repo is the 1st reason I can use it. Well I can, but I dont want to pay them to host my images, it jsut seems to backwards. Here I am in control of my destiny right down to the metal and I go on to hand it over.&lt;/p&gt;
+
+&lt;p&gt;Hence why my money is on LXD - heck even if Canonical were to go broke and disintegrate, the darn thing is written in the kernel, so no chance of obselensce and watching some prize go down the drain.&lt;/p&gt;
+
+&lt;p&gt;SV has a habit of sunsetting perfectly great products just beacuse it doesnt quite make the billion dollars.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Java%20Spring%20iOC%20and%20Swift%20Protocols/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Java%20Spring%20iOC%20and%20Swift%20Protocols/</guid>
+      <description>
+
+&lt;h1 id=&#34;java-spring-ioc-and-swift-protocols:aa90a1f9065bc048b93ed73bf244cdf6&#34;&gt;Java Spring iOC and Swift Protocols&lt;/h1&gt;
+
+&lt;p&gt;They say nothing is new under the sun. As a multi-lingual programmer I find it interesting to see ideas being re-invented across different platforms and langauges.&lt;/p&gt;
+
+&lt;p&gt;Java spring was hailed as a God send for the J2EE universe and righlty so  - it eliminated the nuisance and created a rather &amp;ldquo;happy&amp;rdquo; place for many Java enterprise programmers. The main cruft of it was iOC using DI to accomplish it. In practical terms, it was programming to interfaces/abstract classes. Decoupling was paramount. It was magic - and so simple.&lt;/p&gt;
+
+&lt;p&gt;This brought me to this article by Natasha the robot &lt;a href=&#34;https://www.natashatherobot.com/swift-2-0-protocol-oriented-mvvm/&#34;&gt;https://www.natashatherobot.com/swift-2-0-protocol-oriented-mvvm/&lt;/a&gt; - the concept of decoupling a system and creating extension - alas using protocols which is equivalent to Java interfaces.&lt;/p&gt;
+
+&lt;p&gt;Considering Swift and Java are both OO languages it stands to reason that one can break down the problem to the language agnostic term - &lt;a href=&#34;https://en.wikipedia.org/wiki/SOLID_(object-oriented_design&#34;&gt;https://en.wikipedia.org/wiki/SOLID_(object-oriented_design&lt;/a&gt;) - SOLID. This is the science/engineering aspect of programming which thoerist lament about but practitioners tend to shy away from. Ultimatley it makes you a better programmer as you will tend to know &amp;lsquo;why&amp;rsquo; things are designed the way they are, and &amp;ldquo;how&amp;rdquo; to make your program design even more &amp;ldquo;beautiful&amp;rdquo; and robust.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/MOSH/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/MOSH/</guid>
+      <description>
+
+&lt;h1 id=&#34;mosh:d2060b97d2016d05f7f899d8551a4222&#34;&gt;MOSH&lt;/h1&gt;
+
+&lt;p&gt;I have servers and systems on Azure, Amazon, Linode and DigitalOCean and many others. In addition ot migrating to something which I can easily use across systems, there is one constant - Mosh.&lt;/p&gt;
+
+&lt;p&gt;It not only keeps a persistent connection to my boxes, it eliminates the ssh shell freeze when using dodgy internet providers in Africa - hence the &amp;ldquo;mobile&amp;rdquo; aspect of it. my only gripe is a lack of iOS client as my iPAd is much better device than my Android tablet [I will leave Android tablets out of this - thats another post]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/MTN%20vs%20Smile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/MTN%20vs%20Smile/</guid>
+      <description>
+
+&lt;h1 id=&#34;mtn-vs-smile:c9d6a9734b8817bd1e4b5fa85dfae11c&#34;&gt;MTN vs Smile&lt;/h1&gt;
+
+&lt;p&gt;The benefits of IXP: Currently trying to hack my through Africa. My experience with LTE in Nigeria.&lt;/p&gt;
+
+&lt;p&gt;MTN vs Smile LTE&lt;/p&gt;
+
+&lt;p&gt;Using traceroute  to understand why ping times is so bad.&lt;/p&gt;
+
+&lt;p&gt;MTN (goes to lagos)&lt;/p&gt;
+
+&lt;p&gt;Smile (goes to lagos) - but uses google&amp;rsquo;s IXP - great for giving you ping times to google and their DNS servers!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://technologytimes.ng/nigeria-eyes-africas-internet-exchange-points-number-one-spot-by-2015/&#34;&gt;http://technologytimes.ng/nigeria-eyes-africas-internet-exchange-points-number-one-spot-by-2015/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.internetsociety.org/ixpimpact&#34;&gt;http://www.internetsociety.org/ixpimpact&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Website - &lt;a href=&#34;https://www.internetsociety.org/internet-exchange-points-ixps-0&#34;&gt;https://www.internetsociety.org/internet-exchange-points-ixps-0&lt;/a&gt; can download IXP for free, why isnt Google using an IXP.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.datacentermap.com/ixps.html&#34;&gt;http://www.datacentermap.com/ixps.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Mobile%20Money%20Policy%20Framework-%20A%20failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Mobile%20Money%20Policy%20Framework-%20A%20failure/</guid>
+      <description>
+
+&lt;h1 id=&#34;mobile-money-policy-framework-a-failure:89009ba6b4a22253a8b7271481b4e2d5&#34;&gt;Mobile Money Policy Framework: A failure&lt;/h1&gt;
+
+&lt;p&gt;Anecdotal evidence in Nigerian Landscape.&lt;/p&gt;
+
+&lt;p&gt;Two tier system from trying to solve the banking problem, those with the education, and means get a free account, merchant services with POS abilities etc.&lt;/p&gt;
+
+&lt;p&gt;It has been widely accepted that the solution to banking the unbanked, seems to be mobile money.&lt;/p&gt;
+
+&lt;p&gt;No merchant service, if I have to still have to pay in cash from my mobile wallet, what is the point?
+No credit, loan or savings facility,
+No means of evaluating these different services
+Agent led system,
+totally disconnected from the internet landscape, I cant pay for anyhting online&lt;/p&gt;
+
+&lt;p&gt;Closed systems, open-api to let the internet entrepenuers integrate,&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Service%20Company%20to%20Product%20Company/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Service%20Company%20to%20Product%20Company/</guid>
+      <description>
+
+&lt;h1 id=&#34;service-company-to-product-company:8559192a81eafa6afdb944a02ec5973d&#34;&gt;Service Company to Product Company&lt;/h1&gt;
+
+&lt;p&gt;I have migrated my company from a services oriented company dealing mainly with consultation and strategy advice to building products.&lt;/p&gt;
+
+&lt;p&gt;The end product may be the same but my responsibilities are different. I will now host client code, so I will embrace the cloud just like I always advice my clients. I will be responsible for uptime, upgrades and security - it is a big ask.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-about-those-consumers-with-low-no-internet-connectivity:8559192a81eafa6afdb944a02ec5973d&#34;&gt;What about those consumers with low/no internet connectivity?&lt;/h3&gt;
+
+&lt;p&gt;The hosting model is slightly different to what most are used to in the west especially to those with very low internet connectivity and require hosting locally. The user interface will be exactlyy the same but the &amp;ldquo;webserver&amp;rdquo; is now hosted on-premise (village enterprise model).&lt;/p&gt;
+
+&lt;p&gt;To support this, I have looked at and investigated various container tech, openstack may be great for Barclays but for a small outfit, with low power requirements - I was thinking of something smaller. Docker was investigated but I was drawned to OpenVx and eventually LXD/LXC. The rest api for LXD meant I can keep an eye on customer products, and swap in updated images and system upgrades. Http is truly great and clean architectures design validates this approach.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-truth-is:8559192a81eafa6afdb944a02ec5973d&#34;&gt;The truth is..&lt;/h3&gt;
+
+&lt;p&gt;The truth is eventually those guys can be migrated to cloud infrastructure as the power rquirements, etc is just to advantegous to ignore.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Untitled/</guid>
+      <description>&lt;p&gt;Challenge of Technology Management&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/Using%20LXD-LXC%20as%20Demo%20Engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/Using%20LXD-LXC%20as%20Demo%20Engine/</guid>
+      <description>
+
+&lt;h1 id=&#34;using-lxd-lxc-as-demo-engine:b2584d3368db471213b23f3296921ff8&#34;&gt;Using LXD/LXC as Demo Engine&lt;/h1&gt;
+
+&lt;p&gt;Working for Qiidi, our model works on hosting, configuring various products for enterprise and corporates. When it comes to sales nothing speaks louder than letting the customer get to play with it. &amp;ldquo;cue toys with the hole so you can press it to play&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;The requirements is basically, let me spin up a sandbox environment visible to the world, and periodically trash it and sping it up again as new. But also let me be able to sping it up on my laptop or the CEO&amp;rsquo;s toaster so that they can be assured that it works and I know what I am talking about. Also given the crappy internet connection one gets in Africa, local instance is a GodSend - I can even configure the app to speak to it.&lt;/p&gt;
+
+&lt;h2 id=&#34;pre-req:b2584d3368db471213b23f3296921ff8&#34;&gt;Pre-Req:&lt;/h2&gt;
+
+&lt;p&gt;1 Ubuntu server as your private image store
+1 Ubuntu server as container-host - this can be same as above but defeeats the purpose of this exercise if they are.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/flockport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/flockport/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.flockport.com/lxc-vs-docker/&#34;&gt;https://www.flockport.com/lxc-vs-docker/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Why I play with LXC and not Docker.
+Docker is not for me, I prefer to run lxc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://teopeurt.com/draft/gitsubmodules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://teopeurt.com/draft/gitsubmodules/</guid>
+      <description>
+
+&lt;h1 id=&#34;gitsubmodules:680d1da78ca89652f9cbf5021b40e16f&#34;&gt;gitsubmodules&lt;/h1&gt;
+
+&lt;p&gt;Clone a repo&lt;/p&gt;
+
+&lt;p&gt;upate and initialised the submodule&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule update --init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Due to how submodule works, command actually tells Git that you want your submodules to each check out the commit already specified in the index of the superproject. So to update the index&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule foreach git pull origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If like me, you use a different branch than master, then use this to checkout anouth branch for the submodule.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule foreach &#39;git checkout develop &amp;amp;&amp;amp; git pull --ff-only origin develop&#39;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
